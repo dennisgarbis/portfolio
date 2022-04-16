@@ -5,49 +5,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dennis Garbis Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Dennis Garbis HomePage</title>
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
 </head>
 
 <body>
     <div id="wrapper">
         <nav>
             <div id="logo">
-                <a href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
+                <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
             </div>
             <div class="nav-bar">
                 <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a id="active">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div> <!-- end of nav-bar -->
         </nav>
-<section id="hero-image">
-    <header>
-        <div class="header-left">
-            <h1>Hi, I'm Dennis</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolor suscipit sed reiciendis itaque. Tenetur eum velit omnis quae corrupti accusamus fuga officiis, voluptatibus totam aut quas iste cumque dolores?</p>
-        </div>
-        <div class="header-right">
-            <img src="images/20210714_145244.jpg" alt="">
-        </div>
-    </header>
-</section> <!-- hero image-->
-<main>
-<section id="top-container">
-    <div class="top-container-left">
+        <section id="hero-image">
+            <header>
+                <div class="header-left">
+                    <h1>Hi, I'm Dennis</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolor suscipit sed reiciendis
+                        itaque. Tenetur eum velit omnis quae corrupti accusamus fuga officiis, voluptatibus totam aut
+                        quas iste cumque dolores?</p>
+                    <div id="button">
+                        <a id="contact-button" href="contact.html">Contact Me</a>
+                        <a id="resume-button" href="#">Resume</a>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <img class="cartoon-pic" src="images/cartoon2(1).jpg" alt="cartoon image of my moustache">
+                </div>
+            </header>
+        </section> <!-- end hero image-->
+        <main>
+            <section id="top-container">
+                <div class="top-container-padding">
+                    <div class="top-container-left">
+                        <img src="images/neworleans-hat2.jpg" alt="me wearing my crocodile hunter hat in new orleans">
+                    </div>
+                    <div class="top-container-right">
+                        <h2>About Me</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nihil reprehenderit
+                            orrupti porro consequuntur tempora, odio qui quaerat alias voluptas rem ipsa laudantium
+                            ullam magni distinctio illum doloremque tempore ab.</p>
+                        <div class="about-images">
+                            <!-- Start WOWSlider.com BODY section -->
+                            <div id="wowslider-container1">
+                                <div class="ws_images">
+                                    <ul>
+                                        <li><img src="data1/images/floridarain.jpg" alt="florida-rain"
+                                                title="florida-rain" id="wows1_0" /></li>
+                                        <li><img src="data1/images/pinky.jpg" alt="pinky" title="pinky" id="wows1_1" />
+                                        </li>
+                                        <li><img src="data1/images/elvis.jpg" alt="elvis" title="elvis" id="wows1_2" />
+                                        </li>
+                                        <li><a href="http://wowslider.net"><img src="data1/images/hiking.jpg"
+                                                    alt="html5 slider" title="hiking" id="wows1_3" /></a></li>
+                                        <li><img src="data1/images/incar.jpg" alt="in-car" title="in-car"
+                                                id="wows1_4" /></li>
+                                    </ul>
+                                </div>
+                                <div class="ws_bullets">
+                                    <div>
+                                        <a href="#" title="florida-rain"><span><img src="data1/tooltips/floridarain.jpg"
+                                                    alt="florida-rain" />1</span></a>
+                                        <a href="#" title="pinky"><span><img src="data1/tooltips/pinky.jpg"
+                                                    alt="pinky" />2</span></a>
+                                        <a href="#" title="elvis"><span><img src="data1/tooltips/elvis.jpg"
+                                                    alt="elvis" />3</span></a>
+                                        <a href="#" title="hiking"><span><img src="data1/tooltips/hiking.jpg"
+                                                    alt="hiking" />4</span></a>
+                                        <a href="#" title="in-car"><span><img src="data1/tooltips/incar.jpg"
+                                                    alt="in-car" />5</span></a>
+                                    </div>
+                                </div>
+                                <div class="ws_script" style="position:absolute;left:-99%"><a
+                                        href="http://wowslider.net">slider html</a> by WOWSlider.com v9.0</div>
+                                <div class="ws_shadow"></div>
+                            </div>
+                            <script type="text/javascript" src="engine1/wowslider.js"></script>
+                            <script type="text/javascript" src="engine1/script.js"></script>
+                            <!-- End WOWSlider.com BODY section -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="middle-container">
+                <div class="middle-container-padding">
+                    <h2>My Skills</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis vitae, exercitatione</p>
+                    <div class="icon-container">
+                        <img src="logos/html-5.png" alt="html logo">
+                        <img src="logos/css-3.png" alt="css logo">
+                        <img src="logos/java-script.png" alt="javascript logo">
+                        <img src="logos/jquery.png" alt="jquery logo">
+                        <img src="logos/wordpress.png" alt="wordpress logo">
+                        <img src="logos/vs-code.png" alt="vs-code logo">
+                        <img src="logos/photoshop.png" alt="photoshop logo">
+                        <img src="logos/illustrator.png" alt="illustrator logo">
+                        <img src="logos/indesign.png" alt="indesign logo">
+                        <img src="logos/xd.png" alt="xd logo">
+                        <img src="logos/after-effects.png" alt="after effects logo">
+                        <img src="logos/balsamiq.png" alt="balsamiq logo">
+                        <img src="logos/axure.png" alt="axure rp logo">
+                        <img src="logos/word.jpg" alt="microsoft word logo">
+                    </div>
+                </div>
+            </section>
+            <section id="bottom-container">
+                <h2>My Projects</h2>
+            </section>
 
-    </div>
-    <div class="top-container-right">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nihil reprehenderit corrupti porro consequuntur tempora, odio qui quaerat alias voluptas rem ipsa laudantium ullam magni distinctio illum doloremque tempore ab.</p>
-    </div>
-</section>
 
 
-
-</main>
-
+        </main>
+        <footer aria-label="contentinfo">
+            <div class="foot-info">
+                <ul class="foot-links">
+                    <li><a href="#">about</a></li>
+                    <li><a href="#text">policy</a></li>
+                </ul>
+                <div class="copyright">
+                    Copyright &#169; 2022 <br>
+                    Dennis Garbis WEB 210
+                </div>
+                <ul class="foot-links">
+                    <li><a href="#">help</a></li>
+                    <li><a href="#">employment</a></li>
+                </ul>
+            </div>
+        </footer>
     </div> <!-- end of wrapper -->
 </body>
 
