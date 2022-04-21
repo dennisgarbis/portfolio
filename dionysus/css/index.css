@@ -1,0 +1,107 @@
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#nav {
+    background-color: #0d5eaf;
+}
+
+#active {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+
+#hero  h1, h3 ,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#wrapper {
+    border: solid black thin;
+}
+
+#logo {
+    width: 60px;
+}
+
+#hero p {
+    font-style: italic;
+}
+
+figcaption {
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+
+#welcome {
+    background-color: #0d5eaf;
+    text-align: center;
+}
+
+#intro {
+    background-color: #0d5eaf;
+    border-radius: 30px;
+}
+
+.table-row {
+    background-color: #0d5eaf;
+    color: white;
+}
+
+#secondRow {
+    background-color: #0d5eaf;
+}
+
+.ratio {
+    --bs-aspect-ratio: 50%
+}
+
+#carousel h3 {
+    background-color: #0d5eafb9;
+}
+
+#carousel p {
+    background-color: #0d5eaf;
+}
+
+.person {
+    color: blue;
+}
+
+.card-text {
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#last-row {
+    background-color: #0d5eaf;
+    color: white;
+}
+
+.learn > button {
+    background-color: black;
+    border-radius: 50px;
+    border: thin solid black;
+    color: white;
+    padding: 10px;
+}
+
+.learn > button:hover {
+    background-color: white;
+    color: black;
+    transform: rotateX(360deg);
+    transition: 400ms;
+}
+
+#icons img {
+    height: 1.5rem;
+}
+
+#icons img:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>25 West Brewery</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="building"><img src="images/building2.jpg" alt="building">
+            <div class="logo">
+                <a href="#wrapper">
+                    <img src="images/25West-Logo.png" alt="logo"></a>
+            </div>
+        </div>
+        <nav>
+            <div class="links">
+                <ol>
+                    <li><a href="#beers">beers</a></li>
+                    <li><a href="#food">food</a></li>
+                    <li><a href="#fun">fun</a></li>
+                    <li><a href="#reviews">reviews</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ol>
+            </div>
+        </nav>
+        <div id="beers">
+            <div class="beermenu">
+                <button id="modalButton">List of Our Beers</button>
+            </div>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span onclick="closeModal(1)" class="close">&times;</span> 
+                        <img src="images/beer-menu.png" alt="beer menu">
+                    </div>
+                </div>            
+            <div class="pints">
+                <video autoplay controls loop>
+                    <source src="videos/beer.mp4" type="video/mp4">
+                    <source src="videos/beer.ogv" type="video/ogv">
+                    Your browser is not compatible with these videos
+                </video>
+            </div>
+        </div>
+
+        <div class="flag"><img src="images/flag2.jpg" alt="flag"></div>
+
+        <div id="food">
+            <div class="women">
+                <video autoplay controls loop>
+                    <source src="videos/food.mp4" type="video/mp4">
+                    <source src="videos/food.ogv" type="video/ogv">
+                    Your browser needs updating if you cannot view video
+                </video>
+            </div>
+            <div class="foodmenu">
+                <button id="modalButton2">Our Food Menu</button>
+            </div>
+                <div id="myModal2" class="modal">
+                    <div class="modal-content">
+                        <span onclick="closeModal(2)" class="close">&times;</span>
+                        <img src="images/food-menu.jpg" alt="food menu">
+                    </div>
+                </div>
+            
+        </div>
+        <div class="flag"><img src="images/flag2.jpg" alt="flag"></div>
+        <div id="fun">
+            <div class="tv">
+                <img src="images/pinball-tv.jpg" alt="pinball machines and tv's">
+            </div>
+            <div class="cheers">
+                <img src="images/cheers.jpeg" alt="cheers">
+            </div>
+        </div>
+        <div class="flag"><img src="images/flag2.jpg" alt="flag"></div>
+        <div id="reviews">good things people say about us:
+            <div class="testimonials">
+                <div class="girl1"> <img src="images/girl-bar.jpg" alt="girl at bar">
+                    <div class="review">I've been coming to 25 West since they first opened. They are so friendly and have the best staff.
+                        <p>Eleanor Gold, Hoffman Estates</p>
+                    </div>
+                </div>
+                <div class="guy">
+                    <div class="review">Nothing like coming by after work, enjoying a nice martini and having a great time.
+                        <p>Jared Castaldi, Palatine</p>
+                    </div>
+                    <img src="images/guy-bar.jpg" alt="guy at bar">
+                </div>
+                <div class="girl2">
+                    <img src="images/girls-bar.jpg" alt="girls at bar">
+                    <div class="review">We love coming by late at night, have always been treated great, and the food is pretty good too.
+                        <p>Allison, Joanne, Kathy, Lisa, Suburbs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flag"><img src="images/flag2.jpg" alt="flag"></div>
+        <div id="contact">
+            <div class="location">Our Location:<br>
+                <a href="https://www.google.com/maps/search/25+west+brewing/@41.9487723,-88.1170342,16.24z" target="_blank"><img src="images/map.jfif" alt="map of Bloomingdale"></a>
+            </div>
+            <div class="subscribe">Subscribe to Our Newsletter:
+                <form action="process.php" method="post">
+                    <table class="sub-table">
+                        <tr>
+                            <td><label for="name">Name: </label></td>
+                            <td><input type="text" id="name" placeholder="John Smith" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="yourEmail">Email Address:</label></td>
+                            <td><input type="email" id="yourEmail" placeholder="example@gmail.com" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Phone Number: </label></td>
+                            <td><input type="tel" id="phone" placeholder="8475555555"
+                                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required></td>
+                        </tr>
+                    </table>
+                    <input class="submit" type="submit" value="Submit!!">
+                </form>
+            </div>
+            <div class="hours">Hours of Operation:
+                <div class="table">
+                    <table class="open">
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                        </tr>
+                        <tr>
+                            <td>Monday - Thursday</td>
+                            <td>11:30 m - 12:00 am</td>
+                        </tr>
+                        <tr>
+                            <td>Friday - Saturday</td>
+                            <td>11:30 am - 2:00 am</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>12:00 pm - 10:00 pm</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="col1"><a href="#wrapper">Home</a> <br><a href="https://www.indeed.com"
+                    target="_blank">Employment</a><br>
+                    <a href="https://www.bbb.org" target="_blank">Contact</a><br>
+                    <a href="https://www.google.com" target="_blank">About</a>
+            </div>
+            <div class="col2">
+                <div class="icons">
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/fb-icon.png"
+                            alt="facebook icon"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter-icon.png"
+                            alt="twitter icon"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="images/ig-icon.png"
+                            alt="instagram icon"></a>
+                    <a href="https://ubereats.com" target="_blank"><img src="images/uber-icon.png"
+                            alt="uber eats icon"></a>
+                    <a href="https://www.grubhub.com" target="_blank"><img src="images/grub-icon.png"
+                            alt="grubhub icon"></a>
+                </div>
+                <div class="copyright"><span>25 West Brewing LLC © 2021</span> <span>327 Stratford Dr, Bloomingdale, IL
+                        60108</span><span class="phone"><a href="tel:555.555.5555">847-555-5555</a></span>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- end of wrapper-->
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        var modal2 = document.getElementById("myModal2");
+        // Get the button that opens the modal
+        var btn = document.getElementById("modalButton");
+        var btn2 = document.getElementById("modalButton2");
+        // When the user clicks the button, open the modal 
+        var closeModal = function(modalToClose) {
+            switch (modalToClose) {
+                case 1:
+                    modal.style.display = "none";
+                    break;
+                case 2:
+                    modal2.style.display = "none";
+                    break;
+            }
+        }
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        btn2.onclick = function() {
+            modal2.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        // // When the user clicks anywhere outside of the modal, close it
+         window.onclick = function(event) {
+             if (event.target == modal) {
+                 modal.style.display = "none";
+             }
+             if (event.target == modal2) {
+                 modal2.style.display = "none";
+             }
+             
+         }
+    </script>
+</body>
+</html>

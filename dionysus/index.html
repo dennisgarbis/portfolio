@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- 
+        Dennis Garbis
+        WEB 190 - Fall 2021
+        Final Project
+        09 DEC 2021
+     -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Dionysus Greek Tavern, located in Palatine, IL serving the most delicious Greek Food in the Chicagoland area. We offer appetizers, both hot and cold, salads, entrees, Greek specialties, desserts, and more.">
+    <meta name="keywords" content="Greek food, Palatine, Gyros, Baklava, Lamb">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="images/dionysus-logo.png">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Dionysus Greek Tavern - Home</title>
+</head>
+
+<body>
+    <div id="wrapper" class="container p-0">
+        <div>
+            <nav id="nav" class="navbar navbar-expand-sm navbar-dark p-1">
+                <div class="container-fluid">
+                    <a class="navbar-brand p-0" href="index.html">
+                        <img id="logo" src="images/dionysus-logo.png" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse col-sm-5" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="active" class="nav-link mx-2 text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-white" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-white" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-white" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="hero" class="container p-0">
+            <div class="text-dark text-center">
+                <div class="text-center">
+                    <h1 id="dionysus">Dionysus</h1>
+                    <h5>Greek Tavern</h5>
+                </div>
+                <figure>
+                    <img src="images/kabob.jpg" alt="Chicken kabob" class="container-fluid p-0">
+                    <figcaption class="figure-caption">~ Our Famous Chicken Kabob ~</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div id="welcome" class="container text-white py-3">
+            <h3>Γεια σας!!</h3>
+            <p>(hello, welcome!!)</p>
+        </div>
+        <div class="container px-5 py-1">
+            <!-- START OF FIRST ROW -->
+            <div class="row">
+                <div class="col-sm-5 p-5">
+                    <img src="images/patio.jpg" alt="door in greece" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="#1 Restaurant in Athens!" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-sm-7 px-5 text-center">
+                    <p id="intro" class="p-3 border text-white my-5">Since we can't all make it to Greece, we're
+                        bringing a little bit of Greece to you</p>
+                    <h2>Hours Of Operation:</h2>
+                    <table class="table table-bordered">
+                        <thead class="table-secondary p-0">
+                            <tr>
+                                <th>Days</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday - Thurs</td>
+                                <td>11 am - 9 pm</td>
+                            </tr>
+                            <tr class="table-row">
+                                <td>Friday</td>
+                                <td>11 am - 10 pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>12 pm - 11 pm</td>
+                            </tr>
+                            <tr class="table-row">
+                                <td>Sunday</td>
+                                <td>12 pm - 8 pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2>Our Location:</h2>
+                    <h5>1200 Algonquin Rd.</h5>
+                    <h5>Palatine, IL 60067</h5>
+                    <h5>847.588.2300</h5>
+                </div>
+            </div>
+        </div> <!-- END OF FIRST ROW -->
+        <div id="secondRow" class="container py-3">
+            <!-- START OF SECOND ROW -->
+            <div class="row">
+                <div class="col-sm-6 mx-auto text-white text-center">
+                    <h2 class="py-1">What We Are Known For:</h2>
+                    <p class="py-1">Here at Dionysus, we treat everyone as if they are family. We welcome you to our
+                        restaurant as if you are arriving at our home.</p>
+                    <p class="py-1">Chef Kosta arrives as the sun begins to rise every morning to prepare all our dishes
+                        from scratch. His helpers, Chris and George, arrive soon after to assist him with the Daily
+                        Specials.</p>
+                    <video class="pb-5" width="180" height="370" autoplay loop controls muted>
+                        <source src="images/sag.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div id="carousel" class="carousel slide col-sm-5" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner rounded-circle">
+                        <div class="carousel-item active">
+                            <img src="images/paidakia2.jpg" alt="paidakia" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Paidakia</h3>
+                                <p>Thinly sliced lamb</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/souvlaki2.jpg" alt="souvlakia" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Souvlakia</h3>
+                                <p>Pork skewers, pita, tzatziki</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/salad2.jpg" alt="greek salad" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Greek Salad</h3>
+                                <p>Tomatoes, cucumbers, olives, feta</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/pastichio2.jpg" alt="pastichio" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Pastichio</h3>
+                                <p>Pasta, ground meat, bechamel</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark"></span>
+                    </button>
+                </div>
+            </div>
+        </div> <!-- END OF SECOND CONTAINER -->
+        <div class="container px-5 py-2">
+            <!-- START OF THIRD CONTAINER-->
+            <div class="row">
+                <div class="container">
+                    <h2 id="testimonials" class="p-4 mb-4">~ Testimonials ~</h2>
+                </div>
+                <div id="images" class="row m-1 text-center">
+                    <!-- IMAGES-->
+                    <div class="col-sm-4 p-2">
+                        <h3 class="person">Eleanor Goldberg</h3>
+                        <div class="card">
+                            <img class="card-img-top rounded-circle" src="images/girl1.jpg"
+                                alt="Eleanor Goldberg image">
+                            <div class="card-body">
+                                <p class="card-text">- I love coming here. My boyfriend is the owner and he lets me eat
+                                    for free. But the food is still great!! -</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <h3 class="person">Smith Family</h3>
+                        <div class="card">
+                            <img class="card-img-top rounded-circle" src="images/family.jpg" alt="Smith Family image">
+                            <div class="card-body">
+                                <p class="card-text">- We love coming here as a family. The prices are right, the kids
+                                    enjoy it, and we are in and out quickly. -</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 p-2">
+                        <h3 class="person">Mary Lamb</h3>
+                        <div class="card">
+                            <img class="card-img-top rounded-circle" src="images/girl2.jpg" alt="Mary Lamb image">
+                            <div class="card-body">
+                                <p class="card-text">- The food is excellent and the service is excellent. They really
+                                    make you feel like you're in Greece! -</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- END IMAGES-->
+            </div>
+        </div> <!-- END OF THIRD CONTAINER -->
+        <div id="last-row" class="container px-5 py-1">
+            <!-- START OF LAST CONTAINER -->
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4 py-2">
+                    <h3>Awards:</h3>
+                    <div class="text-center">
+                        <a href="https://www.chicagotribune.com" target="_blank">
+                            <img src="images/chicago_tribune2.jpg" alt="chicago tribune logo">
+                        </a>
+                        <p class="pt-2">Best Greek food in the Chicagoland Area. <br>
+                            Chef Kotcho is a superstar!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center py-2">
+                    <h3>COVID-19 Update:</h3>
+                    <p>Due to the Governor's mandate, we are required to ask all guests to wear masks upon entering the
+                        building. We will not enforce this mandate though, and if you are unvaccinated, please let us
+                        know and you will receive a complimentary cocktail.</p>
+                    <form class="learn" style="display: inline" action="https://dph.illinois.gov/covid19.html"
+                        method="get" target="_blank"><button>Learn More</button></form>
+                </div>
+                <div class="col-sm-2"></div>
+
+            </div>
+        </div> <!-- END OF LAST CONTAINER -->
+
+        <div class="container bg-dark text-white">
+            <!-- START OF FOOTER -->
+            <div class="row p2">
+                <div class="col-sm-4 text-center">
+                    <h4 class="mt-3">Useful Links:</h4>
+                    <a href="https://www.harpercollege.edu/ads/policies.php" target="_blank">Policy</a><br>
+                    <a href="https://www.indeed.com" target="_blank">Employment</a><br>
+                    <a href="menu.html">Menu</a><br>
+                    <a href="about.html">About us</a><br>
+                    <a href="contact.html">Contact Us</a><br>
+                </div>
+                <div id="icons" class="col-sm-4 p-5 text-center">
+                    <a href="https://www.harpercollege.edu" target="_blank"><img class="mx-2" src="images/fb-icon.png"
+                            alt="facebook-logo"></a>
+                    <a href="https://www.instagram.com/harpercollege/?hl=en" target="_blank"><img class="mx-2"
+                            src="images/ig-icon.png" alt="instagram-logo"></a>
+                    <a href="https://twitter.com/HarperCollege?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank"><img class="mx-2" src="images/twitter-icon.png" alt="twitter-icon"></a>
+                    <a href="https://www.grubhub.com" target="_blank"><img class="mx-2" src="images/grub-icon.png"
+                            alt="grubhub-icon"></a>
+                    <a href="https://www.ubereats.com" target="_blank"><img class="mx-2" src="images/uber-icon.png"
+                            alt="ubereats-icon"></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <h4 class="mt-3">Contact Info:</h4>
+                    <p class="phone">Phone Number: <a href="tel:847-588-2300">847-588-2300</a>
+                    <p>
+                    <p class="map">Address: <a href="https://goo.gl/maps/brfNNmgRN3AibG5r6" target="_blank">
+                            1200
+                            Algonquin Rd.</a></p>
+                    <p class="email">Email us: <a href="mailto:example@gmail.com">Dionysus Greek Tavern</a></p>
+                </div>
+                <div class="col-sm-12 text-center mb-3">Copyright&copy; 2021, Dionysus Greek Tavern&#174; Dennis
+                    Garbis
+                </div>
+            </div>
+        </div><!-- end of footer -->
+    </div> <!-- end of container -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

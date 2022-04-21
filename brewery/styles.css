@@ -1,0 +1,519 @@
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: thin solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+html {
+	scroll-behavior: smooth;
+}
+.building img {
+    width: 100%;
+    opacity: .95;
+}
+
+.logo {
+    position: fixed;
+    top: 2px;
+    left: 12.5%;
+    width: 80px;
+    z-index: 1;
+}
+.logo a:hover {
+    opacity: .8;
+}
+nav {
+    background-color: #b3ddf2;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px;
+    margin-top: -5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+ol {
+    list-style-type: none;
+}
+.links {
+    margin-left: 10%;
+}
+.links > ol {
+    display: flex;
+    justify-content: space-around;
+
+    }
+li a {
+    text-decoration: none;
+    /*transition:  900ms ease-in-out;
+    animation: color 2s infinite;*/
+}
+/*
+@keyframes color {
+    25% {color: orange;}
+    50% {color: green;}
+    75% {color: white;}
+}
+/* I added animation above to change color of text for nav*/
+li a:visited {
+    color: darkred;
+}
+li a:hover {
+    color: white;
+    transition: 500ms ease;
+    background-color: rgba(44, 189, 41, 0.324);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.flag > img {
+    width: 100%;
+    margin-bottom: -5px;
+}
+#beers{
+    display: flex;
+    margin-bottom: -4px;
+}
+#modalButton, #modalButton2 {
+    background-color: #b3ddf2;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 1px 2px gray;
+    width: 45%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 80%;
+    margin-bottom: 10%;
+    /*animation: border 4s infinite;
+}
+@keyframes border {
+    25% { border: 1px dashed yellow;
+        color: black;
+        box-shadow: 1px 2px blue;
+    }
+    75% {
+        border: 1px dashed green;
+        color: yellow;
+        background: orange;
+    }*/
+}
+#modalButton:hover, #modalButton2:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    transition: 300ms;
+}
+#modalButton:active, #modalButton2:active {
+    background-color: black;
+    color: red;
+    transform: rotateX(360deg);
+    transition: 200ms;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(19, 19, 19, 0.738); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: transparent;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 5px;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+  .modal-content img {
+      width: 90%;
+  }
+  /* The Close Button */
+  .close {
+    color: red;
+    float: right;
+    font-size: 58px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: blue;
+    background-color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.close:active {
+    color: black;
+    background-color: red;
+}
+.beermenu {
+    background-image: url("images/beer-kettles.jpg");
+    background-size: contain;
+    background-color: yellow;
+    width: 50%;
+}
+.pints {
+    width: 50%;
+}
+.pints video {
+    width: 100%;
+}
+#food {
+    display: flex;
+    margin-bottom: -4px;
+}
+.women {
+    width: 50%;
+}
+.women video {
+    width: 100%;
+}
+.foodmenu {
+    background-image: url("images/nachos-burger.jpg");
+    background-size: contain;
+    width: 50%;
+}
+
+#fun {
+    display: flex;
+    margin-bottom: -5px;
+}
+.tv {
+    width: 50%;
+}
+.tv img {
+    width: 100%;
+}
+.cheers {
+    width: 50%;
+}
+.cheers img {
+    width: 100%;
+}
+#reviews {
+    background-image: url(images/cans2.png);
+    background-size: cover;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+#reviews img {
+    border-radius: 15px;
+    width: 50%;
+}
+#reviews p {
+    font-style: italic;
+    font-weight: bold;
+}
+.girl1 {
+    margin: 15px;
+}
+.girl1 .review {
+    margin-top: 5px;
+}
+.guy {
+    margin: 15px;
+}
+.guy .review {
+    margin-bottom: 5px;
+}
+.guy img {
+    margin-bottom: 5%;
+}
+.girl2 {
+    margin: 15px;
+}
+.girl2 .review {
+    margin-top: 5px;
+}
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.review {
+    font-size: 14px;
+    font-weight: normal;
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 50px;
+}
+
+#contact {
+    background-color: rgb(211, 208, 208);
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 25px;
+}
+.location {
+    margin: 10px;
+}
+.location img {
+    margin-top: 20px;
+}
+.subscribe {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    font-size: 18px;
+    margin-top: 20px;
+}
+form td {
+    padding: 15px;
+}
+label {
+    border-radius: 15px;
+    padding: 5px;
+}
+input {
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
+.submit {
+    background-color: #b3ddf2;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.submit:hover {
+    background-color: red;
+    cursor: cell;
+    transform: rotateX(360deg);
+    transition: 500ms;
+}
+.submit:active {
+    background-color: black;
+    color: yellow;
+    transform: rotateX(360deg);
+    transition: 500ms;
+}
+.hours {
+    margin: 10px;
+}
+.table {
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.hours-box p {
+    padding: 15px;
+}
+
+.table {
+    width: 100%;
+}
+.open {
+    border-collapse: collapse;
+}
+th {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(212, 207, 207);
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
+.open td {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}
+footer{
+    background-color: #444444;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+.col1 {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.col1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.col1 a:hover {
+    color: green;
+    background: whitesmoke;
+    text-decoration: none;
+}
+.col2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+.icons {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-left: 13%;
+    margin-bottom: 2%;
+}
+.icons img {
+    width: 75%;
+}
+.icons a:hover {
+    transform: scale(1.4);
+}
+.copyright {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    margin-left: 10%;
+    font-size: 15px;
+}
+.phone a {
+    color: white;
+    text-decoration: none;
+}
+.phone a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1300px) {
+#wrapper {
+    width: 100%;
+}
+.logo {
+    top: 1%;
+    left: 10px;
+    width: 10%;
+}
+button {
+    font-size: .9rem;
+    padding: 2%;
+}
+.testimonials {
+    display: flex;
+    flex-direction: column;
+}
+.testimonials img {
+    margin: 0px;
+}
+#reviews {
+    font-size: 24px;
+    font-weight: 600;
+}
+#reviews img {
+    width: 30%;
+}
+.review {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+.location img {
+    width: 70%;
+}
+.sub-table {
+    font-size: 14px;
+}
+input {
+    padding: 0px;
+}
+.table {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 700px) {
+#wrapper {
+    border: 1px solid red;
+}
+nav ol {
+    display: flex;
+    flex-direction: column;
+}
+nav li {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    font-size: 14px;
+    position: initial;
+    }
+.links {
+    margin: auto;
+}
+.hours {
+    padding-bottom: 5%;
+}
+#modalButton, #modalButton2 {
+    font-size: 8px;
+    padding: 5px;
+}
+.modal-content img {
+    width: 120%;
+}
+.icons {
+    width: 40%;
+    margin-left: 25%;
+}
+.copyright {
+    font-size: 12px;
+    margin: 0px;
+}
+.col1 {
+    width: 15%;
+}
+.col1 a {
+    font-size: 14px;
+}
+.col2 {
+    width: 85%;
+}
+.icons {
+    margin-left: 5%;
+    width: 90%;
+}
+.icons img {
+    width: 45%;
+}
+}
+}

@@ -1,0 +1,201 @@
+.wrapper {
+  margin: auto;
+  width: 1280px;
+  border: 1px solid black;
+}
+header {
+  text-align: center;
+}
+.banner {
+  color: white;
+  height: 720px;
+  background-color: black;
+  display: flex;
+}
+.free {
+  margin-left: 150px;
+}
+.free > h2 {
+  text-align: center;
+}
+.one {
+  font-size: 60px;
+  margin: 0px;
+  padding-top: 10px;
+}
+.preferred {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.select {
+  text-align: center;
+}
+.submit {
+  background-color: #d9b451;
+  font-size: 30px;
+  border: 4px solid darkgray;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+input {
+  padding: 7px;
+  margin: 3px;
+}
+
+.submit:hover {
+  background-color: black;
+  color: #d9b451;
+  cursor: pointer;
+  border: 4px dashed #d9b451;
+}
+.sign-up {
+  color: #d9b451;
+  font-size: 35px;
+}
+
+.info-panel {
+  display: flex;
+  justify-content: space-around;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 33px;
+  font-weight: bold;
+  text-align: center;
+}
+.tribune {
+  padding: 0;
+  text-align: center;
+}
+.info-panel > img {
+  align-items: center;
+}
+h3 {
+  font-size: 50px;
+  text-align: center;
+  padding: 0;
+  background-color: black;
+  margin: 0;
+  color: #d9b451;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.welcome > h3 {
+  letter-spacing: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.levels {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.weights {
+  height: 532px;
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+}
+.here {
+  text-transform: capitalize;
+}
+.here {
+  margin: 50px;
+}
+.mode {
+  text-align: center;
+}
+.image1 > p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+.image2 > p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+.image3 > p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+.test-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  text-align: center;
+}
+.test1 > p {
+  color: white;
+  font-size: 18px;
+}
+.test1 > p.name {
+  color: #d9b451;
+  font-style: italic;
+}
+.test2 > p {
+  color: white;
+  font-size: 18px;
+}
+.test2 > p.name {
+  color: #d9b451;
+  font-style: italic;
+}
+.test3 > p {
+  color: white;
+  font-size: 18px;
+}
+.test3 > p.name {
+  color: #d9b451;
+  font-style: italic;
+}
+.white-space {
+  height: 100px;
+}
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+ul {
+  padding-left: 25px;
+}
+li {
+  list-style-type: disc;
+}
+.locations {
+  text-align: center;
+}
+.phone {
+  font-size: 22px;
+  text-align: right;
+  margin-top: 20px;
+}
+.phone > a {
+  text-decoration: none;
+  color: white;
+}
+.phone > a:hover {
+  text-decoration: underline;
+}
+.email {
+  font-size: 22px;
+  text-align: right;
+}
+.email > a {
+  color: white;
+  text-decoration: none;
+}
+.email > a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  font-size: 22px;
+}
+.number > img {
+  float: right;
+}

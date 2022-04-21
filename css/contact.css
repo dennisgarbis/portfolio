@@ -82,22 +82,14 @@ nav li a:hover {
 }
 
 header {
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 50rem;
+    background-image: url('../images/connect-me.png');
+    background-size: cover;
     display: flex;
-}
-
-.header-left {
-    width: 35%;
-    background-color: black;
-}
-
-.header-left > h1 {
-    font-size: 4rem;
-    margin-top: 20%;
-    color: white;
-}
-
-.header-image {
-    width: 50%;
+    justify-content: center;
 }
 
 
@@ -141,18 +133,14 @@ footer {
     }
 
     header {
+        background-size: 100%;
+        background-position: center;
+        width: 100%;
+        height: 18rem;
+        background-image: url('../images/connect-me.png');
+        background-size: cover;
         display: flex;
-        flex-direction: column;
-        padding: 0rem;
-        min-height: 80vh;
-    }
-
-    .header-left>p {
-        width: 80%;
-    }
-
-    .header-right>img {
-        max-width: 80%;
+        justify-content: center;
     }
 
     #button {

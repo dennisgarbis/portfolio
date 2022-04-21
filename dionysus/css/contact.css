@@ -1,0 +1,72 @@
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#nav {
+    background-color: #0d5eaf;
+}
+
+#active {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+
+#hero  h1, h3 ,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#wrapper {
+    border: solid black thin;
+}
+
+#logo {
+    width: 60px;
+}
+
+#hero p {
+    font-style: italic;
+}
+
+figcaption {
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+
+form {
+    width: 60%;
+}
+
+#welcome {
+    background-color: #0d5eaf;
+    text-align: center;
+}
+
+#submit {
+    background-color: #0d5eaf;
+    color: white;
+}
+
+#submit:hover {
+    background-color: #0d5eafc7;
+    border: 1px solid black;
+}
+#submit:active {
+    background-color: black;
+    transform: translateY(2px);
+    transition: 200ms;
+}
+
+#map-container {
+    background-color: #0d5eaf;
+}
+
+#icons img {
+    height: 1.5rem;
+}
+
+#icons img:hover {
+    transform: scale(1.2);
+}
