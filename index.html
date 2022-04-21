@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <script type="text/javascript" src="engine1/jquery.js"></script>
     <!-- End WOWSlider.com HEAD section -->
+    <link rel="stylesheet" href="css/hint-css.css">
 </head>
 
 <body>
@@ -29,23 +30,21 @@
                 </ul>
             </div> <!-- end of nav-bar -->
         </nav>
-        <section id="hero-image">
-            <header>
-                <div class="header-left">
-                    <h1>Hi, I'm Dennis</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolor suscipit sed reiciendis
-                        itaque. Tenetur eum velit omnis quae corrupti accusamus fuga officiis, voluptatibus totam aut
-                        quas iste cumque dolores?</p>
-                    <div id="button">
-                        <a id="contact-button" href="contact.html">Contact Me</a>
-                        <a id="resume-button" href="#">Resume</a>
-                    </div>
+        <header id="hero-image">
+            <div class="header-left">
+                <h1>Hi, I'm Dennis</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolor suscipit sed reiciendis
+                    itaque. Tenetur eum velit omnis quae corrupti accusamus fuga officiis, voluptatibus totam aut
+                    quas iste cumque dolores?</p>
+                <div id="button">
+                    <a id="contact-button" href="contact.html">Contact Me</a>
+                    <a id="resume-button" href="#">Resume</a>
                 </div>
-                <div class="header-right">
-                    <img class="cartoon-pic" src="images/cartoon2(1).jpg" alt="cartoon image of my moustache">
-                </div>
-            </header>
-        </section> <!-- end hero image-->
+            </div>
+            <div class="header-right">
+                <img class="cartoon-pic" src="images/cartoon2(1).jpg" alt="cartoon image of my moustache">
+            </div>
+        </header> <!-- end hero image-->
         <main>
             <section id="top-container">
                 <div class="top-container-padding">
@@ -104,47 +103,79 @@
                     <h2>My Skills</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis vitae, exercitatione</p>
                     <div class="icon-container">
-                        <img src="logos/html-5.png" alt="html logo">
-                        <img src="logos/css-3.png" alt="css logo">
-                        <img src="logos/java-script.png" alt="javascript logo">
-                        <img src="logos/jquery.png" alt="jquery logo">
-                        <img src="logos/wordpress.png" alt="wordpress logo">
-                        <img src="logos/vs-code.png" alt="vs-code logo">
-                        <img src="logos/photoshop.png" alt="photoshop logo">
-                        <img src="logos/illustrator.png" alt="illustrator logo">
-                        <img src="logos/indesign.png" alt="indesign logo">
-                        <img src="logos/xd.png" alt="xd logo">
-                        <img src="logos/after-effects.png" alt="after effects logo">
-                        <img src="logos/balsamiq.png" alt="balsamiq logo">
-                        <img src="logos/axure.png" alt="axure rp logo">
-                        <img src="logos/word.jpg" alt="microsoft word logo">
+                        <img data-hint="html" src="logos/html-5.png" alt="html logo">
+                        <img data-hint="css" src="logos/css-3.png" alt="css logo">
+                        <img data-hint="javascript" src="logos/java-script.png" alt="javascript logo">
+                        <img data-hint="jQuery" src="logos/jquery2.png" alt="jquery logo">
+                        <img data-hint="wordpress" src="logos/wordpress.png" alt="wordpress logo">
+                        <img data-hint="vs-code" src="logos/vs-code2.png" alt="vs-code logo">
+                        <img data-hint="photoshop" src="logos/photoshop.png" alt="photoshop logo">
+                        <img data-hint="illustrator" src="logos/illustrator.png" alt="illustrator logo">
+                        <img data-hint="indesign" src="logos/indesign.png" alt="indesign logo">
+                        <img data-hint="xd" src="logos/xd.png" alt="xd logo">
+                        <img data-hint="after effects" src="logos/after-effects.png" alt="after effects logo">
+                        <img data-hint="balsamiq" src="logos/balsamiq.png" alt="balsamiq logo">
+                        <img data-hint="axure rp" src="logos/axure.png" alt="axure rp logo">
+                        <img data-hint="word" src="logos/word.png" alt="microsoft word logo">
+                        <img data-hint="excel" src="logos/excel.png" alt="microsoft excel logo">
                     </div>
                 </div>
             </section>
+            <div class="parralex-image"></div>
+
             <section id="bottom-container">
-                <h2>My Projects</h2>
+                <div class="bottom-container-padding">
+                    <h2>My Projects</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae quasi autem sint saepe
+                        deserunt repellendus consectetur minima eius qui optio reiciendis illo dolorum voluptatibus sit
+                        voluptatem error, nam magni.</p>
+
+                    <div id="project-list-flex">
+                        <div class="project-box"><img src="images/dionysus-screen.jpg" alt="">
+                            <div>
+                                <a class="project-button" href="#">Dionysus Greek Tavern</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aperiam sint officiis
+                                delectus, incidunt assumenda, unde culpa facilis reprehenderit labore consectetur natus
+                                rem
+                                aspernatur asperiores molestiae autem nisi dolores quidem!</p>
+
+                        </div>
+                        <div class="project-box"><img src="images/brewery-screen.jpg" alt="">
+                            <div>
+                                <a class="project-button" href="#">25 West Brewery</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aperiam sint officiis
+                                delectus, incidunt assumenda, unde culpa facilis reprehenderit labore consectetur natus
+                                rem
+                                aspernatur asperiores molestiae autem nisi dolores quidem!</p>
+                        </div>
+                        <div class="project-box"><img src="images/mode-screen.jpg" alt="">
+                            <div>
+                                <a class="project-button" href="#">Mode Fitness</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aperiam sint officiis
+                                delectus, incidunt assumenda, unde culpa facilis reprehenderit labore consectetur natus
+                                rem
+                                aspernatur asperiores molestiae autem nisi dolores quidem!</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
 
 
         </main>
         <footer aria-label="contentinfo">
-            <div class="foot-info">
-                <ul class="foot-links">
-                    <li><a href="#">about</a></li>
-                    <li><a href="#text">policy</a></li>
-                </ul>
-                <div class="copyright">
-                    Copyright &#169; 2022 <br>
-                    Dennis Garbis WEB 210
-                </div>
-                <ul class="foot-links">
-                    <li><a href="#">help</a></li>
-                    <li><a href="#">employment</a></li>
-                </ul>
+            <div class="copyright">
+                Copyright &#169; Dennis Garbis 2022
             </div>
         </footer>
     </div> <!-- end of wrapper -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <script src="js/hint-css.js"></script>
 </body>
 
 </html>

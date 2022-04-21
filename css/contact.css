@@ -6,15 +6,17 @@
 }
 
 body {
-    background-color: rgb(2, 66, 2);
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 0 auto 1rem;
 }
 
 #wrapper {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    border: thin solid black;
-    background-color: white;
 }
 
 nav {
@@ -26,6 +28,7 @@ nav {
     top: 0;
     align-items: center;
     min-height: 2rem;
+    z-index: 99;
 }
 
 #logo {
@@ -93,30 +96,81 @@ footer {
     text-align: center;
 }
 
-.foot-info {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.foot-links {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
+@media screen and (max-width: 900px) {
+    #logo>a>img {
+        width: 8vw;
+        vertical-align: top;
+        border-radius: 45%;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+        padding: .5rem 1rem;
 
-.foot-links>li {
-    list-style-type: none;
-    padding: .3rem;
-}
+    }
 
-.foot-links>li>a {
-    text-decoration: none;
-    color: white;
-}
+    nav li a:hover {
+        background-color: white;
+        border-radius: 30px;
+        color: blue;
+    }
 
-.copyright {
-    align-self: flex-end;
+    #active {
+        padding: 5px 12px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        min-height: 80vh;
+    }
+
+    .header-left>p {
+        width: 80%;
+    }
+
+    .header-right>img {
+        max-width: 80%;
+    }
+
+    #button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-container-padding {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-container-left>img {
+        width: 50%;
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+
+
+    .middle-container-padding {
+        padding: 0;
+    }
+
+    .icon-container {
+        display: flex;
+        border: thin solid black;
+        justify-content: center;
+        margin: .5rem auto;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .icon-container>img {
+        width: 30px;
+    }
+
+
 }
