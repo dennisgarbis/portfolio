@@ -3,6 +3,7 @@
     margin: 0%;
     padding: 0;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -62,6 +63,7 @@ nav {
 nav li a {
     text-decoration: none;
     color: white;
+    letter-spacing: 1px;
     margin-right: 10vw;
     padding: .5rem 1.9rem;
 
@@ -97,6 +99,7 @@ header {
 }
 
 h1 {
+    font-family: 'Comfortaa', cursive;
     font-size: 3.5rem;
     margin: 5rem auto 2rem;
 }
@@ -125,11 +128,15 @@ h1 {
     text-decoration: none;
     padding: .5rem 3rem;
     border-radius: 30px;
+    margin: 10px;
+
 }
 
 #button a:hover {
     background-color: white;
     color: blue;
+    transition: all .5s ease-in;
+    transform: scale(1.1);
 }
 
 .header-right {
@@ -192,12 +199,15 @@ h1 {
     margin: .5rem auto;
     width: 60%;
     flex-wrap: wrap;
-
 }
 
 .icon-container>img {
     width: 70px;
     margin: 20px;
+}
+
+.icon-container > img:hover {
+    transform: scale(1.1);
 }
 
 .parralex-image {
@@ -346,5 +356,11 @@ footer {
         width: 30px;
     }
 
+    #project-list-flex {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
 
 }
