@@ -45,7 +45,8 @@ nav {
 #logo>a>img {
     width: 5vw;
     vertical-align: top;
-    border-radius: 45%;
+    border-radius: 30%;
+    padding: 10px;
 }
 
 .nav-bar {
@@ -236,6 +237,7 @@ footer {
         width: 8vw;
         vertical-align: top;
         border-radius: 45%;
+        padding: 5px;
     }
 
     nav li a {
@@ -307,6 +309,17 @@ footer {
         margin-top: 2rem;
 
         width: 100%;
+    }
+
+    .site-button {
+        width: 50%;
+        padding: .8rem .8rem;
+        margin: 1rem;
+        background-color: #073161;
+        color: white;
+        font-weight: 300;
+        text-decoration: none;
+        border-radius: 20px;
     }
 
     .brewery-div {

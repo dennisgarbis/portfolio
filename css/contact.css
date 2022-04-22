@@ -45,7 +45,8 @@ nav {
 #logo>a>img {
     width: 5vw;
     vertical-align: top;
-    border-radius: 45%;
+    border-radius: 30%;
+    padding: 10px;
 }
 
 .nav-bar {
@@ -82,15 +83,41 @@ nav li a:hover {
 }
 
 header {
+    display: flex;
+    width: 100%;
+    background-color: gray;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header-image {
+    width: 100%;
+    
+}
+
+.header-image > img {
+    width: 90%;
+}
+
+.heading-right {
+    width: 100%;
+}
+
+/* header {
     background-size: 100%;
     background-position: center;
-    width: 100%;
+    width: 50%;
     height: 50rem;
     background-image: url('../images/connect-me.png');
     background-size: cover;
     display: flex;
     justify-content: center;
-}
+} */
 
 
 
@@ -112,6 +139,7 @@ footer {
         width: 8vw;
         vertical-align: top;
         border-radius: 45%;
+        padding: 5px;
     }
 
     nav li a {
@@ -133,6 +161,11 @@ footer {
     }
 
     header {
+        display: flex;
+    }
+
+
+    /* header {
         background-size: 100%;
         background-position: center;
         width: 100%;
@@ -141,7 +174,7 @@ footer {
         background-size: cover;
         display: flex;
         justify-content: center;
-    }
+    } */
 
     #button {
         display: flex;

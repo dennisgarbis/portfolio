@@ -45,7 +45,8 @@ nav {
 #logo>a>img {
     width: 5vw;
     vertical-align: top;
-    border-radius: 45%;
+    border-radius: 30%;
+    padding: 10px;
 }
 
 .nav-bar {
@@ -149,6 +150,7 @@ h1 {
     border-radius: 50%;
 }
 
+
 #top-container {
     background-color: lightpink;
 }
@@ -177,6 +179,7 @@ h1 {
 .top-container-right>p {
     width: 60%;
     margin: 0 auto 2rem;
+    text-align: left;
 }
 
 .about-images {
@@ -206,7 +209,7 @@ h1 {
     margin: 20px;
 }
 
-.icon-container > img:hover {
+.icon-container>img:hover {
     transform: scale(1.1);
 }
 
@@ -239,12 +242,12 @@ h1 {
 }
 
 .project-box {
-justify-content: space-around;
+    justify-content: space-around;
     height: fit-content;
     margin: 50px;
     border: thin solid black;
     background-color: #88b7cf;
-    
+
 }
 
 .project-box>img {
@@ -286,6 +289,7 @@ footer {
         width: 8vw;
         vertical-align: top;
         border-radius: 45%;
+        padding: 5px;
     }
 
     nav li a {
