@@ -83,7 +83,6 @@ nav li a:hover {
 }
 
 header {
-    display: flex;
     width: 100%;
     background-color: gray;
 }
@@ -101,25 +100,17 @@ header {
 }
 
 .header-image > img {
-    width: 90%;
+    width: 100%;
 }
 
 .heading-right {
     width: 100%;
 }
 
-/* header {
-    background-size: 100%;
-    background-position: center;
-    width: 50%;
-    height: 50rem;
-    background-image: url('../images/connect-me.png');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-} */
 
-
+input {
+    margin: 10px auto;
+}
 
 
 #bottom-container {
@@ -160,8 +151,8 @@ footer {
         padding: 5px 12px;
     }
 
-    header {
-        display: flex;
+    .heading {
+        flex-direction: column;
     }
 
 

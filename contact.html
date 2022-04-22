@@ -10,12 +10,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="css/contact.css">
-    <title>Dennis Garbis Contact</title>
+    <title>Contact Dennis Garbis</title>
 </head>
 
 <body>
@@ -29,6 +29,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a id="active">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
                 </ul>
             </div> <!-- end of nav-bar -->
         </nav>
@@ -38,7 +39,45 @@
                     <img src="images/connect-me.png" alt="">
                 </div>
                 <div class="heading-right">
-                    <h2>Contact Me</h2>
+                    <div>
+                        <h2>Contact Me</h2>
+                    </div>
+                    <form action="" method="GET">
+                        <div>
+                            <label for="fname">First Name:</label>
+                            <input type="text" name="fname" id="fname" required>
+                        </div>
+                        <div>
+                            <label for="lname">Last Name:</label>
+                            <input type="text" name="lname" id="lname">
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="123-555-7777" name="phone"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12">
+                        </div>
+                        <div>
+                            How would you like me to reach back?
+                            <div>
+                                <label for="email-resp">email</label>
+                                <input type="checkbox" name="email-resp" id="email-resp">
+                            </div>
+                            <div>
+                                <label for="phone-resp">phone</label>
+                                <input type="checkbox" name="phone-resp" id="phone-resp">
+                            </div>
+                            <div>
+                                <label for="no-resp">don't</label>
+                                <input type="checkbox" name="no-resp" id="no-resp">
+                            </div>
+                        </div>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </form>
                 </div>
             </div>
         </header> <!-- end hero image-->
