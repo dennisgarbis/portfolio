@@ -36,50 +36,67 @@
         <header>
             <div class="heading">
                 <div class="header-image">
-                    <img src="images/connect-me.png" alt="">
+                    <img src="images/connect-me.png"
+                        alt="laptop on a table with my linked in homepage on the screen and coffee with a cell phone on either side">
                 </div>
                 <div class="heading-right">
                     <div>
-                        <h2>Contact Me</h2>
+                        <h1>Contact Me</h1>
                     </div>
                     <form action="" method="GET">
-                        <div>
-                            <label for="fname">First Name:</label>
-                            <input type="text" name="fname" id="fname" required>
-                        </div>
-                        <div>
-
-                            <label for="lname">Last Name:</label>
-                            <input type="text" name="lname" id="lname">
-                        </div>
-                        <div>
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-                        <div>
-                            <label for="phone">Phone:</label>
-                            <input type="tel" class="form-control" id="phone" placeholder="123-555-7777" name="phone"
-                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12">
-                        </div>
-                        <div class="check">
-                            <h3>How would you like me to reach back?</h3>
+                        <div class="form-input">
                             <div>
-                                <input type="checkbox" name="email-resp" id="email-resp">
-                                <label for="email-resp">email</label>
+                                <div class="names">
+                                    <div class="first-name">
+                                        <label for="fname">First Name: <span class="star">*</span></label>
+                                        <input type="text" name="fname" id="fname" required>
+                                    </div>
+                                    <div class="last-name">
+                                        <label for="lname">Last Name: <span class="star">*</span></label>
+                                        <input type="text" name="lname" id="lname"> <br>
+                                    </div>
+                                </div>
+                                <div class="names">
+                                    <div class="email-address">
+                                        <label for="email">Email: <span class="star">*</span></label>
+                                        <input type="email" name="email" id="email">
+                                    </div>
+                                    <div class="phone-number">
+                                        <label for="phone">Phone: <span class="star">*</span></label>
+                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="check">
+                                <h3>How would you like me to reach back?</h3>
+                                <div>
+                                    <input type="checkbox" name="email-resp" id="email-resp">
+                                    <label for="email-resp">email</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="phone-resp" id="phone-resp">
+                                    <label for="phone-resp">phone</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="no-resp" id="no-resp">
+                                    <label for="no-resp">don't bother</label>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <label class="message" for="comments" class="label">Message:</label><br>
+                                <textarea name="message" id="message" cols="60" rows="5">
 
+                        </textarea>
                             </div>
+                            <p class="star-req">* required</p>
                             <div>
-                                <input type="checkbox" name="phone-resp" id="phone-resp">
-                                <label for="phone-resp">phone</label>
+                                <div class="buttons">
+                                    <button class="btn" id="reset" type="reset" aria-label="reset">Reset</button>
+                                    <button class="btn" id="submit" type="submit" aria-label="submit">Submit</button>
+                                </div>
+                            </div>
 
-                            </div>
-                            <div>
-                                <input type="checkbox" name="no-resp" id="no-resp">
-                                <label for="no-resp">don't</label>
-                            </div>
-                        </div>
-                        <button type="reset">Reset</button>
-                        <button type="submit">Submit</button>
                     </form>
                 </div>
             </div>
