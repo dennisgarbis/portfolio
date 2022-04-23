@@ -110,9 +110,31 @@ header {
 
 
 input {
-    margin: 10px auto;
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 5px;
 }
 
+label {
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 1rem 3rem 1rem;
+}
+
+input[type="checkbox"] {
+    margin: auto;
+}
+
+.check label {
+    text-align: left;
+    width: 70px;
+}
 
 #bottom-container {
     min-height: 600px;

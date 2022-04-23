@@ -230,30 +230,33 @@ h1 {
 }
 
 .bottom-container-padding {
-    padding: 5rem 0rem;
+    padding: 2rem 0rem 5rem;
 }
 
+.bottom-container-padding>p {
+    width: 60%;
+    margin: 0 auto 3rem;
+}
 
 #project-list-flex {
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    padding-bottom: 2rem;
+    width: 90%;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+#project-list-flex>* {
+    flex: 1;
 }
 
 .project-box {
-    justify-content: space-around;
-    height: fit-content;
-    margin: 50px;
     border: thin solid black;
     background-color: #88b7cf;
-
 }
 
 .project-box>img {
     margin: 2rem auto 1rem;
     width: 90%;
-    max-height: auto;
 }
 
 .project-button {
@@ -274,7 +277,6 @@ h1 {
 .project-box>p {
     margin: auto;
     padding: 1rem;
-
 }
 
 footer {
@@ -288,7 +290,6 @@ footer {
     #logo>a>img {
         width: 8vw;
         vertical-align: top;
-        border-radius: 45%;
         padding: 5px;
     }
 
@@ -297,7 +298,7 @@ footer {
         color: white;
         margin: 0 10px;
         padding: .5rem 1rem;
-
+        font-size: .8rem;
     }
 
     nav li a:hover {
@@ -362,9 +363,7 @@ footer {
 
     #project-list-flex {
         flex-direction: column;
-        justify-content: space-evenly;
-        width: 100%;
-        padding-bottom: 2rem;
+        width: 90%;
     }
 
 }
