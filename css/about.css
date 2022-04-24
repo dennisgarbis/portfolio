@@ -77,9 +77,9 @@ nav li a:hover {
 }
 
 #active {
-    background-color: rgb(175, 10, 10);
+    background-color: lightblue;
     border-radius: 30px;
-    color: white;
+    color: black;
 }
 
 header {
@@ -95,7 +95,6 @@ header {
 
 .heading {
     margin-top: 10rem;
-
 }
 
 h1 {
@@ -138,7 +137,7 @@ h1 {
     background-position: center;
     width: 100%;
     height: 55vh;
-    background-image: url('../images/hand.jpg');
+    background-image: url('../images/thisway-thatway.png');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -147,13 +146,17 @@ h1 {
 
 #bottom-container {
     min-height: 600px;
-    background-color: lightgreen;
+    background-color: lightblue;
 }
 
 .bottom-container-padding {
     padding: 5rem 0rem;
 }
 
+.bottom-container-padding > p {
+    width: 60%;
+    margin: auto;
+}
 
 #project-list-flex {
     display: flex;
@@ -236,7 +239,7 @@ footer {
         background-size: 100%;
         background-position: center;
         width: 100%;
-        height: 15rem;
+        height: 17rem;
         background-image: url('../images/eyes-blackbackground.jpg');
         background-size: cover;
         display: flex;
