@@ -140,11 +140,11 @@ h2 {
     margin: 1rem auto;
 }
 
-input[type="checkbox"] {
+input[type="radio"] {
     margin: auto;
 }
 
-.check label {
+.radio-quest label {
     text-align: left;
     width: 120px;
     margin: 1px auto;
