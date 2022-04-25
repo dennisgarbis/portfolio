@@ -136,9 +136,9 @@ h1 {
 }
 
 #button a:hover {
-    background-color: white;
-    color: blue;
-    transition: all .5s ease-in;
+    background-color: #1e146b;
+    color: #fff;
+    transition: all .3s ease-in;
     transform: scale(1.1);
 }
 
