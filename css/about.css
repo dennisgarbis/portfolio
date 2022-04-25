@@ -155,7 +155,8 @@ h1 {
 
 .bottom-container-padding > p {
     width: 60%;
-    margin: auto;
+    margin: 1rem auto;
+    text-align: left;
 }
 
 #project-list-flex {
