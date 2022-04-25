@@ -110,6 +110,7 @@ h1 {
     width: 50%;
     margin: 0 auto;
     color: #fff;
+    text-align: left;
 }
 
 #button {
@@ -334,13 +335,21 @@ footer {
 
     header {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0rem;
         min-height: 80vh;
     }
 
+    .header-left {
+        padding-top: 0rem;
+    }
+
+    h1 {
+        margin-top: 1rem;
+    }
+
     .header-left>p {
-        width: 80%;
+        width: 75%;
     }
 
     .header-right>img {
@@ -364,10 +373,16 @@ footer {
         margin-left: 0rem;
     }
 
+    .top-container-right>p {
+        width: 85%;
+    }
 
     .middle-container-padding {
         padding: 0;
     }
+.middle-container-padding > p {
+    width: 85%;
+}
 
     .icon-container {
         display: flex;
@@ -380,6 +395,10 @@ footer {
 
     .icon-container>img {
         width: 30px;
+    }
+
+    .bottom-container-padding > p {
+        width: 85%;
     }
 
     #project-list-flex {
