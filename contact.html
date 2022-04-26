@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Creepster&family=League+Spartan:wght@800&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -33,17 +33,20 @@
                 </ul>
             </div> <!-- end of nav-bar -->
         </nav>
-        <header>
+        <header id="hero-image">
             <div class="heading">
-                <div class="header-image">
-                    <img src="images/connect-me.png"
-                        alt="laptop on a table with my linked in homepage on the screen and coffee with a cell phone on either side">
+                <h1>LETS CONNECT</h1>
+            </div>
+        </header> <!-- end hero image-->
+        <main>
+            <div class="heading-left">
+                <div class="sub-heading">
+                    <h2>Contact Me</h2>
+                    <p>Call me, email me, text me. Whichever way you want to reach out is fine with me. But like Nike says...<br>
+                    <span class="do">JUST DO IT</span></p>
                 </div>
-                <div class="heading-right">
-                    <div>
-                        <h1>Contact Me</h1>
-                    </div>
-                    <form action="" method="GET">
+                <div class="flex">
+                    <form action="https://www.google.com" method="GET">
                         <div class="form-input">
                             <div>
                                 <div class="names">
@@ -84,8 +87,8 @@
                                 </div>
                             </div>
                             <div class="text">
-                                <label class="message" for="message" class="label"></label><br>
-                                <textarea name="message" id="message" cols="60" rows="5">Message...
+                                <label class="message" for="message"> Comments:</label><br>
+                                <textarea name="message" id="message" rows="5">Message...
                                 </textarea>
                             </div>
                             <p class="star-req">* required</p>
@@ -95,16 +98,14 @@
                                     <button class="btn" id="submit" type="submit" aria-label="submit">Submit</button>
                                 </div>
                             </div>
-
+                        </div>
                     </form>
-                </div>
+                    <img class="computer" src="images/connect-me.png"
+                        alt="computer on a table with my linkedin homepage on the screen">
+                </div> <!-- end of flex class -->
             </div>
-        </header> <!-- end hero image-->
-        <main>
-
-
-
         </main>
+
         <footer aria-label="contentinfo">
             <div class="copyright">
                 Copyright &#169; Dennis Garbis 2022

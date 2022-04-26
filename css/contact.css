@@ -7,12 +7,7 @@
 }
 
 body {
-    background-color: lightblue;
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin: 0 auto .5rem;
+    background-color: #333939;
 }
 
 #wrapper {
@@ -35,7 +30,6 @@ nav {
 #logo {
     width: 20%;
 }
-
 
 #logo a {
     padding: 0;
@@ -82,32 +76,64 @@ nav li a:hover {
 }
 
 header {
+    background-size: 100%;
+    background-position: center;
     width: 100%;
     height: 85vh;
-    padding: 0;
-    background-color: lightblue;
-    border-bottom: thin solid black;
+    background-image: url('../images/bridge.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .heading {
+    margin-top: 30vh;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 4rem;
+    color: lightblue;
+    background-color: rgba(0, 0, 0, 0.028);
+    text-shadow: 2px 2px darkred;
+}
+
+main {
+    background-color: #fff;
+}
+
+.heading-left {
     width: 100%;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.sub-heading>p {
+    width: 30%;
+    margin: 0 auto 3rem;
+}
+
+.do {
+    font-family: 'league spartan', sans-serif;
+    font-size: 1.3rem;
+}
+
+.flex {
     display: flex;
-    flex-direction: row;
 }
 
-.header-image {
+form {
+    border: thin solid black;
     width: 100%;
-    margin: 2% 2%;
+    margin: 0 auto;
+    padding-top: 2rem;
 }
 
-
-.header-image>img {
-    width: 100%;
-    margin-bottom: -6px;
-}
-
-.heading-right {
-    width: 100%;
+.flex>img {
+    width: 60%;
 }
 
 input {
@@ -138,10 +164,6 @@ label {
     margin: 1rem;
 }
 
-h2 {
-    margin: 1rem auto;
-}
-
 input[type="radio"] {
     margin: auto;
 }
@@ -152,8 +174,9 @@ input[type="radio"] {
     margin: 1px auto;
 }
 
+
 .text>.message {
-    margin-right: 46%;
+    margin: 0 30% 2% 0%;
 }
 
 textarea {
@@ -166,10 +189,6 @@ textarea {
     margin: 1rem 0rem .5rem;
 }
 
-.text>label {
-    margin-right: 5px;
-}
-
 .star {
     color: darkred;
 }
@@ -178,10 +197,6 @@ textarea {
     color: darkred;
     text-align: right;
     margin-right: 25%;
-}
-
-.buttons {
-    margin: .5rem auto;
 }
 
 .btn {
@@ -259,12 +274,39 @@ footer {
         padding: 5px 12px;
     }
 
-    .header-image {
-        margin: 0;
+    header {
+        background-size: 100%;
+        background-position: center;
+        width: 100%;
+        height: 33vh;
+        background-image: url('../images/bridge.jpg');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
     }
 
     .heading {
-        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .sub-heading>p {
+        width: 80%;
+    }
+
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    .flex>img {
+        width: 100%;
+    }
+
+    form {
+        padding: 2rem 0;
     }
 
     input {
@@ -279,12 +321,16 @@ footer {
         margin: 1rem 0;
     }
 
-    .bot-form {
-        flex-direction: column;
+    .names>div>input {
+        width: 40vw;
+    }
+
+    .text>.message {
+        margin: 0 50% 2% 0%;
     }
 
     textarea {
-        width: 50%;
+        width: 70%;
     }
 
     .star-req {

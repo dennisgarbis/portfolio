@@ -10,11 +10,6 @@ body {
     background-color: #000;
 }
 
-h2 {
-    font-size: 2.5rem;
-    padding: 2rem auto 1rem;
-}
-
 #wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -102,11 +97,20 @@ h1 {
     font-size: 4rem;
     color: lightblue;
     background-color: rgba(0, 0, 0, 0.028);
+    text-shadow: 2px 2px darkred;
 }
 
 .subhead {
     background-color: #fff;
     padding-top: 2rem;
+}
+
+.subhead>h2 {
+    color: rgb(0, 0, 0);
+    font-weight: ;
+    text-shadow: 3px 3px 15px #0b0352;
+    font-size: 3.5rem;
+    padding: 2rem auto 1rem;
 }
 
 .intro-p {
@@ -149,27 +153,72 @@ h1 {
     border: thin solid black;
 }
 
-.site-button {
+.live-button {
     width: 50%;
     padding: .8rem 2.8rem;
     margin: 1rem;
     background-color: #073161;
     color: white;
+    border: thin solid #073161;
+    box-shadow: 3px 3px rgb(117, 117, 117);
     font-weight: 300;
     text-decoration: none;
     border-radius: 20px;
 }
 
-.site-button.code {
+.project-button {
+    width: 50%;
+    padding: .8rem 2.8rem;
+    margin: 1rem;
     background-color: #fff;
     color: black;
     border: thin solid darkred;
+    box-shadow: 3px 3px rgb(117, 117, 117);
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
 }
 
-.btn .site-button:hover {
+.btn {
+    margin: 1rem auto;
+}
+
+.btn2 {
+    margin-top: 3.5rem;
+}
+
+.live-button:hover {
+    background-color: #fff;
+    color: darkblue;
+    transition: all .7s ease;
+    box-shadow: none;
+}
+
+.project-button:hover {
     background-color: darkred;
     color: #fff;
     transition: all .7s ease;
+    box-shadow: none;
+}
+
+.github-button {
+    width: 50%;
+    padding: .8rem 2.8rem;
+    margin: 1rem;
+    background-color: #060606;
+    color: white;
+    border: thin solid darkred;
+    box-shadow: 3px 3px rgb(117, 117, 117);
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.github-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: all .7s ease;
+    box-shadow: none;
 }
 
 .brewery-div {
@@ -215,6 +264,48 @@ h1 {
 #middle-div {
     background-color: #fff;
     padding: 1vh 0;
+}
+
+.parralex-image {
+    background-position: center;
+    width: 100%;
+    height: 55vh;
+    background-image: url('../images/waves.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.parralex-image>h2 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 3px 3px red;
+    position: relative;
+    top: 25vh;
+
+}
+
+
+.coming-soon {
+    background-color: #fff;
+    padding: 2rem;
+
+}
+
+.coming-soon>h2 {
+    font-size: 2.5rem;
+    width: fit-content;
+    margin: 0 auto 1rem;
+}
+
+.coming-soon>p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.soon-image>img {
+    width: 50%;
 }
 
 footer {
@@ -280,7 +371,7 @@ footer {
     }
 
     .dionysus-div {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0 auto;
         padding: 3rem 0;
     }
@@ -319,13 +410,13 @@ footer {
     }
 
     .brewery-div {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0 auto;
         padding: 3rem 0;
     }
 
     .brewery-left {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -342,6 +433,27 @@ footer {
     .brewery-right>img {
         margin-top: 2rem;
         width: 100%;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0%;
+    }
+
+    .btn>a {
+        margin: 1rem auto;
+    }
+
+    .btn2 {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0%;
+
+    }
+
+    .btn2>a {
+        margin: 1rem auto;
     }
 
 
