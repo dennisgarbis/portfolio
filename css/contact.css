@@ -18,7 +18,7 @@ body {
 nav {
     display: flex;
     margin-top: 5vh;
-    background-color: #0b0352;
+    background-color: #1e146b;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -112,7 +112,7 @@ h2 {
 }
 
 .sub-heading>p {
-    width: 30%;
+    width: 25%;
     margin: 0 auto 3rem;
 }
 
@@ -132,8 +132,22 @@ form {
     padding-top: 2rem;
 }
 
+form > h3 {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.form-input {
+    width: 80%;
+    margin: 1rem auto 2rem;
+    border: thin solid black;
+    background-color: lightblue;
+    padding-top: .8rem;
+    padding-bottom: 2rem;
+}
+
 .flex>img {
-    width: 60%;
+    width: 50%;
 }
 
 input {
@@ -197,6 +211,7 @@ textarea {
     color: darkred;
     text-align: right;
     margin-right: 25%;
+    margin-bottom: .4rem;
 }
 
 .btn {
@@ -221,7 +236,7 @@ textarea {
     background-color: rgb(112, 8, 8);
     letter-spacing: 2px;
     transition: .5s;
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 #submit {
@@ -233,7 +248,7 @@ textarea {
     background-color: rgb(12, 10, 109);
     letter-spacing: 2px;
     transition: .5s;
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 footer {
@@ -260,7 +275,7 @@ footer {
         text-decoration: none;
         color: white;
         margin: 0 5px;
-        padding: .5rem .5rem;
+        padding: .3rem .3rem;
         font-size: .8rem;
     }
 
@@ -271,7 +286,7 @@ footer {
     }
 
     #active {
-        padding: 5px 12px;
+        padding: .3rem .3rem;
     }
 
     header {
@@ -294,7 +309,7 @@ footer {
     }
 
     .sub-heading>p {
-        width: 80%;
+        width: 85%;
     }
 
     .flex {
@@ -307,6 +322,14 @@ footer {
 
     form {
         padding: 2rem 0;
+    }
+
+    form > h3 {
+        width: 85%;
+    }
+
+    .form-input {
+        width: 95%;
     }
 
     input {
@@ -325,6 +348,11 @@ footer {
         width: 40vw;
     }
 
+    .radio-quest > h3 {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
     .text>.message {
         margin: 0 50% 2% 0%;
     }
@@ -334,7 +362,7 @@ footer {
     }
 
     .star-req {
-        margin-right: 5%;
+        margin-right: 15%;
     }
 
     #button {

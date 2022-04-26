@@ -10,11 +10,6 @@ body {
     background-color: #000;
 }
 
-h2 {
-    font-size: 2.5rem;
-    margin: 0 auto 1rem;
-}
-
 #wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -149,12 +144,12 @@ h1 {
     margin: 1rem auto;
 }
 
-.icon-link > div > a > img {
+.icon-link>div>a>img {
     width: 30%;
     vertical-align: top;
 }
 
-.icon-link > div > a > img:hover {
+.icon-link>div>a>img:hover {
     transition: .9s ease-in-out;
     transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg) scale(2.9);
 }
@@ -169,6 +164,12 @@ h1 {
     border-radius: 50%;
 }
 
+h2 {
+    font-size: 2.5rem;
+    margin: 0 auto 1rem;
+    width: fit-content;
+}
+
 #top-container {
     background-color: #fff;
 }
@@ -177,6 +178,12 @@ h1 {
     padding: 5rem;
     display: flex;
     flex-direction: row;
+}
+
+.top-container-padding p {
+    width: 60%;
+    margin: 0 auto 1rem;
+    text-align: left;
 }
 
 .top-container-left {
@@ -188,16 +195,16 @@ h1 {
     margin-left: 5rem;
 }
 
+figcaption {
+    font-size: .9rem;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
 .top-container-right {
     width: 100%;
     display: flex;
     flex-direction: column;
-}
-
-.top-container-right>p {
-    width: 60%;
-    margin: 0 auto 1rem;
-    text-align: left;
 }
 
 .read-more {
@@ -222,6 +229,25 @@ h1 {
 
 .about-images {
     margin-top: 2rem;
+}
+
+#backtothetop-fixed {
+    padding: 1.25rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: #1e146b;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5vw;
+}
+
+#backtothetop-fixed:hover {
+    background-color: #1e146bc8;
+    transform: translate(0%, 0%) scale(1.05);
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 
 .hr {
@@ -288,6 +314,7 @@ h1 {
 .bottom-container-padding>p {
     width: 30%;
     margin: 0 auto 3rem;
+    text-align: left;
 }
 
 #project-list-flex {
@@ -333,6 +360,7 @@ h1 {
 .project-box>p {
     margin: auto;
     padding: 1rem;
+    text-align: left;
 }
 
 footer {
@@ -358,7 +386,7 @@ footer {
         text-decoration: none;
         color: white;
         margin: 0 5px;
-        padding: .5rem .5rem;
+        padding: .3rem .3rem;
         font-size: .8rem;
     }
 
@@ -369,7 +397,7 @@ footer {
     }
 
     #active {
-        padding: 5px 12px;
+        padding: .3rem .3rem;
     }
 
     header {
@@ -388,15 +416,15 @@ footer {
     }
 
     .header-left>p {
-        width: 75%;
+        width: 85%;
     }
 
     .icon-link {
-        width: 75%;
+        width: 95%;
     }
 
     .header-right>img {
-        max-width: 80%;
+        width: 85%;
     }
 
     #button {
@@ -422,6 +450,7 @@ footer {
 
     .middle-container-padding {
         padding: 0;
+        padding-bottom: 3rem;
     }
 
     .middle-container-padding>p {

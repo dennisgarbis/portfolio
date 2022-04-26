@@ -23,7 +23,7 @@ h2 {
 nav {
     display: flex;
     margin-top: 5vh;
-    background-color: #0b0352;
+    background-color: #1e146b;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -180,7 +180,7 @@ footer {
         text-decoration: none;
         color: white;
         margin: 0 5px;
-        padding: .5rem .5rem;
+        padding: .3rem .3rem;
         font-size: .8rem;
     }
 
@@ -191,7 +191,7 @@ footer {
     }
 
     #active {
-        padding: 5px 12px;
+        padding: .3rem .3rem;
     }
 
     header {
