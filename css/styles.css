@@ -180,8 +180,26 @@ h1 {
 
 .top-container-right>p {
     width: 60%;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1rem;
     text-align: left;
+}
+
+.read-more {
+    margin: 0% auto;
+    width: fit-content;
+    padding: .5rem .8rem;
+    background-color: #073161;
+    border-radius: 20px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 3rem;
+}
+
+.read-more:hover {
+    background-color: lightblue;
+    transition: .5s;
+    color: black;
 }
 
 .about-images {
