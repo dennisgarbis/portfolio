@@ -399,14 +399,19 @@ footer {
     }
 
     .site-button {
-        width: 50%;
-        padding: .8rem .8rem;
         margin: 1rem;
         background-color: #073161;
         color: white;
-        font-weight: 300;
         text-decoration: none;
         border-radius: 20px;
+    }
+
+    .btn {
+        font-size: .9rem;
+    }
+
+    .btn2 {
+        font-size: .9rem;
     }
 
     .brewery-div {
