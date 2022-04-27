@@ -31,7 +31,6 @@ nav {
     width: 20%;
 }
 
-
 #logo a {
     padding: 0;
     margin: 0;
@@ -62,7 +61,6 @@ nav li a {
     letter-spacing: 1px;
     margin-right: 10vw;
     padding: .5rem 1.9rem;
-
 }
 
 nav li a:hover {
@@ -119,6 +117,7 @@ h1 {
     padding: .5rem 3rem;
     border-radius: 30px;
     margin: 10px;
+    transition: all .5s ease-in;
 }
 
 #resume-button {
@@ -128,14 +127,12 @@ h1 {
     padding: .5rem 3rem;
     border-radius: 30px;
     margin: 10px;
-
+    transition: all .5s ease-in;
 }
 
 #button a:hover {
     background-color: #1e146b;
     color: #fff;
-    transition: all .3s ease-in;
-    transform: scale(1.1);
 }
 
 .icon-link {
@@ -147,10 +144,10 @@ h1 {
 .icon-link>div>a>img {
     width: 30%;
     vertical-align: top;
+    transition: .9s ease-in-out;
 }
 
 .icon-link>div>a>img:hover {
-    transition: .9s ease-in-out;
     transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg) scale(2.9);
 }
 
@@ -190,9 +187,9 @@ h2 {
     width: 100%;
 }
 
-.top-container-left>img {
-    width: 60%;
-    margin-left: 5rem;
+.top-container-left>figure>img {
+    width: 40%;
+    margin: 0 auto .5rem;
 }
 
 figcaption {
@@ -257,7 +254,6 @@ figcaption {
     width: 10vw;
     margin: 4rem auto 0;
     padding-bottom: 2rem;
-
 }
 
 #middle-container {
@@ -433,19 +429,23 @@ footer {
     }
 
     .top-container-padding {
-        padding: 0;
+        padding: 2rem;
         display: flex;
         flex-direction: column;
     }
 
-    .top-container-left>img {
+    .top-container-left>figure>img {
         width: 50%;
         margin-top: 1rem;
         margin-left: 0rem;
     }
 
-    .top-container-right>p {
+    .top-container-padding p {
         width: 85%;
+    }
+
+    .top-container-left {
+        margin-bottom: 2rem;
     }
 
     .middle-container-padding {
@@ -478,5 +478,4 @@ footer {
         flex-direction: column;
         width: 90%;
     }
-
 }

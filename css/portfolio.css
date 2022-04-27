@@ -31,7 +31,6 @@ nav {
     width: 20%;
 }
 
-
 #logo a {
     padding: 0;
     margin: 0;
@@ -62,7 +61,6 @@ nav li a {
     color: white;
     margin-right: 10vw;
     padding: .5rem 1.9rem;
-
 }
 
 nav li a:hover {
@@ -109,7 +107,9 @@ h1 {
     color: rgb(0, 0, 0);
     text-shadow: 3px 3px 15px #520303;
     font-size: 3.5rem;
-    padding: 2rem auto 1rem;
+    padding: 1rem 0;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .intro-p {
@@ -163,6 +163,7 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 20px;
+    transition: all .7s ease-in-out;
 }
 
 .project-button {
@@ -176,6 +177,7 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 20px;
+    transition: all .7s ease-in-out;
 }
 
 .btn {
@@ -189,14 +191,12 @@ h1 {
 .live-button:hover {
     background-color: #fff;
     color: darkblue;
-    transition: all .7s ease;
     box-shadow: none;
 }
 
 .project-button:hover {
     background-color: darkred;
     color: #fff;
-    transition: all .7s ease;
     box-shadow: none;
 }
 
@@ -211,12 +211,12 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 20px;
+    transition: all .7s ease;
 }
 
 .github-button:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    transition: all .7s ease;
     box-shadow: none;
 }
 
@@ -311,7 +311,6 @@ footer {
     text-align: center;
 }
 
-
 @media screen and (max-width: 900px) {
     #logo {
         width: 5%;
@@ -376,7 +375,6 @@ footer {
         width: 100%;
         margin: 0 auto;
     }
-
 
     .dionysus-left>p {
         width: 85%;
@@ -478,7 +476,7 @@ footer {
         background-repeat: no-repeat;
         justify-content: center;
     }
-    
+
     .parralex-image>h2 {
         font-size: 3rem;
         color: white;
@@ -493,7 +491,7 @@ footer {
         margin: 0 auto 2rem;
     }
 
-    .soon-image > img {
+    .soon-image>img {
         width: 80%;
     }
 }

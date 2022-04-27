@@ -132,7 +132,7 @@ form {
     padding-top: 2rem;
 }
 
-form > h3 {
+form>h3 {
     width: fit-content;
     margin: 0 auto;
 }
@@ -258,7 +258,6 @@ footer {
     text-align: center;
 }
 
-
 @media screen and (max-width: 900px) {
     #logo {
         width: 5%;
@@ -324,7 +323,7 @@ footer {
         padding: 2rem 0;
     }
 
-    form > h3 {
+    form>h3 {
         width: 85%;
     }
 
@@ -348,7 +347,7 @@ footer {
         width: 40vw;
     }
 
-    .radio-quest > h3 {
+    .radio-quest>h3 {
         width: fit-content;
         margin: 0 auto;
     }
@@ -373,5 +372,4 @@ footer {
     .middle-container-padding {
         padding: 0;
     }
-
 }
