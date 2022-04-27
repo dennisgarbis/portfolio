@@ -157,7 +157,6 @@ h1 {
 }
 
 .header-right>img {
-    max-width: 25vw;
     border-radius: 50%;
 }
 
@@ -226,7 +225,9 @@ figcaption {
 
 .about-images {
     margin-top: 2rem;
+   
 }
+
 
 #backtothetop-fixed {
     padding: 1.25rem;
@@ -419,8 +420,12 @@ footer {
         width: 95%;
     }
 
+    .header-right {
+        width: 100%;
+    }
+
     .header-right>img {
-        width: 85%;
+        width: 100%;
     }
 
     #button {
@@ -429,23 +434,24 @@ footer {
     }
 
     .top-container-padding {
-        padding: 2rem;
+        padding: 0rem;
         display: flex;
         flex-direction: column;
-    }
-
-    .top-container-left>figure>img {
-        width: 50%;
-        margin-top: 1rem;
-        margin-left: 0rem;
     }
 
     .top-container-padding p {
         width: 85%;
     }
 
+
     .top-container-left {
         margin-bottom: 2rem;
+    }
+
+    .top-container-left>figure>img {
+        width: 50%;
+        margin-top: 1rem;
+        margin-left: 0rem;
     }
 
     .middle-container-padding {
