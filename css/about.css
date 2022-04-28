@@ -10,11 +10,6 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-h2 {
-    font-size: 2rem;
-    margin: 0 auto 1rem;
-}
-
 #wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -89,6 +84,11 @@ header {
     background-size: cover;
     display: flex;
     justify-content: center;
+    transition: 1.4s ease-in-out;
+}
+
+header:hover {
+    background-image: url('../images/dark-eyes-blackbackground.png');
 }
 
 .heading {
@@ -110,23 +110,37 @@ h1 {
     color: red;
     font-size: 8rem;
     font-family: 'Creepster', cursive;
-
 }
 
-#top-container {
+main {
     background-color: #fff;
-    min-height: 100vh;
 }
 
 .top-container-padding {
-    padding: 2rem;
+    padding: 3rem 0;
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 3rem;
+    text-transform: capitalize;
+    width: fit-content;
+    margin: 0 auto 3rem;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: 4rem auto;
 }
 
 .keep {
     color: red;
+    width: fit-content;
     font-family: 'Creepster', cursive;
     font-size: 1.2rem;
-    margin-top: 15%;
+    margin: 50vh auto 70vh;
 }
 
 .parralex-image {
@@ -140,19 +154,68 @@ h1 {
     justify-content: center;
 }
 
+#middle-container {
+    background-color: lightblue;
+}
+
+.middle-container-padding {
+    padding: 5rem 0rem;
+}
+
+.middle-container-padding>p {
+    width: 60%;
+    margin: 1rem auto;
+    text-align: left;
+}
+
 #bottom-container {
     min-height: 600px;
-    background-color: lightblue;
+    background-color: #fff;
 }
 
 .bottom-container-padding {
     padding: 5rem 0rem;
 }
 
-.bottom-container-padding > p {
-    width: 60%;
-    margin: 1rem auto;
+.bottom-flex {
+    display: flex;
+}
+
+.fun {
+    flex-direction: column;
+    width: 50%;
+}
+
+.fun>p {
+    width: 65%;
+    margin: 0 auto;
     text-align: left;
+}
+
+.list-items {
+    margin: 1rem;
+    margin-left: 40%;
+    text-align: left;
+    width: fit-content;
+    list-style-type: disc;
+}
+
+.list-items>li {
+    text-align: left;
+}
+
+.icons {
+    width: 50%;
+}
+
+.icon-container {
+    width: 100%;
+    margin: 3rem auto;
+}
+
+.icon-container>img {
+    width: 5rem;
+    margin: 1rem 2rem;
 }
 
 footer {
@@ -228,7 +291,34 @@ footer {
     .parralex-image {
         height: 25vh;
     }
-    .bottom-container-padding > p {
+
+    .bottom-container-padding {
+        padding: 0%;
+    }
+
+    .bottom-container-padding>p {
         width: 85%;
+    }
+
+    .bottom-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fun {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .fun>p {
+        width: 85%;
+    }
+
+    .icons {
+        width: 100%;
+    }
+
+    .icons-container {
+        width: 95%;
     }
 }

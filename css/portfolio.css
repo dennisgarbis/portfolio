@@ -105,7 +105,7 @@ h1 {
 
 .subhead>h2 {
     color: rgb(0, 0, 0);
-    text-shadow: 3px 3px 15px #520303;
+    text-shadow: 3px 3px 5px #520303;
     font-size: 3.5rem;
     padding: 1rem 0;
     width: fit-content;

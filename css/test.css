@@ -442,8 +442,9 @@ footer {
 
     .moustache {
         display: inline;
-        width: 70%;
-        margin-top: 2rem;
+        width: 80%;
+        margin: 3rem auto;
+        border-radius: 50%;
     }
 
     header {
