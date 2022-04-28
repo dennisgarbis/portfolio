@@ -225,7 +225,7 @@ figcaption {
 
 .about-images {
     margin-top: 2rem;
-   
+
 }
 
 
@@ -418,6 +418,10 @@ footer {
 
     .icon-link {
         width: 95%;
+    }
+
+    .icon-link>div>a>img:hover {
+        transform: none;
     }
 
     .header-right {
