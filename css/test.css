@@ -151,6 +151,10 @@ h1 {
     transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg) scale(2.9);
 }
 
+.moustache {
+    display: none;
+}
+
 .header-right {
     background-size: 100%;
     background-position: center;
@@ -165,7 +169,7 @@ h1 {
 }
 
 .header-right:hover {
-    transform: rotateZ(10800deg) scale(.8);
+    transform: rotateZ(10800deg) scale(.85);
     background-image: url('../images/round-moustache.png');
 }
 
@@ -225,6 +229,10 @@ small {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.about-images {
+    margin-top: 2rem;
 }
 
 .read-more {
@@ -432,6 +440,12 @@ footer {
         padding: .3rem .3rem;
     }
 
+    .moustache {
+        display: inline;
+        width: 70%;
+        margin-top: 2rem;
+    }
+
     header {
         display: flex;
         flex-direction: column-reverse;
@@ -455,9 +469,18 @@ footer {
         width: 95%;
     }
 
-    .header-right>img {
-        width: 85%;
+    .icon-link>div>a>img {
+        transition: none;
     }
+
+    .icon-link>div>a>img:hover {
+        transform: none;
+    }
+
+    .header-right {
+        width: 100%;
+    }
+
 
     #button {
         display: flex;
@@ -474,8 +497,12 @@ footer {
         width: 85%;
     }
 
-    .top-container-left>img {
-        width: 50%;
+    .top-container-left {
+        margin-bottom: 2rem;
+    }
+
+    .top-container-left>figure>img {
+        width: 60%;
         margin-top: 1rem;
         margin-left: 0rem;
     }

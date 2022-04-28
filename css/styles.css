@@ -213,7 +213,7 @@ figcaption {
     font-weight: 300;
     text-decoration: none;
     margin-bottom: 3rem;
-    box-shadow: 3px 3px rgb(117, 117, 117);
+    box-shadow: 5px 5px 10px rgb(120, 120, 120);
 }
 
 .read-more:hover {
@@ -225,9 +225,7 @@ figcaption {
 
 .about-images {
     margin-top: 2rem;
-
 }
-
 
 #backtothetop-fixed {
     padding: 1.25rem;
@@ -420,6 +418,10 @@ footer {
         width: 95%;
     }
 
+    .icon-link>div>a>img {
+        transition: none;
+    }
+
     .icon-link>div>a>img:hover {
         transform: none;
     }
@@ -438,7 +440,7 @@ footer {
     }
 
     .top-container-padding {
-        padding: 0rem;
+        padding: 2rem;
         display: flex;
         flex-direction: column;
     }
@@ -447,13 +449,12 @@ footer {
         width: 85%;
     }
 
-
     .top-container-left {
         margin-bottom: 2rem;
     }
 
     .top-container-left>figure>img {
-        width: 50%;
+        width: 60%;
         margin-top: 1rem;
         margin-left: 0rem;
     }
