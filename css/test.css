@@ -151,17 +151,17 @@ h1 {
     transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg) scale(2.9);
 }
 
-.header-right  {
-        background-size: 100%;
-        background-position: center;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-image: url('../images/round-cartoon.png');
-        background-size: contain;
-        display: flex;
-        justify-content: center;
-        transition: 2s ease-in-out;
-        transform: scale(.8);
+.header-right {
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../images/round-cartoon.png');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    transition: 2s ease-in-out;
+    transform: scale(.8);
 }
 
 .header-right:hover {
@@ -215,6 +215,12 @@ figcaption {
     padding-bottom: 1rem;
 }
 
+small {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+
 .top-container-right {
     width: 100%;
     display: flex;
@@ -231,7 +237,7 @@ figcaption {
     font-weight: 300;
     text-decoration: none;
     margin-bottom: 3rem;
-    box-shadow: 3px 3px rgb(117, 117, 117);
+    box-shadow: 5px 5px 10px rgb(120, 120, 120);
 }
 
 .read-more:hover {
@@ -267,7 +273,7 @@ figcaption {
 .hr {
     border-style: none;
     border-top-style: dotted;
-    border-width: .3rem;
+    border-width: .5rem;
     width: 10vw;
     margin: 4rem auto 0;
     padding-bottom: 2rem;
@@ -344,11 +350,24 @@ figcaption {
 .project-box {
     border: thin solid black;
     background-color: #fff;
+    position: relative;
+    overflow: auto;
 }
 
 .project-box>img {
     margin: 2rem auto 1rem;
     width: 90%;
+}
+
+.project-box>img:hover {
+    transform: scale(1.05);
+    object-fit: cover;
+    transition: all 0.5s ease-in;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    opacity: 0.8;
 }
 
 .project-button {
@@ -359,13 +378,13 @@ figcaption {
     background-color: #073161;
     color: white;
     font-weight: 300;
+    transition: .7s;
     text-decoration: none;
-    box-shadow: 3px 3px rgb(117, 117, 117);
+    box-shadow: 3px 3px 5px rgb(120, 120, 120);
 }
 
 .project-button:hover {
     background-color: lightblue;
-    transition: .5s;
     color: black;
     box-shadow: none;
 }
@@ -446,19 +465,19 @@ footer {
     }
 
     .top-container-padding {
-        padding: 0;
+        padding: 2rem;
         display: flex;
         flex-direction: column;
+    }
+
+    .top-container-padding p {
+        width: 85%;
     }
 
     .top-container-left>img {
         width: 50%;
         margin-top: 1rem;
         margin-left: 0rem;
-    }
-
-    .top-container-right>p {
-        width: 85%;
     }
 
     .middle-container-padding {
