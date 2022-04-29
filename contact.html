@@ -8,8 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Creepster&family=League+Spartan:wght@800&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Creepster&family=League+Spartan:wght@800&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -42,8 +44,10 @@
             <div class="heading-left">
                 <div class="sub-heading">
                     <h2>Contact Me</h2>
-                    <p>Call me, email me, text me. Whichever way you want to reach out is fine with me. But like Nike says...<br><br>
-                    <span class="do">JUST DO IT</span></p>
+                    <p>Call me, email me, text me. Whichever way you want to reach out is fine with me. But like Nike
+                        says...<br><br>
+                        <span class="do">JUST DO IT</span>
+                    </p>
                 </div>
                 <div class="flex">
                     <form action="https://www.google.com" method="GET">
@@ -57,7 +61,7 @@
                                     </div>
                                     <div class="last-name">
                                         <label for="lname">Last Name: <span class="star">*</span></label>
-                                        <input type="text" name="lname" id="lname" required> <br>
+                                        <input type="text" name="lname" id="lname" required>
                                     </div>
                                 </div>
                                 <div class="names">
@@ -72,25 +76,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="radio-quest">
-                                <h3>How would you like me to reach back?</h3>
-                                <div>
-                                    <input type="radio" name="response" id="email-resp" required>
-                                    <label for="email-resp">email</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="response" id="phone-resp">
-                                    <label for="phone-resp">phone</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="response" id="no-resp">
-                                    <label for="no-resp">both!!</label>
-                                </div>
+                            <div class="reach-quest">
+                                <label for="reach-back">How would you like me to reach back?<span
+                                        class="star"> *</span></label><br>
+                                <select id="reach-back" required="">
+                                    <option value="">Choose..</option>
+                                    <option value="email">email</option>
+                                    <option value="phone">phone</option>
+                                    <option value="both">BOTH!!</option>
+                                </select>
                             </div>
                             <div class="text">
-                                <label class="message" for="message"> Comments:</label>
-                                <textarea name="message" id="message" rows="5">Message...
-                                </textarea>
+                                <label class="message" for="message"></label>
+                                <textarea name="message" id="message" rows="5" placeholder="Message..."></textarea>
                             </div>
                             <p class="star-req">* required</p>
                             <div>

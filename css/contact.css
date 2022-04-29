@@ -132,11 +132,6 @@ form {
     padding-top: 2rem;
 }
 
-form>h3 {
-    width: fit-content;
-    margin: 0 auto;
-}
-
 .form-input {
     width: 80%;
     margin: 1rem auto 2rem;
@@ -145,17 +140,10 @@ form>h3 {
     padding-bottom: 2rem;
 }
 
-.flex>img {
-    width: 50%;
-    height: 90%;
-    align-self: center;
-    clip-path: inset(0 5% 0 5%);
-}
-
 input {
     padding: 6px;
     font-size: .8rem;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: left;
 }
 
@@ -164,45 +152,43 @@ input:focus {
 }
 
 label {
-    width: 7rem;
-    display: inline-block;
-    text-align: right;
+    text-align: left;
     font-size: 1rem;
-    font-weight: bold;
-}
-
-.names {
-    display: flex;
-    justify-content: center;
+    font-weight: 600;
+    font-size: 1.05rem;
 }
 
 .names>div {
-    margin: 1rem;
+    margin: 2rem auto;
 }
 
-input[type="radio"] {
-    margin: auto;
-}
-
-.radio-quest label {
+.first-name, .last-name, .email-address, .phone-number {
     text-align: left;
-    width: 120px;
-    margin: 1px auto;
-}
-
-
-.text>.message {
-    margin: 0 .5rem;
-}
-
-textarea {
-    width: 40%;
-    font-size: .9rem;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .text {
-    margin: 1rem 0rem .5rem;
+    width: 100%;
+    margin: 2rem auto 0rem;
+    display: flex;
+}
+
+textarea {
+    width: 100%;
+    font-size: .9rem;
+    text-align: left;
+    align-content: baseline;
+}
+
+textarea::placeholder {
+    color: black;
+}
+
+#message {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .star {
@@ -251,6 +237,13 @@ textarea {
     letter-spacing: 2px;
     transition: .5s;
     transform: scale(1.05);
+}
+
+.flex>img {
+    width: 50%;
+    height: 90%;
+    align-self: center;
+    clip-path: inset(0 5% 0 5%);
 }
 
 footer {
@@ -319,14 +312,7 @@ footer {
 
     .flex>img {
         width: 100%;
-    }
-
-    form {
-        padding: 2rem 0;
-    }
-
-    form>h3 {
-        width: 85%;
+        clip-path: none;
     }
 
     .form-input {
@@ -334,28 +320,14 @@ footer {
     }
 
     input {
-        padding: 0;
-    }
-
-    .names {
-        flex-direction: column;
-    }
-
-    .names>div {
-        margin: 1rem 0;
+        padding: .2rem;
     }
 
     .names>div>input {
-        width: 40vw;
     }
 
-    .radio-quest>h3 {
-        width: fit-content;
-        margin: 0 auto;
-    }
+    .first-name, .last-name, .email-address, .phone-number {
 
-    .text>.message {
-        margin: 0 50% 2% 0%;
     }
 
     textarea {
@@ -363,7 +335,7 @@ footer {
     }
 
     .star-req {
-        margin-right: 15%;
+        margin-right: 20%;
     }
 
     #button {
@@ -371,7 +343,4 @@ footer {
         flex-direction: column;
     }
 
-    .middle-container-padding {
-        padding: 0;
-    }
 }

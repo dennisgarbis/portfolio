@@ -132,7 +132,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     width: fit-content;
-    margin: 4rem auto;
+    margin: 30vh auto;
 }
 
 .keep {
@@ -182,27 +182,20 @@ figcaption {
     font-weight: bold;
 }
 
-.icons {
-    width: 60%;
-    margin: 0 auto;
-}
-
 .icon-container {
     display: flex;
+    width: 55%;
+    margin: 0 auto;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.icon-container > figure {
-    margin: .75rem;
+.icon-container>figure {
+    margin: .75rem 0;
 }
 
 .icon-container>figure>img {
-    margin: 4rem auto;
-}
-
-.icon-container>figure>img {
-    width: 5rem;
+    width: 4rem;
     margin: 2rem 4rem;
 }
 
@@ -271,12 +264,12 @@ footer {
     }
 
     .top-container-padding {
-        padding: 0;
+        padding: 2rem .2rem;
         display: flex;
         flex-direction: column;
     }
 
-    .middle-container-padding > p {
+    .middle-container-padding>p {
         width: 85%;
     }
 
@@ -288,25 +281,11 @@ footer {
         padding: 0%;
     }
 
-    .bottom-container-padding > h2 {
+    .bottom-container-padding>h2 {
         padding: 2rem 0 0;
     }
 
     .bottom-container-padding>p {
-        width: 85%;
-    }
-
-    .bottom-flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fun {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .fun>p {
         width: 85%;
     }
 
@@ -315,10 +294,17 @@ footer {
     }
 
     .icon-container {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
         padding-bottom: 2rem;
     }
 
-    .icons-container > figure {
-        flex-direction: column;
+    .icon-container>figure>img {
+        width: 3rem;
+        margin: 2rem 3.5rem;
+        flex-wrap: wrap;
     }
 }

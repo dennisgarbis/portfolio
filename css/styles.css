@@ -114,6 +114,7 @@ h1 {
 
 #contact-button {
     background-color: lightblue;
+    box-shadow: 2px 2px darkred;
     color: black;
     text-decoration: none;
     padding: .5rem 3rem;
@@ -124,6 +125,7 @@ h1 {
 
 #resume-button {
     background-color: lightblue;
+    box-shadow: 2px 2px darkred;
     color: black;
     text-decoration: none;
     padding: .5rem 3rem;
@@ -134,6 +136,7 @@ h1 {
 
 #button a:hover {
     background-color: #1e146b;
+    box-shadow: none;
     color: #fff;
 }
 
@@ -233,7 +236,7 @@ figcaption {
     padding: 1.25rem;
     border: 0;
     border-radius: 20px;
-    background-color: #1e146b;
+    background-color: #1e146bb4;
     color: #fff;
     cursor: pointer;
     text-decoration: none;
@@ -241,7 +244,7 @@ figcaption {
 }
 
 #backtothetop-fixed:hover {
-    background-color: #1e146bc8;
+    background-color: #1e146b;
     transform: translate(0%, 0%) scale(1.05);
     transition-duration: .4s;
     transition-timing-function: ease-in-out;
@@ -328,11 +331,24 @@ figcaption {
 .project-box {
     border: thin solid black;
     background-color: #fff;
+    position: relative;
+    overflow: auto;
 }
 
 .project-box>img {
     margin: 2rem auto 1rem;
     width: 90%;
+}
+
+.project-box>img:hover {
+    transform: scale(1.05);
+    object-fit: cover;
+    transition: all 0.5s ease-in;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    opacity: 0.8;
 }
 
 .project-button {
@@ -490,5 +506,16 @@ footer {
     #project-list-flex {
         flex-direction: column;
         width: 90%;
+    }
+
+    .project-box>img:hover {
+        transform: none;
+        object-fit: contain;
+        transition: none;
+        transition-property: all;
+        transition-duration: none;
+        transition-timing-function: none;
+        transition-delay: none;
+        opacity: 1;
     }
 }
