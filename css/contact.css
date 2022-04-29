@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    line-height: 1.5;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -310,6 +311,11 @@ footer {
         flex-direction: column-reverse;
     }
 
+    h3 {
+        width: 70%;
+        margin: 0 auto;
+    }
+
     .flex>img {
         width: 100%;
         clip-path: none;
@@ -323,12 +329,9 @@ footer {
         padding: .2rem;
     }
 
-    .names>div>input {
-    }
-
-    .first-name, .last-name, .email-address, .phone-number {
-
-    }
+.names > div {
+    width: 70%;
+}
 
     textarea {
         width: 70%;

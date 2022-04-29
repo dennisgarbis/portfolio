@@ -2,13 +2,21 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0;
+    line-height: 1.5;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeSpeed;
+
 }
+
+html:focus-within {
+    scroll-behavior: smooth;
+  }
 
 body {
     background-color: #000;
 }
+
 
 #wrapper {
     margin-left: auto;
