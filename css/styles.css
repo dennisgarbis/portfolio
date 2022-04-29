@@ -11,7 +11,7 @@
 
 html:focus-within {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     background-color: #000;
@@ -183,8 +183,30 @@ h2 {
     background-color: #fff;
 }
 
+.quick-nav {
+    padding-top: 2rem;
+    display: flex;
+    margin-left: 5vw;
+}
+
+.quick-nav li a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 2rem;
+}
+
+.quick-nav li a:visited {
+    color: blue;
+}
+
+.quick-nav li a:hover {
+    text-decoration: underline;
+    color: darkred;
+    font-weight: 600;
+}
+
 .top-container-padding {
-    padding: 5rem;
+    padding: 3rem 5rem 5rem;
     display: flex;
     flex-direction: row;
 }
@@ -406,7 +428,7 @@ footer {
     nav li a {
         text-decoration: none;
         color: white;
-        margin: 0 5px;
+        margin: 0 2px;
         padding: .3rem .3rem;
         font-size: .8rem;
     }
