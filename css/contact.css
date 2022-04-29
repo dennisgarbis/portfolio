@@ -123,10 +123,10 @@ h2 {
 
 .flex {
     display: flex;
+    background-color: lightblue;
 }
 
 form {
-    border: thin solid black;
     width: 100%;
     margin: 0 auto;
     padding-top: 2rem;
@@ -140,7 +140,6 @@ form>h3 {
 .form-input {
     width: 80%;
     margin: 1rem auto 2rem;
-    border: thin solid black;
     background-color: lightblue;
     padding-top: .8rem;
     padding-bottom: 2rem;
@@ -148,6 +147,9 @@ form>h3 {
 
 .flex>img {
     width: 50%;
+    height: 90%;
+    align-self: center;
+    clip-path: inset(0 5% 0 5%);
 }
 
 input {
@@ -190,7 +192,7 @@ input[type="radio"] {
 
 
 .text>.message {
-    margin: 0 30% 2% 0%;
+    margin: 0 .5rem;
 }
 
 textarea {
