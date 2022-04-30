@@ -20,6 +20,23 @@ main {
     margin-right: auto;
 }
 
+.skip-link {
+    position: absolute;
+    color: #000;
+    background-color: pink;
+    text-decoration: none;
+    padding: .3rem .8rem;
+    border-radius: 15px;
+    left: 5%;
+    transform: translateY(-300%);
+    transition: transform 300ms ease-in;
+    z-index: 9999;
+}
+
+.skip-link:focus {
+    transform: translateY(250%);
+}
+
 nav {
     display: flex;
     margin-top: 5vh;

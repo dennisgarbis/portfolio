@@ -9,7 +9,7 @@
 
 }
 
-html:focus-within {
+html {
     scroll-behavior: smooth;
 }
 
@@ -21,6 +21,23 @@ body {
 #wrapper {
     margin-left: auto;
     margin-right: auto;
+}
+
+.skip-link {
+    position: absolute;
+    color: #000;
+    background-color: pink;
+    text-decoration: none;
+    padding: .3rem .8rem;
+    border-radius: 15px;
+    left: 5%;
+    transform: translateY(-300%);
+    transition: transform 300ms ease-in;
+    z-index: 9999;
+}
+
+.skip-link:focus {
+    transform: translateY(250%);
 }
 
 nav {
@@ -128,7 +145,7 @@ h1 {
     padding: .5rem 3rem;
     border-radius: 30px;
     margin: 10px;
-    transition: all .5s ease-in;
+    transition: all .3s ease-in;
 }
 
 #resume-button {
@@ -139,7 +156,7 @@ h1 {
     padding: .5rem 3rem;
     border-radius: 30px;
     margin: 10px;
-    transition: all .5s ease-in;
+    transition: all .3s ease-in;
 }
 
 #button a:hover {
@@ -183,30 +200,23 @@ h2 {
     background-color: #fff;
 }
 
-.quick-nav {
-    padding-top: 2rem;
+.top-container-padding {
+    padding: 3rem 5rem 5rem;
     display: flex;
-    margin-left: 5vw;
+    flex-direction: row;
 }
 
-.quick-nav li a {
-    text-decoration: none;
-    letter-spacing: 1px;
-    margin: 2rem;
+.orleans {
+    transition: .1s ease-in;
 }
 
-.quick-nav li a:visited {
-    color: blue;
-}
-
-.quick-nav li a:hover {
-    text-decoration: underline;
-    color: darkred;
-    font-weight: 600;
+.orleans:hover {
+    transform: rotateZ(5deg);
+    box-shadow: 8px 8px 10px rgb(120, 120, 120);
 }
 
 .top-container-padding {
-    padding: 3rem 5rem 5rem;
+    padding: 5rem;
     display: flex;
     flex-direction: row;
 }
@@ -238,6 +248,10 @@ figcaption {
     flex-direction: column;
 }
 
+.top-container-right > p {
+    font-style: italic;
+}
+
 .read-more {
     margin: 0% auto;
     width: fit-content;
@@ -252,9 +266,8 @@ figcaption {
 }
 
 .read-more:hover {
-    background-color: lightblue;
+    background-color: #0e4787;
     transition: .5s;
-    color: black;
     box-shadow: none;
 }
 

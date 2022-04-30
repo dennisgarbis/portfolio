@@ -22,6 +22,7 @@
 
 <body>
     <div id="wrapper">
+        <a href="#main" class="skip-link">Skip to main content</a>
         <nav>
             <div id="logo">
                 <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
@@ -40,7 +41,7 @@
                 <h1>LETS CONNECT</h1>
             </div>
         </header> <!-- end hero image-->
-        <main>
+        <main id="main">
             <div class="heading-left">
                 <div class="sub-heading">
                     <h2>Contact Me</h2>
@@ -77,8 +78,8 @@
                                 </div>
                             </div>
                             <div class="reach-quest">
-                                <label for="reach-back">How would you like me to reach back?<span
-                                        class="star"> *</span></label><br>
+                                <label for="reach-back">How would you like me to reach back?<span class="star"></span>
+                                        *</span></label><br>
                                 <select id="reach-back" required="">
                                     <option value="">Choose..</option>
                                     <option value="email">email</option>
@@ -87,7 +88,7 @@
                                 </select>
                             </div>
                             <div class="text">
-                                <label class="message" for="message"></label>
+                                <label class="message" for="message"> </label>
                                 <textarea name="message" id="message" rows="5" placeholder="Message..."></textarea>
                             </div>
                             <p class="star-req">* required</p>

@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #333939;
 }
@@ -14,6 +18,23 @@ body {
 #wrapper {
     margin-left: auto;
     margin-right: auto;
+}
+
+.skip-link {
+    position: absolute;
+    color: #000;
+    background-color: pink;
+    text-decoration: none;
+    padding: .3rem .8rem;
+    border-radius: 15px;
+    left: 5%;
+    transform: translateY(-300%);
+    transition: transform 300ms ease-in;
+    z-index: 9999;
+}
+
+.skip-link:focus {
+    transform: translateY(250%);
 }
 
 nav {
@@ -109,7 +130,7 @@ main {
 
 h2 {
     font-size: 3rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .sub-heading>p {
@@ -329,9 +350,9 @@ footer {
         padding: .2rem;
     }
 
-.names > div {
-    width: 70%;
-}
+    .names>div {
+        width: 70%;
+    }
 
     textarea {
         width: 70%;

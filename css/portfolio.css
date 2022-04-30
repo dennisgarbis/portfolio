@@ -16,6 +16,23 @@ body {
     margin-right: auto;
 }
 
+.skip-link {
+    position: absolute;
+    color: #000;
+    background-color: pink;
+    text-decoration: none;
+    padding: .3rem .8rem;
+    border-radius: 15px;
+    left: 5%;
+    transform: translateY(-300%);
+    transition: transform 300ms ease-in;
+    z-index: 9999;
+}
+
+.skip-link:focus {
+    transform: translateY(250%);
+}
+
 nav {
     display: flex;
     margin-top: 5vh;
@@ -116,8 +133,28 @@ h1 {
 .intro-p {
     width: 50%;
     margin: 0 auto;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
+
+#backtothetop-fixed {
+    padding: 1.25rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: #1e146bb4;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5vw;
+}
+
+#backtothetop-fixed:hover {
+    background-color: #1e146b;
+    transform: translate(0%, 0%) scale(1.05);
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
 
 .dionysus-div {
     display: flex;
@@ -140,7 +177,8 @@ h1 {
 }
 
 .dionysus-left>p {
-    width: 50%;
+    width: 60%;
+    text-align: left;
     margin: 2rem auto;
 }
 
@@ -270,7 +308,7 @@ h1 {
     background-position: center;
     width: 100%;
     height: 55vh;
-    background-image: url('../images/waves.jpg');
+    background-image: url('../images/overhead-computer.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -280,7 +318,7 @@ h1 {
 .parralex-image>h2 {
     font-size: 4rem;
     color: white;
-    text-shadow: 3px 3px red;
+    text-shadow: 3px 3px rgb(0, 0, 0);
     position: relative;
     top: 25vh;
 }
