@@ -153,6 +153,25 @@ h3 {
     margin: 30vh auto;
 }
 
+#backtothetop-fixed {
+    padding: 1.25rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: #1e146bb4;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5vw;
+}
+
+#backtothetop-fixed:hover {
+    background-color: #1e146b;
+    transform: translate(0%, 0%) scale(1.05);
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
 .keep {
     color: red;
     width: fit-content;

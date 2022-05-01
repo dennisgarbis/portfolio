@@ -6,7 +6,6 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     text-rendering: optimizeSpeed;
-
 }
 
 html {
@@ -16,7 +15,6 @@ html {
 body {
     background-color: #000;
 }
-
 
 #wrapper {
     margin-left: auto;
@@ -181,13 +179,26 @@ h1 {
     transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg) scale(2.9);
 }
 
-.header-right {
-    width: 100%;
-    padding: 3rem;
+.moustache {
+    display: none;
 }
 
-.header-right>img {
-    border-radius: 50%;
+.header-right {
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../images/round-cartoon.png');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    transition: 2s ease-in-out;
+    transform: scale(.8);
+}
+
+.header-right:hover {
+    transform: rotateZ(10800deg) scale(.85);
+    background-image: url('../images/round-moustache.png');
 }
 
 h2 {
@@ -207,12 +218,13 @@ h2 {
 }
 
 .orleans {
-    transition: .1s ease-in;
+    transition: .5s ease-in-out;
+    box-shadow: 7px 7px 5px rgb(120, 120, 120);
 }
 
 .orleans:hover {
-    transform: rotateZ(5deg);
-    box-shadow: 8px 8px 10px rgb(120, 120, 120);
+    transform: rotateZ(3deg);
+    box-shadow: 4px 4px 8px rgb(120, 120, 120);
 }
 
 .top-container-padding {
@@ -262,12 +274,12 @@ figcaption {
     font-weight: 300;
     text-decoration: none;
     margin-bottom: 3rem;
+    transition: .5s;
     box-shadow: 5px 5px 10px rgb(120, 120, 120);
 }
 
 .read-more:hover {
     background-color: #0e4787;
-    transition: .5s;
     box-shadow: none;
 }
 
@@ -374,28 +386,27 @@ figcaption {
 .project-box {
     border: thin solid black;
     background-color: #fff;
-    position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
 
-.project-box>img {
-    margin: 2rem auto 1rem;
-    width: 90%;
+.project-image {
+    margin: 2rem auto 2rem;
+    width: 95%;
+    transition: transform 700ms, opacity 300ms linear;
 }
 
-.project-box>img:hover {
-    transform: scale(1.05);
-    object-fit: cover;
-    transition: all 0.5s ease-in;
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
-    opacity: 0.8;
+.project-image:hover {
+    transform: scale(1.2);
+    opacity: .8;
+}
+
+.project-item:focus .project-image {
+    transform: scale(1.2);
+    opacity: .8;
 }
 
 .project-button {
-    margin: 0% auto;
+    margin: 0 auto;
     width: fit-content;
     padding: .5rem .8rem;
     border-radius: 10px;
@@ -414,7 +425,7 @@ figcaption {
 }
 
 .project-box>p {
-    margin: auto;
+    margin: 1rem auto;
     padding: 1rem;
     text-align: left;
 }
