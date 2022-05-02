@@ -113,36 +113,34 @@ header {
 }
 
 h1 {
-    font-family: spartan;
+    font-family: "League Spartan";
     font-size: 4rem;
     color: white;
-    background-color: rgba(0, 0, 0, 0.028);
-
+    background-color: rgba(0, 0, 0, 0.012);
     text-shadow: 2px 2px black;
 }
 
 .tavern {
-    font-family: Spartan;
+    font-family: "League Spartan";
     font-size: 3rem;
     color: white;
     text-shadow: 2px 2px black;
-    background-color: rgba(0, 0, 0, 0.028);
-
+    background-color: rgba(0, 0, 0, 0.012);
 }
 
 .top-container {
-    padding: 2rem 0 6rem;
+    padding: 2rem 0 4rem;
 }
 
 .top-container>h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: fit-content;
     margin: 0 auto;
 }
 
 .top-container>p {
-    width: 60%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 1rem auto;
 }
 
 .middle-flex {
@@ -159,7 +157,7 @@ h1 {
 }
 
 .middle-left>h2 {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     width: fit-content;
     margin: 0 auto 2rem;
 }
@@ -178,35 +176,31 @@ h1 {
 .middle-right {
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 3rem;
 }
 
-.middle-right img {
-    width: 35%;
+.middle-right-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screenshots, .screenshots-bottom {
+    width: 30%;
     margin: 1.3rem 3.5rem;
 }
 
-.image-top, .image-bottom {
+.image-container {
     background-color: rgba(204, 204, 204, 0.382);
+    margin: 2rem 5rem;
 }
 
-.image-top {
-    width: 85%;
-    margin: 0 auto;
-}
-
-.image-bottom {
-    width: 85%;
-    margin: 0 auto;
+.bottom-container {
+    min-height: 90vh;
 }
 
 .bottom-container>h2 {
     font-size: 2.5rem;
-    padding-top: 2rem;
-}
-
-.bottom-container>p {
-    width: 65%;
+    padding: 5rem 0;
+    width: fit-content;
     margin: 0 auto;
 }
 
@@ -216,31 +210,33 @@ h1 {
 
 .bottom-left {
     width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
-.dionysus-logo {
-    width: 40%;
-    margin: 0 auto;
-}
-
-.wireframe {
-    width: 40%;
-    margin: 0 auto;
+.logo-container {
+    background-color: rgba(204, 204, 204, 0.382);
+    margin: 2rem 5rem;
 }
 
 .bottom-right {
+    width: 100%;
+    padding: 0rem 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     align-self: center;
 }
 
 .bottom-right>h3 {
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 .bottom-right>p {
     width: 60%;
-    margin: 2rem auto;
+    text-align: left;
+    margin: 1rem auto;
 }
 
 /* .parralex-image {
@@ -315,7 +311,11 @@ h1 {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+
+    .tavern {
+        font-size: 2.5rem;
     }
 
     .top-container>p {
@@ -323,9 +323,12 @@ h1 {
         text-align: left;
     }
 
-
     .middle-flex {
         flex-direction: column;
+    }
+
+    .middle-left {
+        padding: 0;
     }
 
     .middle-left>p {
@@ -337,41 +340,45 @@ h1 {
         padding-bottom: 2rem;
     }
 
-    .image-top {
+    .image-container {
         width: 95%;
-        padding-bottom: 1rem;
+        margin: 1rem;
     }
 
-    .image-bottom {
-        width: 95%;
-        padding-top: 1rem;
+    .bottom-container-flex {
+        flex-direction: column-reverse;
     }
 
-    .image-top>img {
+
+    .screenshots, .screenshots-bottom {
         width: 30%;
-        margin: 0 .8rem;
-    }
-
-    .image-bottom>img {
-        width: 30%;
-        margin: 0 .8rem;
+        margin: 2rem;
     }
 
     .bottom-container>p {
         width: 85%;
         text-align: left;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
 
-    .bottom-container-flex {
-        flex-direction: column;
+    .logo-container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding:1rem;
     }
 
-    .bottom-right > h3 {
+    .screenshots-bottom {
+        margin: 0 2rem;
+    }
+
+    .bottom-right>h3 {
         padding-top: 2rem;
     }
 
-    .bottom-right > p {
+    .bottom-right>p {
         width: 85%;
         text-align: left;
     }
