@@ -20,6 +20,10 @@ main {
     margin-right: auto;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
 .skip-link {
     position: absolute;
     color: #000;
@@ -132,7 +136,6 @@ h1 {
 }
 
 .top-container>h2 {
-    font-size: 2.5rem;
     width: fit-content;
     margin: 0 auto;
 }
@@ -156,7 +159,6 @@ h1 {
 }
 
 .middle-left>h2 {
-    font-size: 2.5rem;
     width: fit-content;
     margin: 0 auto 2rem;
 }
@@ -205,7 +207,7 @@ h1 {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 100px;
+    padding-top: 10vh;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -232,12 +234,14 @@ h1 {
 /* Caption of Modal Image */
 #caption {
     margin: auto;
+    font-size: 1.2rem;
     display: block;
     width: 80%;
     max-width: 700px;
     text-align: center;
     color: #ccc;
-    padding: 10px 0;
+    text-transform: capitalize;
+    padding: .8rem 0;
     height: fit-content;
 }
 
@@ -249,22 +253,19 @@ h1 {
     animation-duration: 0.6s;
 }
 
-@-webkit-keyframes zoom {
-    from {
-        -webkit-transform: scale(0)
-    }
-
-    to {
-        -webkit-transform: scale(1)
-    }
-}
-
 @keyframes zoom {
-    from {
+    0% {
         transform: scale(0)
     }
 
-    to {
+    25% {
+        transform: scale(1.5)
+    }
+    
+    60% {
+        transform: scale(.2)
+    }
+    100% {
         transform: scale(1)
     }
 }
@@ -297,7 +298,6 @@ h1 {
 }
 
 .bottom-container>h2 {
-    font-size: 2.5rem;
     padding: 5rem 0;
     width: fit-content;
     margin: 0 auto;
@@ -350,11 +350,14 @@ h1 {
 } */
 
 .parralex-image>h2 {
-    font-size: 4rem;
     color: white;
     text-shadow: 3px 3px red;
     position: relative;
     top: 25vh;
+}
+
+.finished {
+    min-height: 90vh;
 }
 
 footer {
