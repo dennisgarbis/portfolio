@@ -45,7 +45,7 @@ nav {
     top: 0;
     align-items: center;
     min-height: 2rem;
-    z-index: 99;
+    z-index: 1;
 }
 
 #logo {
@@ -182,9 +182,109 @@ h1 {
     flex-wrap: wrap;
 }
 
-.screenshots, .screenshots-bottom {
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
     width: 30%;
     margin: 1.3rem 3.5rem;
+}
+
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.image-container>img:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.845);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 70%;
+    max-width: 30vw;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: fit-content;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .image-container {
@@ -348,9 +448,15 @@ footer {
         flex-direction: column-reverse;
     }
 
-    .screenshots, .screenshots-bottom {
+    #myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
         width: 30%;
         margin: 1.5rem;
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        max-width: 90vw;
     }
 
     .bottom-container>h2 {
@@ -372,7 +478,7 @@ footer {
         padding: 1rem;
     }
 
-    .screenshots-bottom {
+    .logo-container > img {
         margin: 0 2rem;
     }
 
