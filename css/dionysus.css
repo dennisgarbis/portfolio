@@ -130,17 +130,17 @@ h1 {
 
 }
 
-.top-container  {
-padding: 2rem 0 6rem;
+.top-container {
+    padding: 2rem 0 6rem;
 }
 
-.top-container > h2 {
+.top-container>h2 {
     font-size: 3rem;
     width: fit-content;
     margin: 0 auto;
 }
 
-.top-container > p {
+.top-container>p {
     width: 60%;
     margin: 0 auto;
 }
@@ -154,38 +154,38 @@ padding: 2rem 0 6rem;
     padding: 0rem 2rem;
     margin: 0 auto;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-self: center;
 }
 
-.middle-left > h2 {
+.middle-left>h2 {
     font-size: 2.4rem;
     width: fit-content;
-    margin: 0 auto 4rem;
+    margin: 0 auto 2rem;
 }
 
-.middle-left > p {
+.middle-left>p {
     width: 50%;
     margin: 0 auto 2rem;
     text-align: left;
 }
 
-.middle-left > ul {
+.middle-left>ul {
     width: fit-content;
     margin: .5rem auto;
 }
 
 .middle-right {
-    display: flex;
     width: 100%;
-    padding: 0rem 2rem;
     margin: 0 auto;
+    padding-bottom: 3rem;
 }
 
-.middle-right  img {
+.middle-right img {
     width: 35%;
     margin: 1.3rem 3.5rem;
 }
+
 .image-top, .image-bottom {
     background-color: rgba(204, 204, 204, 0.382);
 }
@@ -200,11 +200,48 @@ padding: 2rem 0 6rem;
     margin: 0 auto;
 }
 
+.bottom-container>h2 {
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
 
+.bottom-container>p {
+    width: 65%;
+    margin: 0 auto;
+}
 
+.bottom-container-flex {
+    display: flex;
+}
 
+.bottom-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
+.dionysus-logo {
+    width: 40%;
+    margin: 0 auto;
+}
 
+.wireframe {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.bottom-right {
+    align-self: center;
+}
+
+.bottom-right>h3 {
+    font-size: 2.4rem;
+}
+
+.bottom-right>p {
+    width: 60%;
+    margin: 2rem auto;
+}
 
 /* .parralex-image {
     background-position: center;
@@ -223,9 +260,9 @@ padding: 2rem 0 6rem;
     text-shadow: 3px 3px red;
     position: relative;
     top: 25vh;
-} */
+}
 
-footer {
+*/ footer {
     background-color: #000;
     color: #fff;
     padding: 1.2rem;
@@ -280,7 +317,68 @@ footer {
     h1 {
         font-size: 2rem;
     }
-/* 
+
+    .top-container>p {
+        width: 85%;
+        text-align: left;
+    }
+
+
+    .middle-flex {
+        flex-direction: column;
+    }
+
+    .middle-left>p {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .middle-left>ul {
+        padding-bottom: 2rem;
+    }
+
+    .image-top {
+        width: 95%;
+        padding-bottom: 1rem;
+    }
+
+    .image-bottom {
+        width: 95%;
+        padding-top: 1rem;
+    }
+
+    .image-top>img {
+        width: 30%;
+        margin: 0 .8rem;
+    }
+
+    .image-bottom>img {
+        width: 30%;
+        margin: 0 .8rem;
+    }
+
+    .bottom-container>p {
+        width: 85%;
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+
+    .bottom-container-flex {
+        flex-direction: column;
+    }
+
+    .bottom-right > h3 {
+        padding-top: 2rem;
+    }
+
+    .bottom-right > p {
+        width: 85%;
+        text-align: left;
+    }
+
+
+
+    /* 
     .parralex-image {
         background-position: center;
         width: 100%;
