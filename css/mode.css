@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #E3FDFE;
+    background-color: #192221;
 }
 
 main {
@@ -112,7 +112,7 @@ header {
     background-position: center;
     width: 100%;
     height: 85vh;
-    background-image: url('../images/patio-sea.webp');
+    background-image: url('../images/mode.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -175,17 +175,6 @@ h1 {
     text-align: left;
 }
 
-.middle-left a {
-    text-decoration: none;
-    color: blue;
-    font-weight: 600;
-}
-
-.middle-left a:hover {
-    text-decoration: underline;
-    color: rgba(0, 0, 255, 0.742);
-}
-
 .middle-left>ul {
     width: fit-content;
     margin: .5rem auto;
@@ -206,7 +195,7 @@ h1 {
 }
 
 #myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg {
-    width: 30%;
+    width: 20%;
     margin: 1.3rem 3.5rem;
 }
 
@@ -528,7 +517,7 @@ footer {
         background-position: center;
         width: 100%;
         height: 33vh;
-        background-image: url('../images/patio-sea.jpg');
+        background-image: url('../images/mode.jpg');
         background-size: cover;
         display: flex;
         justify-content: center;
