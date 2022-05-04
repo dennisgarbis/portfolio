@@ -183,19 +183,19 @@ h1 {
     flex-wrap: wrap;
 }
 
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg {
     width: 30%;
     margin: 1.3rem 3.5rem;
 }
 
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.image-container>img:hover {
-    opacity: 0.7;
+img:hover {
+    opacity: .7;
 }
 
 /* The Modal (background) */
@@ -232,13 +232,14 @@ h1 {
 
 /* Caption of Modal Image */
 #caption {
-    margin: auto;
+    margin: .8rem auto;
     font-size: 1.2rem;
     display: block;
-    width: 80%;
+    width: 50%;
     max-width: 700px;
     text-align: center;
-    color: #ccc;
+    background-color: #1e146b;
+    color: rgb(255, 255, 255);
     text-transform: capitalize;
     padding: .8rem 0;
     height: fit-content;
@@ -246,8 +247,6 @@ h1 {
 
 /* Add Animation */
 .modal-content, #caption {
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -257,12 +256,8 @@ h1 {
         transform: scale(0)
     }
 
-    25% {
-        transform: scale(1.5)
-    }
-
-    60% {
-        transform: scale(.2)
+    50% {
+        transform: scale(1.2)
     }
 
     100% {
@@ -274,7 +269,7 @@ h1 {
 .close {
     position: absolute;
     top: 15px;
-    right: 35px;
+    right: 20%;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
@@ -283,9 +278,28 @@ h1 {
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: rgb(163, 163, 163);
     text-decoration: none;
     cursor: pointer;
+}
+
+#backtothetop-fixed {
+    padding: 1.25rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: #1e146bb4;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5vw;
+}
+
+#backtothetop-fixed:hover {
+    background-color: #1e146b;
+    transform: translate(0%, 0%) scale(1.05);
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 
 .image-container {
@@ -426,9 +440,20 @@ figcaption {
 }
 
 .finished>h2 {
-    padding: 5rem 0;
+    padding: 5rem 0 2rem;
     width: fit-content;
     margin: 0 auto;
+}
+
+.finished>p {
+    width: 60%;
+    margin: 0 auto 2rem;
+}
+
+.finished img {
+    vertical-align: top;
+    width: 60%;
+    margin: 0 auto 3rem;
 }
 
 footer {
@@ -516,6 +541,10 @@ footer {
     .image-container {
         width: 95%;
         margin: 1rem;
+    }
+
+    .close {
+        right: 5%;
     }
 
     .bottom-container-flex {

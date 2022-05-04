@@ -50,6 +50,22 @@ img.onclick = function () {
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
+var img = document.getElementById("myImg7");
+var modalImg7 = document.getElementById("img07");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var img = document.getElementById("myImg8");
+var modalImg8 = document.getElementById("img08");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
 
 
 
@@ -63,6 +79,11 @@ img.onclick = function () {
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+    modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
