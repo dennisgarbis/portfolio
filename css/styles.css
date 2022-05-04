@@ -132,33 +132,16 @@ h1 {
 
 #button {
     margin: 2rem auto;
-    width: fit-content;
-    padding: 2rem;
+
 }
 
-#contact-button {
+#button a {
     background-color: lightblue;
     box-shadow: 2px 2px darkred;
     color: black;
     text-decoration: none;
     padding: .5rem 3rem;
-    border-radius: 30px;
-    margin: 10px;
-    transition: all .3s ease-in;
-}
-
-#button > a {
-    font-size: 1rem;
-    margin: 1.2rem 0;
-}
-
-#resume-button {
-    background-color: lightblue;
-    box-shadow: 2px 2px darkred;
-    color: black;
-    text-decoration: none;
-    padding: .5rem 3rem;
-    border-radius: 30px;
+    border-radius: 10px;
     margin: 10px;
     transition: all .3s ease-in;
 }
@@ -452,10 +435,11 @@ figcaption {
 }
 
 .project-item {
-display: block;}
+    display: block;
+}
 
 .project-image:hover {
-    transform: scale(1.1); 
+    transform: scale(1.05);
     opacity: .8;
 }
 
@@ -526,6 +510,13 @@ footer {
         padding: .3rem .3rem;
     }
 
+    .moustache {
+        display: inline;
+        width: 80%;
+        margin: 3rem auto;
+        border-radius: 50%;
+    }
+
     header {
         display: flex;
         flex-direction: column-reverse;
@@ -568,10 +559,6 @@ footer {
     #button {
         display: flex;
         flex-direction: column;
-    }
-
-    #button > a {
-        font-size: .8rem;
     }
 
     .top-container-padding {

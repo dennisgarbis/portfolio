@@ -61,12 +61,19 @@ nav {
     margin: 0;
 }
 
+img {
+    border: thin solid black;
+}
+
 #logo>a>img {
     width: 5vw;
     vertical-align: top;
     border-radius: 30%;
     padding: 10px;
+    border: none;
 }
+
+
 
 .nav-bar {
     width: 100%;
@@ -198,13 +205,18 @@ h1 {
     transition: 0.3s;
 }
 
-.image-container > img:hover {
+#myImg5 {
+    border: none;
+}
+
+.image-container>img:hover {
     opacity: .7;
 }
 
 .bottom-container img:hover {
     opacity: .7;
 }
+
 /* The Modal (background) */
 .modal {
     display: none;
@@ -637,11 +649,11 @@ footer {
         width: 80%;
     }
 
-    .finished > p {
+    .finished>p {
         width: 85%;
         text-align: left;
     }
-    
+
     /* 
     .parralex-image {
         background-position: center;
