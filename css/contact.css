@@ -114,7 +114,7 @@ header {
 
 h1 {
     font-family: 'Comfortaa', cursive;
-    font-size: 4rem;
+    font-size: 5.5rem;
     color: lightblue;
     background-color: rgba(0, 0, 0, 0.028);
     text-shadow: 2px 2px darkred;
@@ -321,7 +321,7 @@ footer {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .sub-heading>p {

@@ -119,12 +119,12 @@ h1 {
     color: lightblue;
     text-shadow: 2px 2px darkred;
     font-family: 'Comfortaa', cursive;
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     margin: 5rem auto 2rem;
 }
 
 .header-left>p {
-    width: 60%;
+    width: 50%;
     margin: 0 auto 1rem;
     color: #fff;
     text-align: left;
@@ -132,7 +132,6 @@ h1 {
 
 #button {
     margin: 2rem auto;
-
 }
 
 #button a {
@@ -529,11 +528,12 @@ footer {
     }
 
     h1 {
+        font-size: 3.5rem;
         margin-top: 1rem;
     }
 
     .header-left>p {
-        width: 85%;
+        width: 90%;
     }
 
     .icon-link {
