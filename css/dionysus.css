@@ -73,8 +73,6 @@ img {
     border: none;
 }
 
-
-
 .nav-bar {
     width: 100%;
     align-content: flex-end;
@@ -205,7 +203,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg {
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
     width: 30%;
     margin: 1.3rem 3.5rem;
 }
@@ -256,8 +254,7 @@ h1 {
 .modal-content {
     margin: auto;
     display: block;
-    width: 70%;
-    max-width: 30vw;
+    height: 80vh;
 }
 
 /* Caption of Modal Image */
@@ -268,7 +265,6 @@ h1 {
     width: 50%;
     max-width: 700px;
     text-align: center;
-    background-color: #1e146b;
     color: rgb(255, 255, 255);
     text-transform: capitalize;
     padding: .8rem 0;
@@ -543,8 +539,6 @@ figcaption {
     top: 25vh;
 }
 
-
-
 footer {
     background-color: #000;
     color: #fff;
@@ -652,7 +646,8 @@ footer {
     .modal-content {
         margin: auto;
         display: block;
-        max-width: 90vw;
+        height: 50vh;
+        max-width: 55vh;
     }
 
     .bottom-container>h2 {
