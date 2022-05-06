@@ -24,14 +24,20 @@
 
 <body>
     <div id="wrapper">
-        <nav>
+        <nav role="navigation">
             <div id="logo">
                 <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
             </div>
             <div class="nav-bar">
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="portfolio.html" class="sub">Portfolio▾</a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a href="dionysus.html">Dionysus</a></li>
+                            <li><a href="mode.html">Mode</a></li>
+                            <li><a href="construction.html">25 West</a></li>
+                        </ul>
+                    </li>
                     <li><a id="active">Test</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="about.html">About</a></li>

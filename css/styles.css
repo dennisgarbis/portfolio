@@ -5,7 +5,6 @@
     line-height: 1.5;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    text-rendering: optimizeSpeed;
 }
 
 html {
@@ -75,14 +74,14 @@ nav {
     display: flex;
     list-style: none;
     font-weight: bold;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin-left: 10%;
 }
 
 nav li a {
     text-decoration: none;
     color: white;
     letter-spacing: 1px;
-    margin-right: 10vw;
     padding: .5rem 1.9rem;
 }
 
@@ -91,6 +90,48 @@ nav li a:hover {
     border-radius: 30px;
     color: blue;
 }
+
+/* dropdown-nav starts here */
+
+li a:focus-within {
+    background-color: #fff;
+    border-radius: 30px;
+    color: blue;
+    outline: none;
+}
+
+li {
+    text-align: left;
+}
+
+li a:hover, li:focus-within {
+    cursor: pointer;
+}
+
+ ul ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    margin-top: .3rem;
+    border-radius: 10px;
+    display: none;
+    background-color: rgb(29, 20, 99)
+} 
+
+ul li:hover>.dropdown,
+ul li:focus-within>.dropdown,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    padding: 1rem 0;
+} */
+
+/* dropdown nav ends here */
 
 #active {
     background-color: lightblue;
@@ -187,6 +228,25 @@ h1 {
 .header-right:hover {
     transform: rotateZ(10800deg) scale(.85);
     background-image: url('../images/round-moustache.png');
+}
+
+#backtothetop-fixed {
+    padding: 1.25rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: #1e146bcc;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5vw;
+}
+
+#backtothetop-fixed:hover {
+    background-color: #1e146b;
+    transform: translate(0%, 0%) scale(1.05);
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 
 h2 {
@@ -323,25 +383,6 @@ figcaption {
 
 .about-images {
     margin-top: 2rem;
-}
-
-#backtothetop-fixed {
-    padding: 1.25rem;
-    border: 0;
-    border-radius: 20px;
-    background-color: #1e146bb4;
-    color: #fff;
-    cursor: pointer;
-    text-decoration: none;
-    margin-right: 5vw;
-}
-
-#backtothetop-fixed:hover {
-    background-color: #1e146b;
-    transform: translate(0%, 0%) scale(1.05);
-    transition-duration: .4s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
 }
 
 .hr {

@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #000;
 }
@@ -86,6 +90,47 @@ nav li a:hover {
     border-radius: 30px;
     color: blue;
 }
+
+/* dropdown-nav starts here */
+
+li a:focus-within {
+    background-color: #fff;
+    border-radius: 30px;
+    color: blue;
+    outline: none;
+}
+
+li {
+    text-align: left;
+}
+
+li a:hover, li:focus-within {
+    cursor: pointer;
+}
+
+ ul ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    margin-top: .5rem;
+    display: none;
+    background-color: #1e146b;
+} 
+
+ul li:hover>.dropdown,
+ul li:focus-within>.dropdown,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    padding: 1rem 0;
+} */
+
+/* dropdown nav ends here */
 
 #active {
     background-color: lightblue;

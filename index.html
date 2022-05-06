@@ -29,19 +29,25 @@
 <body>
     <div id="wrapper">
         <nav>
-            <a href="#top-container" class="skip-link" id="top">Skip to main content</a>
+            <a href="#top-container" class="skip-link">Skip to main content</a>
             <div id="logo">
                 <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
             </div>
             <div class="nav-bar">
                 <ul class="nav-links">
                     <li><a id="active">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="portfolio.html" class="sub">Portfolio▾</a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a href="dionysus.html">Dionysus</a></li>
+                            <li><a href="mode.html">Mode</a></li>
+                            <li><a href="construction.html">25 West</a></li>
+                        </ul>
+                    </li>
                     <!-- <li><a href="test.html">Test</a></li> -->
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
-            </div> <!-- end of nav-bar -->
+            </div>
         </nav>
         <header id="hero-image">
             <div class="header-left">
@@ -174,15 +180,17 @@
                                 </div>
 
                             </div>
+
                             <!-- End WOWSlider.com BODY section -->
                         </div>
-                        <a href="#top" id="backtothetop-fixed" data-backtothetop-duration="1000"
-                            data-backtothetop-fixed-scroll-offset="700" data-backtothetop-fixed-fadeIn="1500"
-                            data-backtothetop-fixed-fadeOut="1500" data-backtothetop-fixed-bottom="30"
-                            data-backtothetop-fixed-right="30">
-                            Back to the Top
-                        </a>
+
                     </div>
+                    <a href="#top" id="backtothetop-fixed" data-backtothetop-duration="1000"
+                        data-backtothetop-fixed-scroll-offset="700" data-backtothetop-fixed-fadeIn="1000"
+                        data-backtothetop-fixed-fadeOut="1500" data-backtothetop-fixed-bottom="30"
+                        data-backtothetop-fixed-right="30">
+                        Back to the Top
+                    </a>
                 </div>
                 <hr class="hr">
 
