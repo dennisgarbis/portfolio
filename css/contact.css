@@ -120,7 +120,6 @@ ul ul {
     background-color: rgb(29, 20, 99);
 }
 
-
 ul li:hover>.dropdown,
 ul li:focus-within>.dropdown,
 ul li ul:hover {
@@ -133,8 +132,6 @@ ul li ul li {
     padding: 1rem 0;
 }
 
-*/
-
 /* dropdown nav ends here */
 
 #active {
@@ -142,7 +139,6 @@ ul li ul li {
     border-radius: 30px;
     color: black;
 }
-
 
 header {
     background-size: 100%;
