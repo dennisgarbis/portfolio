@@ -116,7 +116,9 @@ li a:hover, li:focus-within {
     margin-top: .3rem;
     border-radius: 10px;
     display: none;
-    background-color: rgb(29, 20, 99)
+    background-color: rgb(29, 20, 99);
+    list-style: none;
+
 } 
 
 ul li:hover>.dropdown,
@@ -133,7 +135,7 @@ ul li ul li {
 
 /* dropdown nav ends here */
 
-#active {
+.nav-links #active {
     background-color: lightblue;
     border-radius: 30px;
     color: black;

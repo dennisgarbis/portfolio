@@ -19,19 +19,27 @@
 
 <body>
     <div id="wrapper">
-        <a href="#container" class="skip-link">Skip to main content</a>
         <nav>
+            <a href="#top-container" class="skip-link">Skip to main content</a>
             <div id="logo">
                 <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
             </div>
             <div class="nav-bar">
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a id="active">Portfolio</a></li>
+                    <li><a href="#">Portfolio▾</a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a id="active">Portfolio Home</a></li>
+                            <li><a href="dionysus.html">Dionysus</a></li>
+                            <li><a href="mode.html">Mode</a></li>
+                            <li><a href="construction.html">25 West</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="test.html">Test</a></li> -->
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
-            </div> <!-- end of nav-bar -->
+            </div>
         </nav>
         <header id="hero-image">
             <div class="heading">

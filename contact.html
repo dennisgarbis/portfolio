@@ -22,19 +22,27 @@
 
 <body>
     <div id="wrapper">
-        <a href="#main" class="skip-link">Skip to main content</a>
         <nav>
+            <a href="#do" class="skip-link">Skip to main content</a>
             <div id="logo">
                 <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
             </div>
             <div class="nav-bar">
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#">Portfolio▾</a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a href="portfolio.html">Portfolio Home</a></li>
+                            <li><a href="dionysus.html">Dionysus</a></li>
+                            <li><a href="mode.html">Mode</a></li>
+                            <li><a href="construction.html">25 West</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="test.html">Test</a></li> -->
                     <li><a id="active">Contact</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
-            </div> <!-- end of nav-bar -->
+            </div>
         </nav>
         <header id="hero-image">
             <div class="heading">
@@ -47,7 +55,7 @@
                     <h2>Contact Me</h2>
                     <p>Call me, email me, text me. Whichever way you want to reach out is fine with me. But like Nike
                         says...<br><br>
-                        <span class="do">JUST DO IT</span>
+                        <span class="do" id="do">JUST DO IT</span>
                     </p>
                 </div>
                 <div class="flex">
@@ -78,8 +86,7 @@
                                 </div>
                             </div>
                             <div class="reach-quest">
-                                <label for="reach-back">How would you like me to reach back?<span class="star"></span>
-                                        *</span></label><br>
+                                <label for="reach-back">How would you like me to reach back?<span class="star"> *</span></label><br>
                                 <select id="reach-back" required="">
                                     <option value="">Choose..</option>
                                     <option value="email">email</option>
