@@ -42,14 +42,7 @@ img.onclick = function () {
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
-var img = document.getElementById("myImg6");
-var modalImg6 = document.getElementById("img06");
-var captionText = document.getElementById("caption");
-img.onclick = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
+
 var img = document.getElementById("myImg7");
 var modalImg7 = document.getElementById("img07");
 var captionText = document.getElementById("caption");

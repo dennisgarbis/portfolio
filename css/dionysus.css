@@ -333,10 +333,6 @@ h1 {
     margin: 2rem 5rem;
 }
 
-.bottom-container {
-    min-height: 90vh;
-}
-
 .bottom-container>h2 {
     padding: 5rem 0;
     width: fit-content;
@@ -345,6 +341,7 @@ h1 {
 
 .bottom-container-flex {
     display: flex;
+    padding: 3rem 0;
 }
 
 .bottom-left {
