@@ -28,7 +28,7 @@ body {
     padding: .3rem .8rem;
     border-radius: 15px;
     left: 5%;
-    transform: translateY(-300%);
+    transform: translateY(-350%);
     transition: transform 300ms ease-in;
     z-index: 9999;
 }
@@ -45,7 +45,6 @@ nav {
     position: sticky;
     top: 0;
     align-items: center;
-    min-height: 2rem;
     z-index: 99;
 }
 
@@ -75,6 +74,8 @@ nav {
     list-style: none;
     font-weight: bold;
     justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
     margin-left: 10%;
 }
 
@@ -88,7 +89,7 @@ nav li a {
 nav li a:hover {
     background-color: white;
     border-radius: 30px;
-    color: blue;
+    color: darkblue;
 }
 
 /* dropdown-nav starts here */
@@ -96,7 +97,7 @@ nav li a:hover {
 li a:focus-within {
     background-color: #fff;
     border-radius: 30px;
-    color: blue;
+    color: darkblue;
     outline: none;
 }
 
@@ -108,7 +109,7 @@ li a:hover, li:focus-within {
     cursor: pointer;
 }
 
- ul ul {
+ul ul {
     visibility: hidden;
     opacity: 0;
     position: absolute;
@@ -118,7 +119,7 @@ li a:hover, li:focus-within {
     display: none;
     background-color: rgb(29, 20, 99);
     list-style: none;
-} 
+}
 
 ul li:hover>.dropdown,
 ul li:focus-within>.dropdown,
@@ -130,7 +131,7 @@ ul li ul:hover {
 
 ul li ul li {
     padding: 1rem 0;
-} 
+}
 
 /* dropdown nav ends here */
 
@@ -138,16 +139,14 @@ ul li ul li {
     background-color: lightblue;
     border-radius: 30px;
     color: black;
-}
-
-#hero-image {
-    background-color: rgb(8, 8, 8);
+    cursor: default;
 }
 
 header {
+    background-color: rgb(8, 8, 8);
     display: flex;
     padding: 5rem;
-    min-height: 85vh;
+    min-height: 86vh;
 }
 
 .header-left {

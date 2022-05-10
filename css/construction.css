@@ -1,32 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0;
-    line-height: 1.5;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    background-color: #89D4FE;
-}
-
-#wrapper {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header {
-    background-size: 100%;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    background-image: url('../images/construction.jpg');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-}
-
 .buttons {
     margin: .5rem auto;
     margin-top: 70vh;
@@ -58,6 +29,35 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+    #logo {
+        width: 5%;
+    }
+
+    #logo>a>img {
+        width: 8vw;
+        vertical-align: top;
+        border-radius: 45%;
+        padding: 5px;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: white;
+        margin: 0 5px;
+        padding: .3rem .3rem;
+        font-size: .8rem;
+    }
+
+    nav li a:hover {
+        background-color: white;
+        border-radius: 30px;
+        color: blue;
+    }
+
+    #active {
+        padding: .3rem .3rem;
+    }
+
     header {
         background-size: 100%;
         background-position: center;
