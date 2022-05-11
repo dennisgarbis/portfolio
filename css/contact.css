@@ -163,19 +163,19 @@ footer {
 
 @media screen and (max-width: 900px) {
     #logo {
-        width: 5%;
+        width: 20%;
     }
 
+
     #logo>a>img {
-        width: 8vw;
+        width: 50%;
         vertical-align: top;
-        border-radius: 45%;
-        padding: 5px;
+        padding: 2px;
     }
 
     nav li a {
         text-decoration: none;
-        color: white;
+        color: black;
         margin: 0 5px;
         padding: .3rem .3rem;
         font-size: .8rem;
@@ -190,7 +190,6 @@ footer {
     #active {
         padding: .3rem .3rem;
     }
-
     header {
         background-size: 100%;
         background-position: center;

@@ -207,10 +207,14 @@ header {
 
 
     50% {
-        background-image: url('../images/eyes-blackbackground-me.png');
+        background-image: url('../images/eyes-blackbackground.jpg');
     }
 
-    60% {
+    65% {
+        background-image: url('../images/eyes-me.png')
+    }
+
+    90% {
         background-image: url('../images/dark2-eyes-blackbackground.png');
     }
 }
