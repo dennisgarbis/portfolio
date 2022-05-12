@@ -55,8 +55,12 @@ input {
     text-align: left;
 }
 
+input:hover {
+    box-shadow: 2px 2px 10px green;
+}
+
 input:focus {
-    box-shadow: 0 0 10px #FB8604;
+    box-shadow: 0 0 10px #e6fb04;
 }
 
 label {
@@ -90,8 +94,12 @@ textarea {
     align-content: baseline;
 }
 
-textarea::placeholder {
-    color: black;
+textarea:hover {
+    box-shadow: 2px 2px 10px green;
+}
+
+textarea:focus {
+    box-shadow: 0 0 10px #e6fb04;
 }
 
 #message {

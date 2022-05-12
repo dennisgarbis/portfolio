@@ -145,18 +145,18 @@ footer {
         background-position: center;
         width: 100%;
         height: 33vh;
-        background-image: url('../images/eyes-blackbackground.jpg');
+        background-image: url('../images/eyes-me.png');
         background-size: cover;
         display: flex;
         justify-content: center;
     }
 
     .heading {
-        margin-top: 15%;
+        margin-top: 4rem;
     }
 
     h1 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .mid-head {
@@ -167,6 +167,9 @@ footer {
         font-size: 1.8rem;
     }
 
+    h2 {
+        font-size: 1.5rem;
+    }
     .top-container-padding {
         padding: 2rem .2rem;
         display: flex;
