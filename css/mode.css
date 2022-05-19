@@ -89,7 +89,7 @@ h1 {
     width: 40%;
 }
 
-.image-container>h3 {
+.image-container>h3, .logo-container>h3 {
     padding-top: 2rem;
     font-size: 2rem;
     letter-spacing: 5px;

@@ -28,7 +28,7 @@ body {
 }
 
 .construction-body {
-    background-color: #89D4FE;
+    background-color: #C2D1EE;
 }
 
 #wrapper {
@@ -187,17 +187,18 @@ header {
 }
 
 .construction-hero {
-    background-image: url('../images/construction.jpg');
+    background-image: url('../images/west-building.jpg');
 }
 
 .about-hero {
     background-image: url('../images/dark2-eyes-blackbackground.png');
 }
 
+
+
 .about-hero:hover {
     animation: creepy 3.4s;
     animation-iteration-count: infinite;
-
 }
 
 @keyframes creepy {

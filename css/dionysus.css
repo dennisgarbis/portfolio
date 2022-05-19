@@ -376,25 +376,6 @@ figcaption {
     margin-bottom: 2rem;
 }
 
-
-/* .parralex-image {
-    background-position: center;
-    width: 100%;
-    height: 55vh;
-    background-image: url('../images/c');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-} */
-
-.parralex-image>h2 {
-    color: white;
-    text-shadow: 3px 3px red;
-    position: relative;
-    top: 25vh;
-}
-
 footer {
     background-color: #000;
     color: #fff;
@@ -448,7 +429,7 @@ footer {
     }
 
     h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .tavern {
@@ -593,26 +574,4 @@ footer {
         margin: 0 auto;
         width: 50%;
     }
-
-
-    /* 
-    .parralex-image {
-        background-position: center;
-        width: 100%;
-        height: 30vh;
-        background-image: url('../images/waves.jpg');
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        justify-content: center;
-    }
-
-    .parralex-image>h2 {
-        font-size: 3rem;
-        color: white;
-        text-shadow: 3px 3px red;
-        position: relative;
-        top: 12vh;
-    } */
-
 }

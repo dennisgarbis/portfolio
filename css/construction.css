@@ -1,25 +1,384 @@
-.buttons {
-    margin: .5rem auto;
-    margin-top: 70vh;
-    margin-left: 55vw;
+h1 {
+    font-family: "League Spartan";
+    font-size: 5.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.769);
+    text-shadow: 2px 2px black;
+    padding: 2rem 2rem 0;
 }
 
-.buttons>a {
-    color: #fff;
+.tavern {
+    font-family: "League Spartan";
+    font-size: 3rem;
+    color: #E74748;
+    text-shadow: 2px 2px black;
+    background-color: rgba(0, 0, 0, 0.769);
+    font-weight: 900;
+    padding: 0 2rem 2rem;
+}
+
+.top-container {
+    padding: 2rem 0 4rem;
+}
+
+.top-container>h2 {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.top-container>p {
+    width: 50%;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+.middle-flex {
+    display: flex;
+}
+
+.middle-left {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.middle-left>h2 {
+    width: fit-content;
+    margin: 0 auto 2rem;
+}
+
+.middle-left>p {
+    width: 50%;
+    margin: 0 auto 2rem;
+    text-align: left;
+}
+
+.middle-left a {
     text-decoration: none;
-    margin: 0 .8rem;
-    padding: 1.5rem 5.8rem;
-    border-radius: 10px;
-    background-color: darkblue;
-    color: #fff;
+    color: blue;
+    font-weight: 600;
 }
 
-.buttons>a:hover {
-    background-color: lightblue;
-    color: #000;
-    transition: .5s;
+.middle-left a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 255, 0.742);
 }
 
+.middle-left>ul {
+    width: fit-content;
+    margin: .5rem auto;
+}
+
+.middle-left li {
+    text-align: left;
+}
+
+.middle-right {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.middle-right-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+    width: 30%;
+    margin: 1.3rem 3.5rem;
+}
+
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg5 {
+    border: none;
+}
+
+.image-container>img:hover {
+    opacity: .7;
+}
+
+.bottom-container img:hover {
+    opacity: .7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 10vh;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.845);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    height: 80vh;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: .8rem auto;
+    font-size: 1.2rem;
+    display: block;
+    width: 50%;
+    max-width: 700px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding: .8rem 0;
+    height: fit-content;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0)
+    }
+
+    50% {
+        transform: scale(1.2)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20%;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image-container {
+    background-color: rgba(204, 204, 204, 0.382);
+    margin: 2rem 5rem;
+}
+
+.bottom-container>h2 {
+    padding: 5rem 0;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.bottom-container-flex {
+    display: flex;
+    padding: 3rem 0;
+}
+
+.bottom-left {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    background-color: rgba(204, 204, 204, 0.382);
+    margin: 2rem 5rem;
+}
+
+.bottom-right {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.bottom-right>h3 {
+    font-size: 2rem;
+}
+
+.bottom-right>p {
+    width: 60%;
+    text-align: left;
+    margin: 1rem auto;
+}
+
+.bottom-bottom-flex {
+    display: flex;
+}
+
+.bottom-bottom-left {
+    width: 100%;
+    align-self: center;
+
+}
+
+.bottom-bottom-left>p {
+    width: 60%;
+    text-align: left;
+    margin: 1rem auto;
+}
+
+.bottom-bottom-left a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+
+.bottom-bottom-left a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 255, 0.742);
+}
+
+.bottom-bottom-right {
+    width: 100%;
+}
+
+.bottom-bottom-right img {
+    margin: 2rem 0 0;
+    width: 40%;
+}
+
+.gordon {
+    display: flex;
+}
+
+.finished p {
+    text-align: left;
+}
+
+.finished img:hover {
+    opacity: .7;
+}
+
+.gordon-right {
+    width: 100%;
+    align-self: center;
+}
+
+.gordon-right>p {
+    text-align: left;
+    width: 60%;
+    margin: 1rem auto;
+}
+
+.gordon-left {
+    width: 100%;
+}
+
+figcaption {
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+}
+
+.gordon-left>img {
+    margin: 2rem;
+    width: 50%;
+}
+
+.finished>h2 {
+    padding: 5rem 0 2rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.finished>p {
+    width: 60%;
+    margin: 0 auto 2rem;
+}
+
+.finished img {
+    vertical-align: top;
+    width: 50%;
+    margin: 0 auto 3rem;
+}
+
+.more {
+    margin-top: 3rem;
+    padding-bottom: 20vh;
+}
+
+.more h2 {
+    margin-bottom: 5rem;
+}
+
+.quick-links {
+    display: flex;
+    width: 100%;
+    gap: 5vh;
+    justify-content: center;
+    margin: 2rem auto 0;
+    padding-bottom: 1rem;
+}
+
+.quick-links img {
+    width: 95%;
+}
+
+.project-box {
+    width: 20%;
+    box-shadow: 2px 2px 10px #000;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.project-image {
+    margin: 2rem auto 2rem;
+    transition: transform 700ms, opacity 300ms linear;
+}
+
+.project-item {
+    display: block;
+}
+
+.project-image:hover {
+    transform: scale(1.05);
+    opacity: .8;
+}
+
+.project-item:focus .project-image {
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+.project-box h3 {
+    margin-bottom: 2rem;
+}
 
 footer {
     background-color: #000;
@@ -63,26 +422,164 @@ footer {
         background-position: center;
         width: 100%;
         height: 33vh;
-        background-image: url('../images/construction.jpg');
         background-size: cover;
         display: flex;
         justify-content: center;
     }
 
-    .buttons {
-        margin: .5rem auto;
-        margin-top: 25vh;
-        margin-left: 55vw;
+    .heading {
+        margin-top: 2rem;
     }
 
-    .buttons>a {
-        font-size: .8rem;
-        color: #fff;
-        text-decoration: none;
-        margin: 0 .8rem;
-        padding: .5rem .8rem;
-        border-radius: 10px;
-        background-color: darkblue;
-        color: #fff;
+    h1 {
+        font-size: 3rem;
+        padding: .5rem;
+        background-color: rgba(0, 0, 0, 0.422);
+    }
+
+    .tavern {
+        font-size: 2.5rem;
+        padding: .5rem;
+        background-color: rgba(0, 0, 0, 0.422);
+    }
+
+    
+    .top-container>p {
+        width: 85%;
+        text-align: left;
+    }
+
+    .middle-flex {
+        flex-direction: column;
+    }
+
+    .middle-left {
+        padding: 0;
+    }
+
+    .middle-left>p {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .middle-left>ul {
+        padding-bottom: 2rem;
+    }
+
+    .image-container {
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .close {
+        right: 5%;
+    }
+
+    .bottom-container-flex {
+        flex-direction: column-reverse;
+    }
+
+    .bottom-right>h3 {
+        margin-bottom: 2rem;
+    }
+
+    #myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+        width: 30%;
+        margin: 1.5rem;
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        height: 50vh;
+        max-width: 55vh;
+    }
+
+    .bottom-container>h2 {
+        width: 100%;
+    }
+
+    .bottom-container>p {
+        width: 85%;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .logo-container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+
+    .logo-container>img {
+        margin: 0 2rem;
+    }
+
+    .bottom-right {
+        padding: 0%;
+    }
+
+    .bottom-right>p {
+        width: 85%;
+        text-align: left;
+        margin: 0rem auto 2rem;
+    }
+
+    .bottom-bottom-flex {
+        flex-direction: column;
+    }
+
+    .bottom-bottom-left {
+        padding: 2rem 0;
+    }
+
+    .bottom-bottom-left p {
+        width: 85%;
+    }
+
+    .bottom-bottom-right img {
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .gordon-right>p {
+        text-align: left;
+        margin: 2rem auto;
+        width: 85%;
+    }
+
+    .gordon {
+        flex-direction: column-reverse;
+    }
+
+    .gordon>img {
+        width: 80%;
+    }
+
+    .finished>p {
+        width: 85%;
+        text-align: left;
+    }
+
+    .more {
+        padding-bottom: 10vh;
+    }
+
+    .more h2 {
+        font-size: 1.8rem;
+    }
+
+    .quick-links {
+        flex-direction: column;
+        margin: 2rem auto 0;
+        padding-bottom: 1rem;
+    }
+
+    .project-box {
+        margin: 0 auto;
+        width: 50%;
     }
 }
