@@ -44,7 +44,6 @@ form {
     width: 80%;
     margin: 1rem auto 2rem;
     background-color: lightblue;
-    padding-top: .8rem;
     padding-bottom: 2rem;
 }
 
@@ -82,16 +81,19 @@ label {
 }
 
 .text {
-    width: 100%;
-    margin: 2rem auto 0rem;
-    display: flex;
+    margin: 2rem 0;
+}
+
+.text>.message {
+    width: fit-content;
 }
 
 textarea {
-    width: 100%;
+    width: 40%;
     font-size: .9rem;
     text-align: left;
-    align-content: baseline;
+    margin: 0 10% 0 auto;
+    vertical-align: bottom;
 }
 
 textarea:hover {
@@ -160,6 +162,19 @@ textarea:focus {
     height: 90%;
     align-self: center;
     clip-path: inset(0 5% 0 5%);
+}
+
+#contactMe label.error {
+    font-size: .9rem;
+    color: darkred;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+#contactMe input.error,
+#contactMe select.error {
+    background: #f4d7d7;
 }
 
 footer {
