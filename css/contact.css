@@ -69,15 +69,20 @@ label {
     font-size: 1.05rem;
 }
 
-.names>div {
+.names>div, .reach-quest {
     margin: 2rem auto;
 }
 
-.first-name, .last-name, .email-address, .phone-number {
+.first-name, .last-name, .email-address, .phone-number, .reach-quest {
     text-align: left;
     display: flex;
     flex-direction: column;
     width: 50%;
+}
+
+#reach-back {
+    width: 50%;
+    margin: 0 auto;
 }
 
 .text {
@@ -92,7 +97,7 @@ textarea {
     width: 40%;
     font-size: .9rem;
     text-align: left;
-    margin: 0 10% 0 auto;
+    margin: 0 15% 0 auto;
     vertical-align: bottom;
 }
 
@@ -102,11 +107,6 @@ textarea:hover {
 
 textarea:focus {
     box-shadow: 0 0 10px #e6fb04;
-}
-
-#message {
-    width: 60%;
-    margin: 0 auto;
 }
 
 .star {
@@ -263,17 +263,25 @@ footer {
         width: 70%;
     }
 
+    .reach-quest {
+        width: 75%;
+    }
+
     textarea {
-        width: 70%;
+        width: 50%;
+        font-size: .9rem;
+        text-align: left;
+        margin: 0 15% 0 auto;
+        vertical-align: bottom;
     }
-
-    .star-req {
-        margin-right: 20%;
-    }
-
-    #button {
-        display: flex;
-        flex-direction: column;
-    }
-
 }
+
+.star-req {
+    margin-right: 20%;
+}
+
+#button {
+    display: flex;
+    flex-direction: column;
+}
+
