@@ -111,7 +111,7 @@ h1 {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 50;
     /* Sit on top */
     padding-top: 10vh;
     /* Location of the box */

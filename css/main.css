@@ -62,7 +62,7 @@ nav {
     position: sticky;
     top: 0;
     align-items: center;
-    z-index: 99;
+    z-index: 1;
 }
 
 #logo {
