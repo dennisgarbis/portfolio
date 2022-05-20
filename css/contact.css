@@ -148,13 +148,13 @@ textarea:focus {
 #submit {
     background-color: darkgreen;
     color: #fff;
+    transition: .5s;
+
 }
 
 #submit:hover {
     background-color: rgb(12, 10, 109);
     letter-spacing: 2px;
-    transition: .5s;
-    transform: scale(1.05);
 }
 
 .flex>img {
@@ -284,4 +284,3 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
