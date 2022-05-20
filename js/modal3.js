@@ -29,10 +29,23 @@ img.onclick = function () {
     captionText.innerHTML = this.alt;
 }
 
+var img = document.getElementById("myImg4");
+var modalImg4 = document.getElementById("img04");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
 
-
-
-
+var img = document.getElementById("myImg5");
+var modalImg5 = document.getElementById("img05");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];

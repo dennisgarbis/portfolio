@@ -529,6 +529,7 @@ footer {
 
     .bottom-right {
         padding: 0%;
+        width: 100%;
     }
 
     .bottom-right>p {
