@@ -468,6 +468,7 @@ footer {
 
     .middle-left {
         padding: 0;
+        width: 100%;
     }
 
     .middle-left>p {
@@ -544,6 +545,7 @@ footer {
 
     .bottom-bottom-left {
         padding: 2rem 0;
+        width: 100%;
     }
 
     .bottom-bottom-left p {
@@ -567,6 +569,11 @@ footer {
 
     .gordon>img {
         width: 80%;
+    }
+
+    .video-background>video {
+        height: 12rem;
+        margin: 2rem;
     }
 
     .finished>p {
