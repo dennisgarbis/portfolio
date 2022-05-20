@@ -240,7 +240,6 @@ h1 {
 .bottom-bottom-left {
     width: 100%;
     align-self: center;
-
 }
 
 .bottom-bottom-left>p {
@@ -277,8 +276,17 @@ h1 {
     text-align: left;
 }
 
+.finished img {
+    vertical-align: top;
+    width: 50%;
+    margin: 0 auto 3rem;
+    transition: .3s ease-in-out;
+    box-shadow: 2px 2px 10px #000;
+}
+
 .finished img:hover {
-    opacity: .7;
+    box-shadow: 5px 5px 20px black;
+    opacity: 1;
 }
 
 .gordon-right {

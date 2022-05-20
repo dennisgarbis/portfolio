@@ -194,8 +194,6 @@ header {
     background-image: url('../images/dark2-eyes-blackbackground.png');
 }
 
-
-
 .about-hero:hover {
     animation: creepy 3.4s;
     animation-iteration-count: infinite;

@@ -1,4 +1,3 @@
-
 h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 4rem;
@@ -170,6 +169,7 @@ footer {
     h2 {
         font-size: 1.5rem;
     }
+
     .top-container-padding {
         padding: 2rem .2rem;
         display: flex;
