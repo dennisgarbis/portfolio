@@ -138,22 +138,6 @@ h1 {
     justify-content: center;
 }
 
-.brewery-left {
-    width: 50vw;
-}
-
-.brewery-left>h3 {
-    font-family: 'Comfortaa', cursive;
-    letter-spacing: .5px;
-    font-size: 2.2rem;
-    margin: 0 auto 2rem;
-}
-
-.brewery-left>p {
-    width: 50%;
-    margin: 2rem auto;
-}
-
 .brewery-right {
     width: 50vw;
     /* maybe don't need this */
@@ -342,16 +326,6 @@ footer {
         margin: 0 auto;
         padding: 3rem 0;
         width: 100%;
-    }
-
-    .brewery-left {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .brewery-left>p {
-        width: 85%;
-        text-align: left;
     }
 
     .brewery-right {

@@ -51,7 +51,7 @@ section {
 }
 
 .middle-left>p {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     text-align: left;
 }
@@ -205,6 +205,7 @@ section {
 
 .bottom-container-flex {
     display: flex;
+    margin-bottom: 3rem;
 }
 
 .bottom-left-flex {
@@ -241,9 +242,9 @@ section {
 }
 
 .bottom-right>p {
-    width: 60%;
+    width: 70%;
+    margin: 0 auto;
     text-align: left;
-    margin: 1rem auto;
 }
 
 .bottom-bottom-flex {

@@ -115,9 +115,8 @@ textarea:focus {
 
 .star-req {
     color: darkred;
-    text-align: right;
-    margin-right: 25%;
-    margin-bottom: .4rem;
+    width: fit-content;
+    margin: 0 auto .5rem;
 }
 
 .btn {
