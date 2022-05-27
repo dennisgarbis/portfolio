@@ -27,7 +27,7 @@ body {
     background-color: #192221;
 }
 
-.construction-body {
+.west-body {
     background-color: #C2D1EE;
 }
 
@@ -186,8 +186,12 @@ header {
     background-image: url('../images/patio-sea.webp');
 }
 
-.construction-hero {
+.west-hero {
     background-image: url('../images/west-building.jpg');
+}
+
+.pnwx-hero {
+    background-image: url('../images/p-screen.jpg')
 }
 
 .about-hero {
