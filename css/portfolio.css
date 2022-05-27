@@ -189,6 +189,11 @@ h1 {
 }
 
 .coming-soon p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.web-box p {
     width: fit-content;
     margin: 0 auto;
 }
@@ -245,7 +250,8 @@ h1 {
 }
 
 .soon-image>img {
-    width: 50%;
+    width: 25%;
+    margin: 3rem;
 }
 
 footer {
