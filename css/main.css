@@ -7,6 +7,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 5.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.006);
+    text-shadow: 2px 2px lightblue;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -29,6 +37,10 @@ body {
 
 .west-body {
     background-color: #C2D1EE;
+}
+
+.about-body {
+    background-color: #0C3E5D;
 }
 
 #wrapper {
@@ -189,6 +201,10 @@ ul li ul li {
     background-image: url('../images/west-building.jpg');
 }
 
+.about-hero {
+    background-image: url('../images/dennis-grad.webp')
+}
+
 .pnwx-hero {
     display: flex;
     width: 100%;
@@ -202,7 +218,7 @@ ul li ul li {
     margin: 3rem;
 }
 
-.original > img, .redesign > img {
+.original>img, .redesign>img {
     width: 100%;
     display: block;
 }
@@ -211,12 +227,12 @@ ul li ul li {
     align-self: center;
 }
 
-.about-hero {
+.about-eyes-hero {
     background-image: url('../images/dark2-eyes-blackbackground.png');
     transition: .9s ease-in-out;
 }
 
-.about-hero:hover {
+.about-eyes-hero:hover {
     animation: creepy 3.4s;
     animation-iteration-count: infinite;
 }

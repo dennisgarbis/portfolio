@@ -1,11 +1,3 @@
-h1 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 5.5rem;
-    color: lightblue;
-    background-color: rgba(0, 0, 0, 0.028);
-    text-shadow: 2px 2px darkred;
-}
-
 main {
     background-color: #fff;
 }
