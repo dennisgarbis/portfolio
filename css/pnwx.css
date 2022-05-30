@@ -419,22 +419,18 @@ footer {
         padding: .3rem .3rem;
     }
 
-    header {
+    .pnwx-hero {
         background-size: 100%;
         background-position: center;
         width: 100%;
         height: 33vh;
+        background-image: url('../images/dennis-grad.webp');
         background-size: cover;
         display: flex;
-        justify-content: center;
-    }
-
-    .pnwx-hero {
-        flex-direction: column;
-    }
+        justify-content: center;    }
 
     .pnwx-hero div {
-        width: 60%;
+        width: 100%;
     }
 
     .heading {
