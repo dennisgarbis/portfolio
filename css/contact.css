@@ -61,11 +61,11 @@ label {
     font-size: 1.05rem;
 }
 
-.names>div, .reach-quest {
+.names>div, .reach-quest, .text {
     margin: 2rem auto;
 }
 
-.first-name, .last-name, .email-address, .phone-number, .reach-quest {
+.first-name, .last-name, .email-address, .phone-number, .reach-quest, .text {
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -77,20 +77,10 @@ label {
     margin: 0 auto;
 }
 
-.text {
-    margin: 2rem 0;
-}
-
-.text>.message {
-    width: fit-content;
-}
-
 textarea {
-    width: 40%;
-    font-size: .9rem;
-    text-align: left;
-    margin: 0 15% 0 auto;
     vertical-align: bottom;
+    border-radius: 8px;
+    text-align: left;
 }
 
 textarea:hover {
@@ -250,19 +240,12 @@ footer {
         padding: .2rem;
     }
 
-    .names>div {
+    .names>div, .reach-quest, .text {
         width: 70%;
     }
 
-    .reach-quest {
-        width: 75%;
-    }
-
     textarea {
-        width: 50%;
         font-size: .9rem;
-        text-align: left;
-        margin: 0 15% 0 auto;
         vertical-align: bottom;
     }
 }

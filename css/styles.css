@@ -571,7 +571,7 @@ footer {
     }
 
     .header-left {
-        padding-top: 0rem;
+        padding: 0 0 3rem;
     }
 
     h1 {
@@ -580,11 +580,11 @@ footer {
     }
 
     .header-left>p {
-        width: 90%;
+        width: 85%;
     }
 
     .icon-link {
-        width: 95%;
+        width: 85%;
     }
 
     .icon-link>div>a>img {
