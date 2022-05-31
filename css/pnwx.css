@@ -2,12 +2,15 @@ h1 {
     font-family: "League Spartan";
     font-size: 5.5rem;
     color: white;
+    background-color: rgba(0, 0, 0, 0.509);
+
 }
 
 .tavern {
     font-family: "League Spartan";
     font-size: 3rem;
     color: rgb(119, 159, 119);
+    background-color: rgba(0, 0, 0, 0.509);
 
 }
 
@@ -419,18 +422,14 @@ footer {
         padding: .3rem .3rem;
     }
 
-    .pnwx-hero {
+    #hero {
         background-size: 100%;
         background-position: center;
         width: 100%;
         height: 33vh;
-        background-image: url('../images/dennis-grad.webp');
         background-size: cover;
         display: flex;
-        justify-content: center;    }
-
-    .pnwx-hero div {
-        width: 100%;
+        justify-content: center;
     }
 
     .heading {
@@ -440,7 +439,7 @@ footer {
     h1 {
         font-size: 3rem;
         padding: .5rem;
-        background-color: rgba(0, 0, 0, 0.422);
+        background-color: rgba(0, 0, 0, 0.146);
     }
 
     .tavern {
