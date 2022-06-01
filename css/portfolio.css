@@ -1,6 +1,6 @@
 .subhead {
     background-color: #fff;
-    padding-top: 2rem;
+    padding: 2rem 0;
 }
 
 .subhead>h2 {
@@ -13,14 +13,14 @@
 }
 
 .intro-p {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
-    padding-bottom: 2rem;
+    text-align: left;
 }
 
 .dionysus-div {
     display: flex;
-    margin: 10rem auto;
+    margin: 5rem auto;
     width: 85%;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@
 .dionysus-left>p {
     width: 60%;
     text-align: left;
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 .dionysus-right {
@@ -124,7 +124,7 @@
 .brewery-div {
     display: flex;
     flex-direction: row-reverse;
-    margin: 10rem auto;
+    margin: 5rem auto;
     width: 85%;
     align-items: center;
     justify-content: center;
@@ -168,6 +168,8 @@
     background-color: rgba(0, 0, 0, 0.089);
     position: relative;
     top: 25vh;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .coming-soon {
@@ -186,6 +188,15 @@
     margin: 0 auto;
 }
 
+em {
+    font-size: .8rem;
+    font-weight: bold;
+    color: darkred;
+    width: fit-content;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+
 .web-box p {
     width: fit-content;
     margin: 0 auto;
@@ -195,12 +206,22 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 8rem auto;
+    margin: 3rem auto;
 }
 
 .web-projects p {
     text-align: left;
     margin: 1rem;
+}
+
+.wireframes {
+    background-color: lightblue;
+    padding: 2rem 0;
+}
+
+.wireframes > p {
+    width: 50%;
+    text-align: left;
 }
 
 .web-box {
@@ -211,6 +232,7 @@
     box-shadow: 2px 2px 10px #000;
     margin: 2rem;
     transition: .7s ease-in-out;
+    background-color: white;
 }
 
 .web-box:hover {
@@ -221,6 +243,21 @@
     border-radius: 20px;
     width: 100%;
     padding: .8rem;
+}
+
+.wire-image {
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.graphic-arts-projects {
+    padding: 2rem 0;
+}
+
+.graphic-arts-projects .web-image {
+    width: 70%;
+    margin-top: .8rem;
 }
 
 .web-button {
@@ -435,5 +472,14 @@ footer {
 
     .soon-image>img {
         width: 80%;
+    }
+
+    .wireframes > p {
+        width: 85%;
+    }
+
+    
+    .graphic-arts-projects > p {
+        width: 85%;
     }
 }
