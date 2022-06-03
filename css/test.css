@@ -37,14 +37,13 @@ body {
     transform: translateY(250%);
 }
 
-nav {
+.navbar {
     display: flex;
     margin-top: 5vh;
     background-color: #1e146b;
     top: 0;
-    align-items: center;
-    min-height: 2rem;
     z-index: 99;
+    padding: 0;
 }
 
 #logo {
@@ -63,9 +62,13 @@ nav {
     padding: 10px;
 }
 
+#navbarSupportedContent {
+}
+
 #navbarSupportedContent a {
     color: rgb(255, 255, 255);
-    text-align: left;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
 }
 
 #navbarSupportedContent a:hover {
@@ -76,6 +79,13 @@ nav {
     color: green;
     cursor: default;
     font-weight: bold;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .dropdown-menu {
@@ -150,7 +160,7 @@ header {
 h1 {
     color: lightblue;
     font-family: 'Comfortaa', cursive;
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     margin: 5rem auto 2rem;
 }
 
@@ -467,7 +477,9 @@ footer {
         padding: 1px;
     }
 
-
+    .dropdown-menu {
+        border-radius: 0px;
+    }
 
     nav li a {
         text-decoration: none;
@@ -488,7 +500,6 @@ footer {
 
     #active {
         text-decoration: underline;
-        font-style: italic;
     }
 
     .moustache {
