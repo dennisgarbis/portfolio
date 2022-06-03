@@ -11,42 +11,89 @@
     <!-- Start WOWSlider.com HEAD section -->
     <link rel="stylesheet" href="engine0/style.css">
     <!-- End WOWSlider.com HEAD section -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="css/test.css">
     <title>Dennis Garbis HomePage</title>
 </head>
 
 <body>
     <div id="wrapper">
-        <nav role="navigation">
-            <div id="logo">
-                <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="main_navbar">
+            <div class="container-fluid">
+                <div id="logo">
+                    <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
+                </div>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" id="active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="nav-link dropdown-item" href="portfolio.html">Projects Home</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Web Sites
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="dionysus.html">Dionysus</a></li>
+                                        <li><a class="dropdown-item" href="mode.html">Mode</a></li>
+                                        <li><a class="dropdown-item" href="west.html">25 West</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Wireframes/Prototypes
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="pnwx.html">PNWX</a></li>
+                                        <li><a class="dropdown-item" href="#.html">Ellie's Steaks</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Graphic Arts
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#.html">Nike</a></li>
+                                        <li><a class="dropdown-item" href="#.html">Gordon</a></li>
+                                        <li><a class="dropdown-item" href="#.html">Cyclades Cruises</a></li>
+                                        <li><a class="dropdown-item" href="#.html">Cereal Box</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-            <div class="nav-bar">
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html" class="sub">Portfolio▾</a>
-                        <ul class="dropdown" aria-label="submenu">
-                            <li><a href="dionysus.html">Dionysus</a></li>
-                            <li><a href="mode.html">Mode</a></li>
-                            <li><a href="construction.html">25 West</a></li>
-                        </ul>
-                    </li>
-                    <li><a id="active">Test</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </div> <!-- end of nav-bar -->
         </nav>
         <header id="hero-image">
             <div class="header-left">
-                <h1>THIS IS A TEST</h1>
+                <h1>DENNIS TEST</h1>
                 <p>I am a front-end web developer dedicated to creating a unique experience for local businesses and
                     individuals, by creating
                     quality, contemporary websites.</p>
@@ -262,11 +309,22 @@
     </div> <!-- end of wrapper -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="js/jquery.backtothetop.min.js"></script>
+
     <script src="engine0/jquery.js"></script>
     <script src="engine0/wowslider.js"></script>
     <script src="engine0/script.js"></script>
     <script src="js/hint-css.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script>
+        new bootnavbar();
+    </script>
+
 </body>
 
 </html>

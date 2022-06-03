@@ -41,8 +41,6 @@ nav {
     display: flex;
     margin-top: 5vh;
     background-color: #1e146b;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
     align-items: center;
     min-height: 2rem;
@@ -65,77 +63,71 @@ nav {
     padding: 10px;
 }
 
-.nav-bar {
-    width: 100%;
-    align-content: flex-end;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    font-weight: bold;
-    justify-content: flex-end;
-}
-
-nav li a {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-    margin-right: 10vw;
-    padding: .5rem 1.9rem;
-}
-
-nav li a:hover {
-    background-color: white;
-    border-radius: 30px;
-    color: blue;
-}
-
-/* dropdown-nav starts here */
-
-li a:focus-within {
-    background-color: #fff;
-    border-radius: 30px;
-    color: blue;
-    outline: none;
-}
-
-li {
+#navbarSupportedContent a {
+    color: rgb(255, 255, 255);
     text-align: left;
 }
 
-li a:hover, li:focus-within {
-    cursor: pointer;
+#navbarSupportedContent a:hover {
+    color: red;
 }
 
- ul ul {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    transition: all 0.5s ease-in-out;
-    margin-top: .5rem;
-    display: none;
+#navbarSupportedContent #active {
+    color: green;
+    cursor: default;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+    border-radius: 20px;
     background-color: #1e146b;
-} 
-
-ul li:hover>.dropdown,
-ul li:focus-within>.dropdown,
-ul li ul:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
 }
 
-ul li ul li {
-    padding: 1rem 0;
-} */
+.dropdown-menu .dropdown-toggle::after {
+    vertical-align: middle;
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+}
 
-/* dropdown nav ends here */
+.dropdown-menu .dropdown .dropdown-menu {
+    left: 100%;
+    top: 0%;
+    margin: 0 20px;
+    border-width: 0;
+}
 
-#active {
-    background-color: lightblue;
-    border-radius: 30px;
-    color: black;
+.dropdown-menu .dropdown .dropdown-menu.left {
+    right: 100%;
+    left: auto;
+}
+
+.dropdown-menu>li a:hover,
+.dropdown-menu>li.hidden {
+    color: yellow;
+}
+
+/* this is background of menu when scrolling to next dropdown */
+.dropdown-menu>li.show>a {
+    color: white;
+    background-color: purple;
+}
+
+@media (min-width: 768px) {
+    .dropdown-menu .dropdown .dropdown-menu {
+        margin: 0;
+        border-width: 1px;
+    }
+
+    .dropdown-menu>li a:hover,
+    .dropdown-menu>li.show {
+        background-color: white;
+    }
+
+    .dropdown-menu>li.show>a {
+        color: white;
+    }
 }
 
 #hero-image {
@@ -166,7 +158,7 @@ h1 {
     width: 50%;
     margin: 0 auto;
     color: #fff;
-    text-align: left;
+    text-align: justify;
 }
 
 #button {
@@ -217,7 +209,7 @@ h1 {
     background-size: contain;
     display: flex;
     justify-content: center;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
     transform: scale(.8);
 }
 
@@ -469,28 +461,34 @@ footer {
     }
 
     #logo>a>img {
-        width: 8vw;
+        width: 10vw;
         vertical-align: top;
-        border-radius: 45%;
-        padding: 5px;
+        border-radius: 15px;
+        padding: 1px;
     }
+
+
 
     nav li a {
         text-decoration: none;
-        color: white;
-        margin: 0 5px;
-        padding: .3rem .3rem;
         font-size: .8rem;
     }
 
-    nav li a:hover {
-        background-color: white;
-        border-radius: 30px;
-        color: blue;
+    #navbarSupportedContent a:hover {
+        color: white;
+    }
+
+    .dropdown-menu>li.show>a {
+        background-color: transparent;
+    }
+
+    .dropdown-menu .dropdown-item {
+        background-color: transparent;
     }
 
     #active {
-        padding: .3rem .3rem;
+        text-decoration: underline;
+        font-style: italic;
     }
 
     .moustache {
@@ -508,7 +506,7 @@ footer {
     }
 
     .header-left {
-        padding-top: 0rem;
+        padding: 0rem;
     }
 
     h1 {
@@ -517,10 +515,11 @@ footer {
 
     .header-left>p {
         width: 85%;
+        text-align: left;
     }
 
     .icon-link {
-        width: 95%;
+        width: 50%;
     }
 
     .icon-link>div>a>img {
