@@ -485,12 +485,15 @@ footer {
 
     .dropdown-menu {
         border-radius: 0px;
-        background-color: rgba(56, 42, 163, 0.537)
+        background-color: rgba(56, 42, 163, 0.537);
+        margin: 0%;
+        padding: 0;
     }
 
     nav li a {
         text-decoration: none;
         font-size: .8rem;
+        border: thin solid black;
     }
 
     #navbarSupportedContent a:hover {
@@ -506,12 +509,15 @@ footer {
     }
 
     ul li li ul li {
-        background-color: #142a6b;
+        background-color: #2a52c7;
     }
 
     ul li li ul li:active {
         background-color: #2b6b14;
+    }
 
+    .dropdown-menu .dropdown .dropdown-menu {
+        margin: 0;
     }
 
     #active {
