@@ -171,11 +171,11 @@ h1 {
     text-align: justify;
 }
 
-#button {
+.button {
     margin: 2rem auto;
 }
 
-#button a {
+.button a {
     background-color: lightblue;
     color: black;
     text-decoration: none;
@@ -185,7 +185,7 @@ h1 {
     transition: all .5s ease-in;
 }
 
-#button a:hover {
+.button a:hover {
     background-color: #1e146b;
     color: #fff;
 }
@@ -468,6 +468,7 @@ footer {
 @media screen and (max-width: 900px) {
     #logo {
         width: 5%;
+        margin-left: 5%;
     }
 
     #logo>a>img {
@@ -477,8 +478,14 @@ footer {
         padding: 1px;
     }
 
+    #hamburger {
+        background-color: white;
+        margin: 8px 15px;
+    }
+
     .dropdown-menu {
         border-radius: 0px;
+        background-color: rgba(56, 42, 163, 0.537)
     }
 
     nav li a {
@@ -496,6 +503,15 @@ footer {
 
     .dropdown-menu .dropdown-item {
         background-color: transparent;
+    }
+
+    ul li li ul li {
+        background-color: #142a6b;
+    }
+
+    ul li li ul li:active {
+        background-color: #2b6b14;
+
     }
 
     #active {
@@ -545,7 +561,7 @@ footer {
         width: 100%;
     }
 
-    #button {
+    .button {
         display: flex;
         flex-direction: column;
     }
