@@ -481,6 +481,8 @@ footer {
     #hamburger {
         background-color: white;
         margin: 8px 15px;
+        width: fit-content;
+        padding: 4px;
     }
 
     .dropdown-menu {
@@ -510,6 +512,8 @@ footer {
 
     ul li li ul li {
         background-color: #2a52c7;
+        border: thin solid black;
+
     }
 
     ul li li ul li:active {
