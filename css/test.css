@@ -72,19 +72,14 @@ body {
 }
 
 #navbarSupportedContent>ul>li>a:hover {
-    text-decoration: underline red 2px;
+    text-decoration: underline red 1.5px;
     text-underline-offset: 3px;
 }
 
 #navbarSupportedContent #active {
-    text-decoration: underline red 2px;
+    text-decoration: underline red 1.5px;
     text-underline-offset: 3px;
     cursor: default;
-    font-weight: bold;
-}
-
-#navbarSupportedContent #active:hover {
-    color: white;
 }
 
 .navbar-nav {
@@ -110,18 +105,10 @@ body {
 .dropdown-menu .dropdown .dropdown-menu {
     left: 100%;
     top: 0%;
+    border-radius: 5px;
     margin: 0 20px;
     border-width: 0;
-}
-
-.dropdown-menu .dropdown .dropdown-menu.left {
-    right: 100%;
-    left: auto;
-}
-
-.dropdown-menu>li a:hover,
-.dropdown-menu>li.hidden {
-    color: yellow;
+    background-color: #2a52c7;
 }
 
 /* this is background of menu when scrolling to next dropdown */
