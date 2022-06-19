@@ -11,6 +11,7 @@
         content="Dennis Garbis, Portfolio, Dennis Garbis Portfolio, Contact Me, Schaumburg, Chicago, Illinois">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Creepster&family=League+Spartan:wght@800&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
@@ -24,26 +25,60 @@
 
 <body class="contact-body">
     <div id="wrapper">
-        <nav>
-            <a href="#main" class="skip-link">Skip to main content</a>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="main_navbar">
             <div id="logo">
                 <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
             </div>
-            <div class="nav-bar">
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Portfolio▾</a>
-                        <ul class="dropdown" aria-label="submenu">
-                            <li><a href="portfolio.html">Portfolio Home</a></li>
-                            <li><a href="dionysus.html">Dionysus</a></li>
-                            <li><a href="mode.html">Mode</a></li>
-                            <li><a href="west.html">25 West</a></li>
-                            <li><a href="pnwx.html">PNWX</a></li>
+            <button id="hamburger" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-link dropdown-item" href="portfolio.html">Projects Home</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Web Sites</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="dionysus.html">Dionysus</a></li>
+                                    <li><a class="dropdown-item" href="mode.html">Mode</a></li>
+                                    <li><a class="dropdown-item" href="west.html">25 West</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Wireframes/Prototypes</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="pnwx.html">PNWX</a></li>
+                                    <li><a class="dropdown-item" href="#.html">Ellie's Steaks</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Graphic Arts</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#.html">Nike</a></li>
+                                    <li><a class="dropdown-item" href="#.html">Gordon</a></li>
+                                    <li><a class="dropdown-item" href="#.html">Cyclades Cruises</a></li>
+                                    <li><a class="dropdown-item" href="#.html">Cereal Box</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
-                    <!-- <li><a href="test.html">Test</a></li> -->
-                    <li><a href="contact.html" id="active">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -82,9 +117,15 @@
     </div> <!-- end of wrapper -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
     <script src="js/contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script>
+        new bootnavbar();
+    </script>
 </body>
 
 </html>

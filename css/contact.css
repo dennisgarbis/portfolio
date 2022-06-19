@@ -39,18 +39,19 @@ form {
     padding-bottom: 2rem;
 }
 
-input {
+input, .form-control {
     padding: 6px;
     font-size: .8rem;
     border-radius: 8px;
     text-align: left;
+    border: thin solid black;
 }
 
 input:hover {
     box-shadow: 2px 2px 10px green;
 }
 
-input:focus {
+input:focus, .form-control:focus {
     box-shadow: 0 0 10px #e6fb04;
 }
 
@@ -112,20 +113,6 @@ textarea:focus {
     cursor: pointer;
 }
 
-#reset {
-    background-color: black;
-    color: #fff;
-    letter-spacing: 1px;
-    font-weight: 500;
-}
-
-#reset:hover {
-    background-color: rgb(112, 8, 8);
-    letter-spacing: 2px;
-    transition: .5s;
-    transform: scale(1.05);
-}
-
 #submit {
     background-color: darkgreen;
     color: #fff;
@@ -166,35 +153,6 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-    #logo {
-        width: 5%;
-    }
-
-    #logo>a>img {
-        width: 8vw;
-        vertical-align: top;
-        border-radius: 45%;
-        padding: 5px;
-    }
-
-    nav li a {
-        text-decoration: none;
-        color: white;
-        margin: 0 5px;
-        padding: .3rem .3rem;
-        font-size: .8rem;
-    }
-
-    nav li a:hover {
-        background-color: white;
-        border-radius: 30px;
-        color: blue;
-    }
-
-    #active {
-        padding: .3rem .3rem;
-    }
-
     #hero {
         background-size: 100%;
         background-position: center;
