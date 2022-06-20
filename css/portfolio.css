@@ -197,11 +197,6 @@ em {
     text-transform: capitalize;
 }
 
-.web-box p {
-    width: fit-content;
-    margin: 0 auto;
-}
-
 .web-projects {
     display: flex;
     justify-content: space-evenly;
@@ -209,9 +204,10 @@ em {
     margin: 3rem auto;
 }
 
-.web-projects p {
-    text-align: left;
+.web-box p {
+    width: fit-content;
     margin: 1rem;
+    text-align: left;
 }
 
 .wireframes {

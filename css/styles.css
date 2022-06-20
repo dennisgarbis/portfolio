@@ -46,7 +46,7 @@ header {
 
 .header-left {
     width: 100%;
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -61,10 +61,10 @@ h1 {
 }
 
 .header-left>p {
-    width: 50%;
+    width: 45%;
     margin: 0 auto 1rem;
     color: #fff;
-    text-align: left;
+    text-align: justify;
 }
 
 #button {
@@ -284,10 +284,12 @@ figcaption {
 .hr {
     border-style: none;
     border-top-style: dotted;
-    border-width: .3rem;
+    border-width: .6rem;
     width: 10vw;
     margin: 4rem auto 0;
     padding-bottom: 2rem;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #middle-container {
@@ -421,10 +423,88 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
+    h1 {
+        color: red;
+        font-size: 3rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    .header-left p {
+        width: 60%;
+    }
+
+    #button {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #button a {
+        color: black;
+        text-decoration: none;
+        padding: .5rem 2rem;
+        border-radius: 10px;
+        margin: 10px;
+        transition: none;
+    }
+
+    #button a:hover {
+        background-color: lightblue;
+        color: black;
+        box-shadow: 2px 2px darkred;
+    }
+
+    .icon-link {
+        width: 85%;
+    }
+
+    .icon-link>div>a>img {
+        transition: none;
+    }
+
+    .icon-link>div>a>img:hover {
+        transform: none;
+    }
+
+    .top-container-padding {
+        padding: 3rem 1rem;
+    }
+
+    .middle-container-padding {
+        padding: 2rem;
+    }
+
+    .icon-container {
+        width: 90%;
+    }
+
+    .icon-container>img {
+        width: 40px;
+    }
+
+    .hr {
+        width: 10vw;
+        margin: 2rem auto;
+        color: black;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .moustache2 {
+        width: 50%;
+        margin: 0 auto;
+    }
+
     .moustache {
         display: inline;
-        width: 80%;
+        width: 100%;
         margin: 3rem auto;
         border-radius: 50%;
     }
@@ -449,16 +529,17 @@ footer {
         width: 85%;
     }
 
+    #button {
+        width: 50%;
+    }
+
+    #button {
+        display: flex;
+        flex-direction: column;
+    }
+
     .icon-link {
-        width: 85%;
-    }
-
-    .icon-link>div>a>img {
-        transition: none;
-    }
-
-    .icon-link>div>a>img:hover {
-        transform: none;
+        width: 60%;
     }
 
     .header-right {
@@ -467,11 +548,6 @@ footer {
 
     .header-right>img {
         width: 100%;
-    }
-
-    #button {
-        display: flex;
-        flex-direction: column;
     }
 
     .top-container-padding {
