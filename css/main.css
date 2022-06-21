@@ -138,6 +138,12 @@ body {
     margin: 0 20px;
     border-width: 0;
     background-color: #2a52c7;
+    /* padding: 0; */
+}
+
+/* this is the dropdown submenu */
+ul li li ul li {
+    border: thin solid black;
 }
 
 /* this is background of menu when scrolling to next dropdown */
@@ -274,6 +280,10 @@ body {
     background-color: white;
 }
 
+.bottom-container-padding .web-box {
+    width: 25rem;
+}
+
 .web-box:hover {
     box-shadow: 5px 5px 30px black;
 }
@@ -285,7 +295,7 @@ body {
 }
 
 .web-button {
-    margin: 1rem auto;
+    margin: 1rem auto .2rem;
     width: fit-content;
     border: thin solid black;
     padding: .5rem .8rem;
@@ -296,7 +306,6 @@ body {
     text-decoration: none;
     box-shadow: 3px 3px rgb(117, 117, 117);
     transition: all .5s ease-in-out;
-
 }
 
 .web-button:hover {
@@ -318,7 +327,6 @@ body {
         border-radius: 30%;
         padding: 5px;
     }
-
 }
 
 @media (min-width: 600px) {
