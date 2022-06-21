@@ -284,12 +284,34 @@ body {
     padding: .8rem;
 }
 
+.web-button {
+    margin: 1rem auto;
+    width: fit-content;
+    border: thin solid black;
+    padding: .5rem .8rem;
+    border-radius: 10px;
+    background-color: #073161;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    box-shadow: 3px 3px rgb(117, 117, 117);
+    transition: all .5s ease-in-out;
+
+}
+
+.web-button:hover {
+    background-color: lightblue;
+    transition: .5s;
+    color: black;
+    box-shadow: none;
+}
+
 @media screen and (max-width: 1100px) {
     #logo {
         width: 20%;
         padding: 0;
     }
-    
+
     #logo>a>img {
         width: 7vw;
         vertical-align: top;
