@@ -390,13 +390,6 @@ section {
     margin-bottom: 2rem;
 }
 
-footer {
-    background-color: #000;
-    color: #fff;
-    padding: 1.2rem;
-    text-align: center;
-}
-
 @media screen and (max-width: 900px) {
     #hero {
         background-size: 100%;

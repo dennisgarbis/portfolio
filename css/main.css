@@ -204,7 +204,7 @@ ul li li ul li {
     align-self: center;
 }
 
-.about-eyes-hero {
+/* .about-eyes-hero {
     background-image: url('../images/dark2-eyes-blackbackground.png');
     transition: .9s ease-in-out;
 }
@@ -212,7 +212,7 @@ ul li li ul li {
 .about-eyes-hero:hover {
     animation: creepy 3.4s;
     animation-iteration-count: infinite;
-}
+} 
 
 @keyframes creepy {
     0% {
@@ -231,7 +231,7 @@ ul li li ul li {
     90% {
         background-image: url('../images/dark2-eyes-blackbackground.png');
     }
-}
+}*/
 
 .heading {
     margin-top: 20vh;
@@ -315,6 +315,69 @@ ul li li ul li {
     box-shadow: none;
 }
 
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1.2rem 0;
+    text-align: center;
+}
+
+.foot-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 1rem;
+}
+
+.link-head {
+    font-size: 1.4rem;
+    margin-bottom: .1rem;
+}
+
+.foot-wrap .link-head:hover {
+    text-decoration: none;
+}
+
+.quick-links, .contact-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quick-links a, .contact-links a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    padding: 0.2em;
+    /*maybe padding for links? */
+}
+
+.quick-links a:hover, .contact-links a:hover {
+    text-decoration: 2px underline red;
+    text-underline-offset: 4px;
+}
+
+.contact-links a {
+    text-align: right;
+}
+
+.foot-bottom {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.logo-foot img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.copy-info {
+    width: fit-content;
+
+}
+
 @media screen and (max-width: 1100px) {
     #logo {
         width: 20%;
@@ -326,6 +389,10 @@ ul li li ul li {
         vertical-align: top;
         border-radius: 30%;
         padding: 5px;
+    }
+
+    .foot-wrap {
+        width: 90%;
     }
 }
 
@@ -411,3 +478,22 @@ ul li li ul li {
     #active {
         text-decoration: underline;
     }
+
+    footer {
+        font-size: .9rem;
+    }
+
+    .foot-wrap {
+        width: 95%;
+    }
+
+    .contact-links>h2 {
+        font-size: 1rem;
+        text-align: right;
+    }
+
+    .foot-bottom {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
