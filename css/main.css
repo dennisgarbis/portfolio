@@ -118,7 +118,7 @@ body {
 
 .dropdown-menu {
     margin-top: 0;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #1e146b;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .dropdown-menu .dropdown .dropdown-menu {
-    left: 100%;
+    left: 99.8%;
     top: 0%;
     border-radius: 5px;
     margin: 0 20px;
@@ -406,12 +406,11 @@ footer {
 @media screen and (max-width: 600px) {
     .navbar {
         margin-top: 0vh;
-        padding: .2rem;
+        padding: 0rem 0rem;
     }
 
       #logo>a>img {
-        width: 11vw;
-        padding: 1px;
+        padding: 3px;
     }
 
     #hamburger {
