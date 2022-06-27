@@ -174,8 +174,9 @@ textarea:focus {
     }
 
     h3 {
-        width: 70%;
+        width: 85%;
         margin: 0 auto;
+        text-align: left;
     }
 
     .flex>img {

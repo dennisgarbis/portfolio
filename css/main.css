@@ -141,11 +141,6 @@ body {
     /* padding: 0; */
 }
 
-/* this is the dropdown submenu */
-ul li li ul li {
-    border: thin solid black;
-}
-
 /* this is background of menu when scrolling to next dropdown */
 .dropdown-menu>li.show>a {
     color: white;
@@ -330,6 +325,10 @@ footer {
     margin: 0 auto 1rem;
 }
 
+.foot-wrap p {
+    text-align: right;
+}
+
 .link-head {
     font-size: 1.4rem;
     margin-bottom: .1rem;
@@ -339,13 +338,13 @@ footer {
     text-decoration: none;
 }
 
-.quick-links, .contact-links {
+.foot-links, .contact-links {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.quick-links a, .contact-links a {
+.foot-links a, .contact-links a {
     text-decoration: none;
     color: white;
     text-align: left;
@@ -353,7 +352,7 @@ footer {
     /*maybe padding for links? */
 }
 
-.quick-links a:hover, .contact-links a:hover {
+.foot-links a:hover, .contact-links a:hover {
     text-decoration: 2px underline red;
     text-underline-offset: 4px;
 }
@@ -496,9 +495,9 @@ footer {
     }
 
     .contact-links {
-        font-size: 1rem;
         margin-top: 1rem;
     }
+
     .contact-links a {
         text-align: left;
     }
@@ -510,8 +509,7 @@ footer {
     }
 
     .foot-bottom img {
-        align-content: flex-start;
-        width: fit-content;
-        margin: 0;
+        width: 40%;
+        margin-bottom: 1rem;
     }
 }
