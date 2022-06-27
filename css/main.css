@@ -409,13 +409,8 @@ footer {
         padding: .2rem;
     }
 
-    #logo {
-        width: 5%;
-        margin-left: 5%;
-    }
-
-    #logo>a>img {
-        width: 10vw;
+      #logo>a>img {
+        width: 11vw;
         padding: 1px;
     }
 
