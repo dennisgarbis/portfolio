@@ -72,23 +72,21 @@ body {
     background-color: #1e146b;
     top: 0;
     z-index: 99;
-    padding: 0;
+    padding: .4rem 0;
 }
 
 #logo {
     width: 20%;
 }
 
-#logo a {
+/* #logo a {
     padding: 0;
     margin: 0;
-}
+} */
 
 #logo>a>img {
-    width: 5vw;
     vertical-align: top;
-    border-radius: 30%;
-    padding: 10px;
+    border-radius: 25%;
 }
 
 #navbarSupportedContent {
@@ -97,16 +95,16 @@ body {
 
 #navbarSupportedContent a {
     color: rgb(255, 255, 255);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 #navbarSupportedContent>ul>li>a:hover {
-    text-decoration: underline red 1.5px;
+    text-decoration: underline red 1.9px;
     text-underline-offset: 3px;
 }
 
 #navbarSupportedContent #active {
-    text-decoration: underline red 1.5px;
+    text-decoration: underline red 1.9px;
     text-underline-offset: 3px;
     cursor: default;
 }
@@ -374,21 +372,15 @@ footer {
 
 .copy-info {
     width: fit-content;
-
 }
 
 @media screen and (max-width: 1100px) {
-    #logo {
-        width: 20%;
-        padding: 0;
-    }
-
-    #logo>a>img {
+    /* #logo>a>img {
         width: 7vw;
         vertical-align: top;
         border-radius: 30%;
         padding: 5px;
-    }
+    } */
 
     .foot-wrap {
         width: 90%;
@@ -414,6 +406,7 @@ footer {
 @media screen and (max-width: 600px) {
     .navbar {
         margin-top: 0vh;
+        padding: .2rem;
     }
 
     #logo {
@@ -423,8 +416,6 @@ footer {
 
     #logo>a>img {
         width: 10vw;
-        vertical-align: top;
-        border-radius: 15px;
         padding: 1px;
     }
 
