@@ -215,19 +215,6 @@
     margin-bottom: 5rem;
 }
 
-.quick-links {
-    display: flex;
-    width: 100%;
-    gap: 5vh;
-    justify-content: center;
-    margin: 2rem auto 0;
-    padding-bottom: 1rem;
-}
-
-.quick-links img {
-    width: 95%;
-}
-
 .project-box {
     width: 20%;
     box-shadow: 2px 2px 10px #000;
@@ -276,18 +263,6 @@
 
     .heading {
         margin-top: 2rem;
-    }
-
-    h1 {
-        font-size: 3rem;
-        padding: .5rem;
-        background-color: rgba(0, 0, 0, 0.422);
-    }
-
-    .tavern {
-        font-size: 2.5rem;
-        padding: .5rem;
-        background-color: rgba(0, 0, 0, 0.422);
     }
 
     section {

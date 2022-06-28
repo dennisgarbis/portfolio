@@ -788,6 +788,10 @@ figcaption {
     background-color: lightblue;
 }
 
+.flex h3 {
+    font-size: 1.5rem;
+}
+
 form {
     width: 100%;
     margin: 0 auto;
@@ -929,6 +933,19 @@ textarea:focus {
     margin: 2rem 4rem;
 }
 
+.quick-links {
+    display: flex;
+    width: 100%;
+    gap: 5vh;
+    justify-content: center;
+    margin: 2rem auto 0;
+    padding-bottom: 1rem;
+}
+
+.quick-links img {
+    width: 95%;
+}
+
 footer {
     background-color: #000;
     color: #fff;
@@ -1025,6 +1042,13 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    .heading > h1 {
+        font-size: 3rem;
+    }
+
+    .brewing, .tavern {
+        font-size: 2rem;
+    }
 
     .skip {
         display: none;
