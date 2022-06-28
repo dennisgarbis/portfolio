@@ -7,20 +7,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 5.5rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.006);
-    text-shadow: 2px 2px lightblue;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
 body {
     background-color: #000;
+}
+
+h2 {
+    text-transform: capitalize;
 }
 
 .contact-body {
@@ -49,7 +45,7 @@ body {
     background-color: #fff;
 }
 
-.skip-link {
+.skip {
     position: absolute;
     color: #000;
     background-color: pink;
@@ -57,12 +53,20 @@ body {
     padding: .3rem .8rem;
     border-radius: 15px;
     left: 5%;
-    transform: translateY(-350%);
-    transition: transform 300ms ease-in;
+    transform: translateY(-350%) rotateX(360deg);
+    transition: transform 900ms ease-in-out;
     z-index: 9999;
 }
 
-.skip-link:focus {
+.skip:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.skip:focus {
+    background-color: darkred;
+    color: white;
     transform: translateY(250%);
 }
 
@@ -145,6 +149,8 @@ body {
     background-color: purple;
 }
 
+/* hero-css starts for all pages */
+
 #hero {
     background-size: 100%;
     background-position: center;
@@ -153,6 +159,13 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
+}
+
+.home-hero {
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    padding: 5rem;
+    min-height: 86vh;
 }
 
 .contact-hero {
@@ -181,6 +194,437 @@ body {
 
 .pnwx-hero {
     background-image: url('../images/screen-pnwx.png');
+}
+
+/* hero-css ends */
+
+.header-left {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 5.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.006);
+    text-shadow: 2px 2px lightblue;
+}
+
+.dio, .mode-h1 {
+    font-family: "League Spartan";
+    font-size: 5.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.012);
+    text-shadow: 2px 2px black;
+}
+
+.tavern {
+    font-family: "League Spartan";
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    background-color: rgba(0, 0, 0, 0.012);
+}
+
+.brew-h1 {
+    font-family: "League Spartan";
+    font-size: 5.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.089);
+    text-shadow: 2px 2px black;
+    padding: 2rem 2rem 0;
+    border-radius: 25px 25px 0 0;
+}
+
+.brewing {
+    font-family: "League Spartan";
+    font-size: 3rem;
+    color: #E74748;
+    text-shadow: 2px 2px black;
+    background-color: rgba(0, 0, 0, 0.089);
+    font-weight: 900;
+    padding: 0 2rem 2rem;
+    border-radius: 0 0 25px 25px;
+}
+
+.header-left h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 5.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.006);
+    text-shadow: 2px 2px lightblue;
+    margin: 5rem auto 2rem;
+}
+
+.header-left>p {
+    width: 45%;
+    margin: 0 auto 1rem;
+    color: #fff;
+    text-align: justify;
+}
+
+.header-buttons {
+    margin: 2rem auto;
+}
+
+.header-buttons a {
+    background-color: lightblue;
+    box-shadow: 2px 2px darkred;
+    color: black;
+    text-decoration: none;
+    padding: .5rem 3rem;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all .3s ease-in;
+}
+
+.header-buttons a:hover {
+    background-color: #1e146b;
+    box-shadow: none;
+    color: #fff;
+}
+
+.icon-link {
+    display: flex;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.icon-link>div>a>img {
+    width: 30%;
+    vertical-align: top;
+    transition: .9s ease-in-out;
+}
+
+.icon-link>div>a>img:hover {
+    transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg) scale(2.9);
+}
+
+.header-right {
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../images/round-cartoon.png');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    transition: 2s ease-in-out;
+    transform: scale(.8);
+}
+
+.header-right:hover {
+    transform: rotateZ(10800deg) scale(.85);
+    background-image: url('../images/round-moustache.png');
+}
+
+.moustache {
+    display: none;
+}
+
+.top-container-home {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.orleans {
+    transition: .5s ease-in-out;
+    box-shadow: 7px 7px 5px rgb(120, 120, 120);
+}
+
+.orleans:hover {
+    /* transform: rotateZ(3deg);
+    box-shadow: 4px 4px 8px rgb(120, 120, 120); */
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+        box-shadow: 7px 7px 5px rgb(60, 60, 60);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+        box-shadow: -7px -7px 5px rgb(60, 60, 60)
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.top-container-left {
+    width: 100%;
+}
+
+.top-container-left>figure>img {
+    width: 40%;
+    margin: 0 auto .5rem;
+}
+
+figcaption {
+    font-size: .9rem;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+.top-container-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container-right>p {
+    font-style: italic;
+}
+
+.read-more {
+    margin: 0% auto;
+    width: fit-content;
+    padding: .5rem .8rem;
+    background-color: #073161;
+    border-radius: 10px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 3rem;
+    transition: .5s;
+    box-shadow: 5px 5px 10px rgb(120, 120, 120);
+}
+
+.read-more:hover {
+    background-color: #0e4787;
+    box-shadow: none;
+}
+
+.about-images {
+    margin-top: 2rem;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 999;
+    /* Sit on top */
+    padding-top: 10vh;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow-x: hidden;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.896);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    height: auto;
+    max-height: 80vh;
+    width: auto;
+    max-width: 30vw;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: .8rem auto;
+    font-size: 1.2rem;
+    display: block;
+    width: 50%;
+    max-width: 700px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding: .8rem 0;
+    height: fit-content;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0)
+    }
+
+    50% {
+        transform: scale(1.2)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20%;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 1s ease-in-out;
+
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(172, 13, 13);
+    text-decoration: none;
+    cursor: pointer;
+    transform: rotateZ(36330deg) scale(3.2);
+}
+
+.hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: .6rem;
+    width: 10vw;
+    margin: 4rem auto 0;
+    padding-bottom: 2rem;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#middle-container {
+    background-color: #fff;
+}
+
+#middle-container-about {
+    background-color: lightblue;
+}
+
+.middle-container-padding {
+    padding: 5rem;
+}
+
+.middle-container-padding h2 {
+    font-size: 2.5rem;
+    margin: 0 auto 1rem;
+    width: fit-content;
+}
+
+.middle-container-padding>p {
+    margin: 0 auto 1rem;
+    width: 50%;
+}
+
+.icon-container {
+    display: flex;
+    border: thin solid black;
+    justify-content: center;
+    margin: .5rem auto;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.icon-container>img {
+    width: 70px;
+    margin: 20px;
+}
+
+.icon-container>img:hover {
+    transform: scale(1.1);
+}
+
+.parallax {
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.parallax-home {
+    background-image: url('../images/code.png');
+}
+
+.parallax-portfolio {
+    background-image: url('../images/overhead-computer.jpg');
+}
+
+.parallax-portfolio>h2 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.089);
+    position: relative;
+    top: 13vh;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.parallax-about {
+    background-image: url('../images/thisway-thatway.png');
+    height: 55vh;
+}
+
+.bottom-container-home {
+    min-height: 600px;
+    background-color: lightblue;
+}
+
+.bottom-container-padding-home {
+    padding: 2rem 0rem 5rem;
+}
+
+.bottom-container-padding-home>p {
+    width: 55%;
+    margin: 0 auto 3rem;
+    text-align: left;
 }
 
 .original, .redesign {
@@ -230,6 +674,41 @@ body {
     margin-top: 20vh;
 }
 
+.top-container-padding {
+    padding: 3rem 0;
+}
+
+#top-container h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    width: fit-content;
+    margin: 0 auto 1rem;
+    color: red;
+}
+
+.intro-p {
+    width: 50%;
+    margin: 0rem auto;
+    text-align: left;
+}
+
+.intro-p-contact {
+    width: 30%;
+    margin: 0 auto 1rem;
+    text-align: left;
+}
+
+.do {
+    font-family: 'league spartan', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.middle-flex {
+    display: flex;
+}
+
 #backtothetop-fixed {
     padding: 1.25rem;
     border: 0;
@@ -273,10 +752,6 @@ body {
     background-color: white;
 }
 
-.bottom-container-padding .web-box {
-    width: 25rem;
-}
-
 .web-box:hover {
     box-shadow: 5px 5px 30px black;
 }
@@ -306,6 +781,152 @@ body {
     transition: .5s;
     color: black;
     box-shadow: none;
+}
+
+.flex {
+    display: flex;
+    background-color: lightblue;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.form-input {
+    width: 80%;
+    margin: 1rem auto 2rem;
+    background-color: lightblue;
+    padding-bottom: 2rem;
+}
+
+input, .form-control {
+    padding: 6px;
+    font-size: .8rem;
+    border-radius: 8px;
+    text-align: left;
+    border: thin solid black;
+}
+
+input:hover {
+    box-shadow: 2px 2px 10px green;
+}
+
+input:focus, .form-control:focus {
+    box-shadow: 0 0 10px #e6fb04;
+}
+
+label {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.names>div, .reach-quest, .text {
+    margin: 2rem auto;
+}
+
+.first-name, .last-name, .email-address, .phone-number, .reach-quest, .text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#reach-back {
+    width: 50%;
+    margin: 0 auto;
+}
+
+textarea {
+    vertical-align: bottom;
+    border-radius: 8px;
+    text-align: left;
+}
+
+textarea:hover {
+    box-shadow: 2px 2px 10px green;
+}
+
+textarea:focus {
+    box-shadow: 0 0 10px #e6fb04;
+}
+
+.star {
+    color: darkred;
+}
+
+.star-req {
+    color: darkred;
+    width: fit-content;
+    margin: 0 auto .5rem;
+}
+
+.btn {
+    width: 8rem;
+    margin: 0 .8rem;
+    padding: .5rem .8rem;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#submit {
+    background-color: darkgreen;
+    color: #fff;
+    transition: .5s;
+
+}
+
+#submit:hover {
+    background-color: rgb(12, 10, 109);
+    letter-spacing: 2px;
+}
+
+.flex>img {
+    width: 50%;
+    height: 90%;
+    align-self: center;
+    clip-path: inset(0 5% 0 5%);
+}
+
+#contactMe label.error {
+    font-size: .9rem;
+    color: darkred;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+#contactMe input.error,
+#contactMe select.error {
+    background: #f4d7d7;
+}
+
+.icon-container-fun figcaption {
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.icon-container-fun {
+    display: flex;
+    width: 55%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon-container-fun>figure {
+    margin: .75rem 0;
+}
+
+.icon-container-fun>figure>img {
+    width: 4rem;
+    margin: 2rem 4rem;
 }
 
 footer {
@@ -404,12 +1025,17 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+
+    .skip {
+        display: none;
+    }
+
     .navbar {
         margin-top: 0vh;
         padding: 0rem 0rem;
     }
 
-      #logo>a>img {
+    #logo>a>img {
         width: 11vw;
         padding: 3px;
     }
@@ -462,6 +1088,10 @@ footer {
 
     #active {
         text-decoration: underline;
+    }
+
+    .intro-p {
+        width: 85%;
     }
 
     footer {

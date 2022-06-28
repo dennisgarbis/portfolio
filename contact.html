@@ -27,6 +27,7 @@
 <body class="contact-body">
     <div id="wrapper">
         <nav class="navbar navbar-expand-sm navbar-light sticky-top" id="main_navbar">
+            <a class="skip" href="#top-container">skip to content..</a>
             <div id="logo">
                 <a id="logo-link" href="index.html"><img src="images/logo-new.jpg" alt="portfolio logo"></a>
             </div>
@@ -83,125 +84,101 @@
                 </ul>
             </div>
         </nav>
-
-        <!-- OLD NAV IS BELOW -->
-        <!-- <nav>
-            <a href="#main" class="skip-link">Skip to main content</a>
-            <div id="logo">
-                <a id="logo-link" href="index.html"><img src="images/logo.jpg" alt="portfolio logo"></a>
-            </div>
-            <div class="nav-bar">
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Portfolio▾</a>
-                        <ul class="dropdown" aria-label="submenu">
-                            <li><a href="portfolio.html">Portfolio Home</a></li>
-                            <li><a href="dionysus.html">Dionysus</a></li>
-                            <li><a href="mode.html">Mode</a></li>
-                            <li><a href="west.html">25 West</a></li>
-                            <li><a href="pnwx.html">PNWX</a></li>
-                        </ul>
-                    </li> -->
-        <!-- <li><a href="test.html">Test</a></li> -->
-        <!--
-                    <li><a href="contact.html" id="active">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </div>
-        </nav> -->
         <header class="contact-hero" id="hero">
             <div class="heading">
                 <h1>LETS CONNECT</h1>
             </div>
         </header> <!-- end hero image-->
-        <main id="main">
-            <div class="heading-left">
-                <div class="sub-heading">
-                    <h2>Contact Me</h2>
-                    <p>Call me, email me, text me. Whichever way you want to reach out is fine with me. But like Nike
-                        says...<br><br>
-                        <span class="do" id="do">JUST DO IT</span>
+        <main>
+            <section id="top-container">
+                <div class="top-container-padding">
+                    <h2>contact me</h2>
+                    <p class="intro-p-contact">Call me, email me, text me. Whichever way you want to reach out is
+                        fine with me. But like
+                        Nike says...</p>
+                    <p><span class="do" id="do">JUST DO IT</span>
                     </p>
                 </div>
-                <div class="flex">
-                    <form action="thanks.html#note" method="GET" id="contactMe">
-                        <h3>Fill out this here form and I will get back to you, I promise.</h3>
-                        <div class="form-input">
-                            <div>
-                                <div class="names">
-                                    <div class="first-name">
-                                        <label for="fname">First Name: <span class="star">*</span></label>
-                                        <input type="text" name="fname" id="fname" required>
-                                    </div>
-                                    <div class="last-name">
-                                        <label for="lname">Last Name: <span class="star">*</span></label>
-                                        <input type="text" name="lname" id="lname" required>
-                                    </div>
-                                </div>
-                                <div class="names">
-                                    <div class="email-address">
-                                        <label for="email">Email: <span class="star">*</span></label>
-                                        <input type="email" name="email" id="email" placeholder="joe@email.com"
-                                            required>
-                                    </div>
-                                    <div class="phone-number">
-                                        <label for="phone">Phone: <span class="star">*</span></label>
-                                        <input type="tel" class="form-control" id="phone" name="phone"
-                                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-8899" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="reach-quest">
-                                    <label for="reach-back">How should I reach you?<span class="star">
-                                            *</span></label>
-                                    <select id="reach-back" required="">
-                                        <option value="">Choose..</option>
-                                        <option value="email">email</option>
-                                        <option value="phone">phone</option>
-                                        <option value="both">BOTH!!</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <label class="message" for="message"> Comments:</label>
-                                <textarea name="message" id="message" rows="5" placeholder="Message..."></textarea>
-                            </div>
-                            <p class="star-req">* required</p>
-                            <div>
-                                <div class="buttons">
-                                    <button class="btn" id="submit" type="submit" aria-label="submit">Submit</button>
-                                </div>
-                            </div>
+            </section>
+    </div>
+    <div class="flex">
+        <form action="thanks.html#note" method="GET" id="contactMe">
+            <h3>Fill out this here form and I will get back to you, I promise.</h3>
+            <div class="form-input">
+                <div>
+                    <div class="names">
+                        <div class="first-name">
+                            <label for="fname">First Name: <span class="star">*</span></label>
+                            <input type="text" name="fname" id="fname" required>
                         </div>
-                    </form>
-                    <img class="computer" src="images/connect-me2.jpg"
-                        alt="computer on a table with my linkedin homepage on the screen">
-                </div> <!-- end of flex class -->
-            </div>
-        </main>
-        <footer aria-label="contentinfo">
-            <div class="foot-wrap">
-                <div class="foot-links">
-                    <p class="link-head">Quick Links:</p>
-                    <a href="about.html">About Me</a>
-                    <a href="contact.html">Contact Me</a>
-                    <a href="portfolio.html">Projects</a>
+                        <div class="last-name">
+                            <label for="lname">Last Name: <span class="star">*</span></label>
+                            <input type="text" name="lname" id="lname" required>
+                        </div>
+                    </div>
+                    <div class="names">
+                        <div class="email-address">
+                            <label for="email">Email: <span class="star">*</span></label>
+                            <input type="email" name="email" id="email" placeholder="joe@email.com" required>
+                        </div>
+                        <div class="phone-number">
+                            <label for="phone">Phone: <span class="star">*</span></label>
+                            <input type="tel" class="form-control" id="phone" name="phone"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-8899" required>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-links">
-                    <p class="link-head">Contact Info:</p>
-                    <a href="mailto:dennisgarbis107@gmail.com" class="email-foot">dennisgarbis107@gmail.com</a>
-                    <a href="tel:18472245303">847.224.5303</a>
-                    <a href="https://goo.gl/maps/7zF94irvgEpqQKsu6" target="_blank">Schaumburg, IL</a>
+                <div>
+                    <div class="reach-quest">
+                        <label for="reach-back">How should I reach you?<span class="star">
+                                *</span></label>
+                        <select id="reach-back" required="">
+                            <option value="">Choose..</option>
+                            <option value="email">email</option>
+                            <option value="phone">phone</option>
+                            <option value="both">BOTH!!</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="text">
+                    <label class="message" for="message"> Comments:</label>
+                    <textarea name="message" id="message" rows="5" placeholder="Message..."></textarea>
+                </div>
+                <p class="star-req">* required</p>
+                <div>
+                    <div class="buttons">
+                        <button class="btn" id="submit" type="submit" aria-label="submit">Submit</button>
+                    </div>
                 </div>
             </div>
-            <div class="foot-bottom">
-                <a class="logo-foot" href="index.html"><img src="images/logo-foot.png" alt="portfolio logo"></a>
-                <div class="copy-info">
-                    Copyright &#169;2022<br>Dennis Garbis
-                </div>
+        </form>
+        <img class="computer" src="images/connect-me2.jpg"
+            alt="computer on a table with my linkedin homepage on the screen">
+    </div> <!-- end of flex class -->
+    </div>
+    </main>
+    <footer aria-label="contentinfo">
+        <div class="foot-wrap">
+            <div class="foot-links">
+                <p class="link-head">Quick Links:</p>
+                <a href="about.html">About Me</a>
+                <a href="contact.html">Contact Me</a>
+                <a href="portfolio.html">Projects</a>
             </div>
-        </footer>
+            <div class="contact-links">
+                <p class="link-head">Contact Info:</p>
+                <a href="mailto:dennisgarbis107@gmail.com" class="email-foot">dennisgarbis107@gmail.com</a>
+                <a href="tel:18472245303">847.224.5303</a>
+                <a href="https://goo.gl/maps/7zF94irvgEpqQKsu6" target="_blank">Schaumburg, IL</a>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <a class="logo-foot" href="index.html"><img src="images/logo-foot.png" alt="portfolio logo"></a>
+            <div class="copy-info">
+                Copyright &#169;2022<br>Dennis Garbis
+            </div>
+        </div>
+    </footer>
     </div> <!-- end of wrapper -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

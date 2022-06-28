@@ -1,53 +1,3 @@
-main {
-    background-color: #fff;
-}
-
-.top-container-padding {
-    padding: 3rem 0 0rem;
-}
-
-h2 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 3rem;
-    text-transform: capitalize;
-    width: fit-content;
-    margin: 0 auto 3rem;
-}
-
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    width: fit-content;
-    margin: 30vh auto;
-}
-
-.keep {
-    color: red;
-    width: fit-content;
-    font-family: 'Creepster', cursive;
-    font-size: 1.2rem;
-    margin: 50vh auto 70vh;
-}
-
-.parralex-image {
-    background-position: center;
-    width: 100%;
-    height: 55vh;
-    background-image: url('../images/thisway-thatway.png');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-}
-
-#middle-container {
-    background-color: lightblue;
-}
-
-.middle-container-padding {
-    padding: 2rem 0rem;
-}
-
 .middle-container-padding>p {
     width: 60%;
     margin: 1rem auto;
@@ -63,27 +13,6 @@ h3 {
     padding: 5rem 0rem;
 }
 
-figcaption {
-    margin-top: -25px;
-    font-weight: bold;
-}
-
-.icon-container {
-    display: flex;
-    width: 55%;
-    margin: 0 auto;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.icon-container>figure {
-    margin: .75rem 0;
-}
-
-.icon-container>figure>img {
-    width: 4rem;
-    margin: 2rem 4rem;
-}
 
 @media screen and (max-width: 900px) {
     #hero {
@@ -122,6 +51,10 @@ figcaption {
         flex-direction: column;
     }
 
+    .middle-container-padding {
+        padding: 3rem 0;
+    }
+
     .middle-container-padding>p {
         width: 85%;
     }
@@ -146,7 +79,7 @@ figcaption {
         width: 100%;
     }
 
-    .icon-container {
+    .icon-container-fun {
         display: flex;
         width: 100%;
         margin: 0 auto;
@@ -155,7 +88,7 @@ figcaption {
         padding-bottom: 2rem;
     }
 
-    .icon-container>figure>img {
+    .icon-container-fun>figure>img {
         width: 3rem;
         margin: 2rem 3.5rem;
         flex-wrap: wrap;

@@ -1,49 +1,5 @@
-h1 {
-    font-family: "League Spartan";
-    font-size: 5.5rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.089);
-    text-shadow: 2px 2px black;
-    padding: 2rem 2rem 0;
-    border-radius: 25px 25px 0 0;
-}
-
-.tavern {
-    font-family: "League Spartan";
-    font-size: 3rem;
-    color: #E74748;
-    text-shadow: 2px 2px black;
-    background-color: rgba(0, 0, 0, 0.089);
-    font-weight: 900;
-    padding: 0 2rem 2rem;
-    border-radius: 0 0 25px 25px;
-}
-
-section {
-    padding-bottom: 3rem;
-}
-
-.top-container {
-    padding: 2rem 0 4rem;
-}
-
-.top-container>h2 {
-    width: fit-content;
-    margin: 0 auto;
-}
-
-.top-container>p {
-    width: 50%;
-    margin: 1rem auto;
-    text-align: left;
-}
-
-.middle-flex {
-    display: flex;
-}
-
 .middle-left {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -119,89 +75,6 @@ section {
 
 .bottom-container img:hover {
     opacity: .8;
-}
-
-/* The Modal (background) */
-.modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 50;
-    /* Sit on top */
-    padding-top: 10vh;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.896);
-    /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    height: 80vh;
-}
-
-/* Caption of Modal Image */
-#caption {
-    margin: .8rem auto;
-    font-size: 1.2rem;
-    display: block;
-    width: 50%;
-    max-width: 700px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    text-transform: capitalize;
-    padding: .8rem 0;
-    height: fit-content;
-}
-
-/* Add Animation */
-.modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-    0% {
-        transform: scale(0)
-    }
-
-    50% {
-        transform: scale(1.2)
-    }
-
-    100% {
-        transform: scale(1)
-    }
-}
-
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 20%;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: rgb(163, 163, 163);
-    text-decoration: none;
-    cursor: pointer;
 }
 
 .bottom-container>h2 {
@@ -477,8 +350,8 @@ section {
     .modal-content {
         margin: auto;
         display: block;
-        height: 50vh;
-        max-width: 55vh;
+        height: auto;
+        max-width: 30vw;
     }
 
     .bottom-container>h2 {
