@@ -683,7 +683,7 @@ figcaption {
     padding: 3rem 0;
 }
 
-#top-container h2 {
+#top-container h2, .finished-padding h2 {
     font-family: 'Comfortaa', cursive;
     font-size: 2.5rem;
     text-transform: capitalize;
@@ -694,7 +694,7 @@ figcaption {
 
 .intro-p {
     width: 50%;
-    margin: 0rem auto;
+    margin: 0rem auto 1rem;
     text-align: left;
 }
 

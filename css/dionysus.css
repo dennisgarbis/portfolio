@@ -92,12 +92,6 @@
     font-weight: 700;
 }
 
-.bottom-container>h2 {
-    padding: 5rem 0;
-    width: fit-content;
-    margin: 0 auto;
-}
-
 .bottom-container-flex {
     display: flex;
 }
@@ -112,9 +106,7 @@
     background-color: rgba(204, 204, 204, 0.382);
     margin: 2rem;
     width: 100%;
-
 }
-
 
 .dessert-flex {
     display: flex;
@@ -197,31 +189,19 @@ figcaption {
     margin-bottom: 1rem;
     font-size: .9rem;
 }
-
-.finished>h2 {
-    padding: 5rem 0 2rem;
-    width: fit-content;
-    margin: 0 auto;
+.finished-padding {
+    padding: 3rem 0;
 }
 
 .finished>p {
     width: 60%;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1rem;
 }
 
 .finished img {
     vertical-align: top;
     width: 50%;
     margin: 0 auto 3rem;
-}
-
-.more {
-    margin-top: 3rem;
-    padding-bottom: 20vh;
-}
-
-.more h2 {
-    margin-bottom: 5rem;
 }
 
 .project-box {
