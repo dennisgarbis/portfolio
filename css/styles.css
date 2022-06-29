@@ -174,23 +174,7 @@
         width: 40px;
     }
 
-    .bottom-container-padding>p {
+    .bottom-container-padding-home>p {
         width: 85%;
-    }
-
-    #project-list-flex {
-        flex-direction: column;
-        width: 85%;
-    }
-
-    .project-box>img:hover {
-        transform: none;
-        object-fit: contain;
-        transition: none;
-        transition-property: all;
-        transition-duration: none;
-        transition-timing-function: none;
-        transition-delay: none;
-        opacity: 1;
     }
 }

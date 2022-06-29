@@ -237,9 +237,10 @@ h1 {
     text-shadow: 2px 2px black;
     padding: 2rem 2rem 0;
     border-radius: 25px 25px 0 0;
+    margin: 0;
 }
 
-.brewing {
+.brewing, .pnwx {
     font-family: "League Spartan";
     font-size: 3rem;
     color: #E74748;
@@ -248,6 +249,10 @@ h1 {
     font-weight: 900;
     padding: 0 2rem 2rem;
     border-radius: 0 0 25px 25px;
+}
+
+.pnwx {
+    color: rgb(119, 159, 119);
 }
 
 .header-left h1 {
@@ -622,7 +627,7 @@ figcaption {
 }
 
 .bottom-container-padding-home>p {
-    width: 55%;
+    width: 45%;
     margin: 0 auto 3rem;
     text-align: left;
 }
@@ -782,6 +787,194 @@ figcaption {
     color: black;
     box-shadow: none;
 }
+
+.dionysus-div {
+    display: flex;
+    margin: 5rem auto;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+}
+
+.dionysus-left {
+    flex-direction: column;
+    width: 50vw;
+}
+
+.dionysus-left>h3 {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: .5px;
+    font-size: 2.2rem;
+    margin: 0 auto 2rem;
+}
+
+.dionysus-left>p {
+    width: 60%;
+    text-align: left;
+    margin: 1rem auto;
+}
+
+.dionysus-right {
+    width: 50vw;
+}
+
+.dionysus-right>img {
+    width: 100%;
+    border: thin solid black;
+}
+
+.live-button {
+    width: fit-content;
+    padding: .8rem 2.5rem;
+    margin: 1rem;
+    background-color: #073161;
+    color: white;
+    border: thin solid #073161;
+    box-shadow: 3px 3px rgb(117, 117, 117);
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all .7s ease-in-out;
+}
+
+.project-button {
+    width: fit-content;
+    padding: .8rem 2.8rem;
+    margin: 1rem;
+    background-color: #fff;
+    color: black;
+    border: thin solid darkred;
+    box-shadow: 3px 3px rgb(117, 117, 117);
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all .7s ease-in-out;
+}
+
+.btn-portfolio {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* 
+.btn2-portfolio {
+    margin-top: 3.5rem;
+} */
+
+.live-button:hover {
+    background-color: #fff;
+    color: darkblue;
+    box-shadow: none;
+}
+
+.project-button:hover {
+    background-color: darkred;
+    color: #fff;
+    box-shadow: none;
+}
+
+.github-button {
+    width: fit-content;
+    padding: .8rem 2.8rem;
+    margin: 1rem;
+    background-color: #060606;
+    color: white;
+    border: thin solid darkred;
+    box-shadow: 3px 3px rgb(117, 117, 117);
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all .7s ease;
+}
+
+.github-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: none;
+}
+
+.brewery-div {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5rem auto;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+}
+
+.brewery-right {
+    width: 50vw;
+    /* maybe don't need this */
+}
+
+.brewery-right>img {
+    width: 100%;
+    border: thin solid black;
+}
+
+.top-div, .bottom-div {
+    background-color: lightblue;
+    padding: 1vh 0;
+}
+
+.middle-div {
+    background-color: #fff;
+    padding: 1vh 0;
+}
+
+.coming-soon {
+    background-color: #fff;
+    padding-top: 3rem;
+}
+
+.coming-soon h2 {
+    font-size: 2.5rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+em {
+    font-size: .8rem;
+    font-weight: bold;
+    color: darkred;
+    width: fit-content;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+
+.wireframes {
+    background-color: lightblue;
+    padding: 2rem 0;
+}
+
+.wireframes>p {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.wire-image {
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.graphic-arts-projects {
+    padding: 2rem 0;
+}
+
+.graphic-arts-projects .web-image {
+    width: 70%;
+    margin-top: .8rem;
+}
+
+.soon-image>img {
+    width: 25%;
+    margin: 3rem;
+}
+
 
 .flex {
     display: flex;
@@ -1013,12 +1206,43 @@ footer {
 }
 
 @media screen and (max-width: 1100px) {
-    /* #logo>a>img {
-        width: 7vw;
-        vertical-align: top;
-        border-radius: 30%;
-        padding: 5px;
-    } */
+    #hero {
+        background-size: 100%;
+        background-position: center;
+        width: 100%;
+        height: 33vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading {
+        margin-top: 4rem;
+    }
+
+    .heading>h1 {
+        font-size: 3rem;
+    }
+
+    .brewing, .tavern {
+        font-size: 2rem;
+    }
+
+    .intro-p {
+        width: 75%;
+    }
+
+    .dionysus-div, .brewery-div {
+        width: 90%;
+    }
+
+    .dionysus-div p, .brewery-div p {
+        width: 85%;
+    }
+
+    .btn-portfolio {
+        width: 90%;
+    }
 
     .foot-wrap {
         width: 90%;
@@ -1042,13 +1266,6 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .heading > h1 {
-        font-size: 3rem;
-    }
-
-    .brewing, .tavern {
-        font-size: 2rem;
-    }
 
     .skip {
         display: none;

@@ -40,7 +40,7 @@
 }
 
 #myImg2, #myImg3 {
-    height: 30rem;
+    height: 20rem;
     margin: 1.5rem;
 }
 
@@ -69,11 +69,7 @@
     font-weight: 700;
 }
 
-.image-container>img:hover {
-    opacity: .8;
-}
-
-.bottom-container img:hover {
+img:hover {
     opacity: .8;
 }
 
