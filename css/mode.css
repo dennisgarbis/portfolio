@@ -1,5 +1,10 @@
+.middle-flex {
+    display: flex;
+    background-color: #ADD8E6;
+}
+
 .middle-left {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -8,13 +13,13 @@
 
 .middle-left>h2 {
     width: fit-content;
-    margin: 0 auto 1em;
+    margin: 0 auto 1rem;
 }
 
 .middle-left>p {
     width: 70%;
-    margin: 0 auto;
     text-align: left;
+    margin: 0rem auto 1rem;
 }
 
 .middle-right {
@@ -27,20 +32,12 @@
     flex-wrap: wrap;
 }
 
-#myImg, #myImg2, #myImg3, #myImg4, #myImg8 {
-    width: 15%;
-    margin: 1.5rem 1rem;
+#myImg, #myImg2, #myImg3, #myImg4, #myImg7, #myImg8 {
+    height: 15rem;
+    margin: 1.5rem;
 }
 
-#myImg6 {
-    width: 40%;
-}
-
-#myImg7 {
-    width: 50%;
-}
-
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9 {
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg7, #myImg8, #myImg9 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -55,8 +52,7 @@
 }
 
 .image-container>h3, .logo-container>h3 {
-    padding-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.65rem;
     letter-spacing: 5px;
     font-family: serif;
     font-weight: 700;
@@ -71,19 +67,13 @@
 }
 
 .image-container {
-    background-color: #096EF8;
     margin: 2rem;
+    width: 100%;
 }
 
-.bottom-container>h2 {
-    padding: 5rem 0;
-    width: fit-content;
-    margin: 0 auto;
-}
 
 .bottom-container-flex {
     display: flex;
-    margin-bottom: 3rem;
 }
 
 .bottom-left-flex {
@@ -92,14 +82,14 @@
 }
 
 .bottom-left {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    margin: 0 auto;
-    align-self: center;
 }
 
 .logo-container {
-    background-color: #096EF8;
     margin: 2rem;
+    width: 100%;
 }
 
 .logo-container>img {
@@ -107,12 +97,11 @@
 }
 
 .bottom-right {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-self: center;
-    padding: 3rem 0;
 }
 
 .bottom-right>h3 {
@@ -120,67 +109,20 @@
 }
 
 .bottom-right>p {
-    width: 70%;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.bottom-bottom-flex {
-    display: flex;
-}
-
-.bottom-bottom-left {
-    width: 70%;
-    align-self: center;
-}
-
-.bottom-bottom-left>p {
     width: 60%;
     text-align: left;
     margin: 1rem auto;
-}
-
-.bottom-bottom-left a {
-    text-decoration: none;
-    color: blue;
-    font-weight: 600;
-}
-
-.bottom-bottom-left a:hover {
-    text-decoration: underline;
-    color: rgba(0, 0, 255, 0.742);
-}
-
-.bottom-bottom-right {
-    width: 100%;
 }
 
 .finished img:hover {
     opacity: .7;
 }
 
-.gordon-left {
-    width: 100%;
-}
-
-.gordon-background {
-    background-color: #096EF8;
-    margin: 2rem 2rem;
-    padding: 2rem;
-}
-
-figcaption {
-    font-style: italic;
-    font-size: .9rem;
-}
-
-.gordon-left img {
-    margin: 2rem;
-    width: 50%;
-}
-
-.finished {
-    padding-top: 10vh;
+.dessert-flex {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .finished>h2 {
@@ -188,10 +130,9 @@ figcaption {
     margin: 0 auto 2rem;
 }
 
-.finished>p {
-    width: 60%;
+.finished p {
     text-align: left;
-    margin: 0 auto 2rem;
+    margin-bottom: 2rem;
 }
 
 .finished img {
@@ -207,13 +148,13 @@ figcaption {
     opacity: 1;
 }
 
-.more {
-    margin-top: 3rem;
-    padding-bottom: 20vh;
+.finished-padding {
+    padding: 3rem 0;
 }
 
-.more h2 {
-    margin-bottom: 5rem;
+.more-padding {
+    padding: 3rem 0;
+    background-color: #ADD8E6;
 }
 
 .project-box {
@@ -256,10 +197,6 @@ figcaption {
         padding: .3rem .3rem;
     }
 
-    .heading {
-        margin-top: 4rem;
-    }
-
     .tavern {
         font-size: 2.5rem;
     }
@@ -288,7 +225,7 @@ figcaption {
 
     .middle-left>p {
         width: 85%;
-        margin: 0 auto;
+        margin: 0 auto 1rem;
     }
 
     .image-container {
@@ -304,6 +241,10 @@ figcaption {
         flex-direction: column-reverse;
     }
 
+    .bottom-container-flex h2 {
+        margin-top: 2rem;
+    }
+
     .bottom-left .logo-container {
         flex-direction: column;
     }
@@ -313,6 +254,7 @@ figcaption {
     }
 
     .bottom-right {
+        padding: 0%;
         width: 100%;
     }
 
@@ -362,29 +304,7 @@ figcaption {
     .bottom-right>p {
         width: 85%;
         text-align: left;
-        margin: 0rem auto 2rem;
-    }
-
-    .bottom-bottom-flex {
-        flex-direction: column;
-    }
-
-    .bottom-bottom-left {
-        padding: 2rem 0;
-    }
-
-    .bottom-bottom-left p {
-        width: 85%;
-    }
-
-    .bottom-bottom-right img {
-        margin: 0 auto;
-        width: 40%;
-    }
-
-    .gordon-background {
-        width: 95%;
-        margin: 0 auto;
+        margin: 0rem auto 1rem;
     }
 
     .finished>p {
