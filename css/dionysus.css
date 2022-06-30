@@ -34,58 +34,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .top-container>p {
-        width: 85%;
-        text-align: left;
-    }
-
-    .middle-flex {
-        flex-direction: column;
-    }
-
-    .middle-left {
-        width: 100%;
-    }
-
-    .middle-left h2 {
-        margin-top: 1rem;
-    }
-
-    .middle-left>p {
-        width: 85%;
-        margin: 0 auto 1rem;
-    }
-
-    .middle-left>ul {
-        padding-bottom: 2rem;
-    }
-
-    .image-container {
-        width: 85%;
-        margin: 1rem auto;
-    }
-
-    .logo-container {
-        width: 85%;
-        margin: 1rem auto;
-    }
-
-    .close {
-        right: 5%;
-    }
-
-    .bottom-container-flex {
-        flex-direction: column-reverse;
-    }
-
-    .bottom-container-flex h2 {
-        margin-top: 2rem;
-    }
-
-    .bottom-right>h3 {
-        margin-bottom: 2rem;
-    }
-
+  
     #myImg, #myImg2, #myImg3, #myImg4 {
         width: 40%;
         margin: .6rem;
@@ -95,62 +44,5 @@
         width: 90%;
     }
 
-    .modal-content {
-        margin: auto;
-        display: block;
-        height: auto;
-        max-width: 55vw;
-    }
 
-    .bottom-container>h2 {
-        width: 100%;
-    }
-
-    .bottom-container>p {
-        width: 85%;
-        text-align: left;
-        margin-bottom: 1rem;
-    }
-
-    .logo-container>img {
-        margin: 0 2rem;
-    }
-
-    .bottom-left {
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .bottom-right {
-        padding: 0%;
-        width: 100%;
-    }
-
-    .bottom-right>p {
-        width: 85%;
-        text-align: left;
-        margin: 0rem auto 1rem;
-    }
-
-
-
-    .finished>p {
-        width: 85%;
-        text-align: left;
-    }
-
-    .more h2 {
-        font-size: 1.8rem;
-    }
-
-    .quick-links {
-        flex-direction: column;
-        margin: 2rem auto 0;
-        padding-bottom: 1rem;
-    }
-
-    .project-box {
-        margin: 0 auto;
-        width: 50%;
-    }
 }
