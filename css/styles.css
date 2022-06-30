@@ -99,7 +99,8 @@
     }
 
     .header-left>p {
-        width: 85%;
+        width: 80%;
+        text-align: left;
     }
 
     .header-buttons {

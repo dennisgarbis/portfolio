@@ -689,7 +689,7 @@ figcaption {
     text-transform: capitalize;
     width: fit-content;
     margin: 0 auto 1rem;
-    color: red;
+    color: #1E146B;
 }
 
 .intro-p {
@@ -712,6 +712,7 @@ figcaption {
 
 .middle-flex {
     display: flex;
+    background-color: #ADD8E6;
 }
 
 #backtothetop-fixed {

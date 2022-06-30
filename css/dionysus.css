@@ -79,14 +79,12 @@
 }
 
 .image-container {
-    background-color: #81807b32;
     margin: 2rem;
     width: 100%;
-
 }
+
 .image-container>h3, .logo-container>h3 {
-    padding-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.65rem;
     letter-spacing: 5px;
     font-family: serif;
     font-weight: 700;
@@ -103,17 +101,17 @@
 }
 
 .logo-container {
-    background-color: rgba(204, 204, 204, 0.382);
     margin: 2rem;
     width: 100%;
 }
 
 .dessert-flex {
-    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 .bottom-right {
     width: 100%;
     margin: 0 auto;
@@ -169,6 +167,7 @@
 
 .finished p {
     text-align: left;
+    margin-bottom: 2rem;
 }
 
 .finished img {
@@ -189,8 +188,10 @@ figcaption {
     margin-bottom: 1rem;
     font-size: .9rem;
 }
+
 .finished-padding {
     padding: 3rem 0;
+    background-color: #ADD8E6;
 }
 
 .finished>p {
@@ -202,6 +203,10 @@ figcaption {
     vertical-align: top;
     width: 50%;
     margin: 0 auto 3rem;
+}
+
+.more-padding {
+    padding: 3rem 0;
 }
 
 .project-box {
@@ -259,6 +264,10 @@ figcaption {
         width: 100%;
     }
 
+    .middle-left h2 {
+        margin-top: 1rem;
+    }
+
     .middle-left>p {
         width: 85%;
         margin: 0 auto 1rem;
@@ -286,6 +295,10 @@ figcaption {
         flex-direction: column-reverse;
     }
 
+    .bottom-container-flex h2 {
+        margin-top: 2rem;
+    }
+
     .bottom-right>h3 {
         margin-bottom: 2rem;
     }
@@ -296,7 +309,7 @@ figcaption {
     }
 
     #myImg8 {
-        width:90%;
+        width: 90%;
     }
 
     .modal-content {
@@ -319,7 +332,7 @@ figcaption {
     .logo-container>img {
         margin: 0 2rem;
     }
-    
+
     .bottom-left {
         margin: 0 auto;
         width: 100%;
@@ -353,13 +366,13 @@ figcaption {
         width: 40%;
     }
 
+    .finished-padding, .more-padding {
+        padding-bottom: 1rem;
+    }
+
     .finished>p {
         width: 85%;
         text-align: left;
-    }
-
-    .more {
-        padding-bottom: 10vh;
     }
 
     .more h2 {
