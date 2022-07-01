@@ -5,7 +5,8 @@
 }
 
 #myImg7, #myImg9 {
-    height: 10rem;
+    width: 30%;
+    height: auto;
 }
 
 #myImg5 {

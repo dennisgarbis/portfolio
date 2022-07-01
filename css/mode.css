@@ -18,6 +18,8 @@
     width: 40%;
 }
 
+
+
 @media screen and (max-width: 600px) {
     #myImg, #myImg2, #myImg3, #myImg4, #myImg8, #myImg9 {
         width: 30%;
