@@ -1,19 +1,3 @@
-.middle-container-padding>p {
-    width: 60%;
-    margin: 1rem auto;
-    text-align: left;
-}
-
-#bottom-container {
-    min-height: 600px;
-    background-color: #fff;
-}
-
-.bottom-container-padding {
-    padding: 5rem 0rem;
-}
-
-
 @media screen and (max-width: 900px) {
     #hero {
         background-size: 100%;
@@ -59,7 +43,7 @@
         width: 85%;
     }
 
-    .parralex-image {
+    .parallax {
         height: 25vh;
     }
 

@@ -551,18 +551,13 @@ figcaption {
 }
 
 .middle-container-padding {
-    padding: 5rem;
-}
-
-.middle-container-padding h2 {
-    font-size: 2.5rem;
-    margin: 0 auto 1rem;
-    width: fit-content;
+    padding: 2rem;
 }
 
 .middle-container-padding>p {
-    margin: 0 auto 1rem;
-    width: 50%;
+    width: 60%;
+    margin: 0rem auto 1rem;
+    text-align: left;
 }
 
 .icon-container {
@@ -620,6 +615,10 @@ figcaption {
 .bottom-container-home {
     min-height: 600px;
     background-color: lightblue;
+}
+
+.bottom-container-padding {
+    padding: 5rem 0rem;
 }
 
 .bottom-container-padding-home {
@@ -1168,6 +1167,8 @@ em {
 
 .flex h3 {
     font-size: 1.2rem;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 form {
@@ -1391,15 +1392,6 @@ footer {
 }
 
 @media screen and (max-width: 1100px) {
-    #hero {
-        background-size: 100%;
-        background-position: center;
-        width: 100%;
-        height: 33vh;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-    }
 
     .heading {
         margin-top: 4rem;
@@ -1427,6 +1419,12 @@ footer {
 
     .btn-portfolio {
         width: 90%;
+    }
+
+    .flex h3 {
+        font-size: 1.05rem;
+        width: 85%;
+        margin: 0 auto;
     }
 
     .foot-wrap {
