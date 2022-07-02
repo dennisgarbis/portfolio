@@ -1,25 +1,6 @@
 @media screen and (max-width: 1100px) {
-    #hero {
-        background-size: 100%;
-        background-position: center;
-        width: 100%;
-        height: 33vh;
-        background-image: url('../images/bridge2.webp');
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-    }
-
-    .heading {
-        margin-top: 4rem;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
     .intro-p-contact {
-        width: 85%;
+        width: 50%;
     }
 
     .flex {
@@ -27,9 +8,8 @@
     }
 
     h3 {
-        width: 85%;
+        width: fit-content;
         margin: 0 auto;
-        text-align: left;
     }
 
     .flex>img {
@@ -46,12 +26,18 @@
     }
 
     .names>div, .reach-quest, .text {
-        width: 70%;
+        width: 50%;
     }
 
     textarea {
         font-size: .9rem;
         vertical-align: bottom;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .names>div, .reach-quest, .text {
+        width: 70%;
     }
 }
 
