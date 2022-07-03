@@ -55,6 +55,12 @@
         padding: 3rem 1rem;
     }
 
+    .intro-p-home {
+        width: 85%;
+        margin: 0rem auto 1rem;
+        text-align: left;
+    }
+
     .middle-container-padding {
         padding: 2rem;
     }
@@ -99,7 +105,7 @@
         padding: 0 0 3rem;
     }
 
-   .header-left h1 {
+    .header-left h1 {
         font-size: 3.5rem;
         margin-top: 1rem;
     }
@@ -134,10 +140,6 @@
         padding: 1rem 0;
         display: flex;
         flex-direction: column;
-    }
-
-    .intro-p {
-        width: 85%;
     }
 
     .top-container-left {
