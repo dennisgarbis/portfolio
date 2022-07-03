@@ -429,9 +429,9 @@ figcaption {
   margin: 0% auto;
   width: fit-content;
   padding: 0.5rem 0.8rem;
-  background-color: #073161;
+  background-color: lightblue;
   border-radius: 10px;
-  color: white;
+  color: black;
   font-weight: 300;
   text-decoration: none;
   margin-bottom: 3rem;
@@ -440,7 +440,8 @@ figcaption {
 }
 
 .read-more:hover {
-  background-color: #0e4787;
+  background-color: #073161;
+  color: white;
   box-shadow: none;
 }
 
@@ -712,6 +713,12 @@ figcaption {
   text-align: left;
 }
 
+.intro-p-home {
+  width: 85%;
+  margin: 0rem auto 1rem;
+  text-align: left;
+}
+
 .intro-p-contact {
   width: 30%;
   margin: 0 auto 1rem;
@@ -757,7 +764,8 @@ figcaption {
   align-self: center;
 }
 
-.middle-left h2, .bottom-container-flex h2 {
+.middle-left h2,
+.bottom-container-flex h2 {
   width: fit-content;
   margin: 0 auto 1rem;
   font-size: 2.5rem;
@@ -1444,7 +1452,7 @@ footer {
     font-size: 4rem;
     padding: .75rem .75rem 0;
   }
-  
+
   .heading h2 {
     font-size: 2.5rem;
     padding: 0 .75rem .75rem;
@@ -1598,7 +1606,7 @@ footer {
     font-size: 2.2rem;
     padding: .6rem .6rem 0;
   }
-  
+
   .heading h2 {
     font-size: 1.6rem;
     padding: 0 .6rem .6rem;
@@ -1627,7 +1635,8 @@ footer {
     width: 100%;
   }
 
-  .middle-left h2, .bottom-container-flex h2 {
+  .middle-left h2,
+  .bottom-container-flex h2 {
     margin-top: 1rem;
     font-size: 1.8rem;
   }

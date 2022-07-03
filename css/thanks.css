@@ -42,16 +42,17 @@ form {
     font-size: 2.5rem;
 }
 
-.flex p {
+#note p {
     width: 58%;
     text-align: left;
     margin: 2rem auto;
+    height: fit-content;
 }
 
 #home-button {
     background-color: lightskyblue;
     color: darkblue;
-    margin-top: 2rem;
+    margin-top: .5rem;
     text-decoration: none;
     padding: .4rem .8rem;
     border-radius: 30px;
@@ -85,7 +86,23 @@ form {
     background: #f4d7d7;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
+    #note {
+        margin: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .thankyou {
+        margin-top: 1%;
+        font-size: 1.65rem;
+    }
+
+    #note p {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 576px) {
     #hero {
         background-size: 100%;
         background-position: center;
