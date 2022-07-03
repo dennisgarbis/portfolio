@@ -72,7 +72,6 @@ h2 {
 
 .navbar {
   display: flex;
-  margin-top: 2.5vh;
   background-color: #1e146b;
   top: 0;
   z-index: 99;
@@ -165,7 +164,7 @@ h2 {
   background-color: rgb(8, 8, 8);
   display: flex;
   padding: 5rem;
-  min-height: 86vh;
+  min-height: 92vh;
 }
 
 .contact-hero {
@@ -206,7 +205,8 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 70vh;
+  height: fit-content;
+  margin-top: 30vh;
 }
 
 /* hero-css ends */
@@ -226,44 +226,33 @@ h1 {
   text-shadow: 2px 2px lightblue;
 }
 
-.dio,
-.mode-h1 {
+.heading .website-h1 {
   font-family: "League Spartan";
   font-size: 5.5rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.012);
+  background-color: rgba(0, 0, 0, 0.671);
   text-shadow: 2px 2px black;
+  padding: 1rem 1rem 0;
+  border-radius: 25px 25px 0 0;
+  margin: 0;
+  width: 100%;
 }
 
-.tavern {
+.heading h2 {
   font-family: "League Spartan";
   font-size: 3rem;
   color: white;
   text-shadow: 2px 2px black;
-  background-color: rgba(0, 0, 0, 0.012);
-}
-
-.brew-h1 {
-  font-family: "League Spartan";
-  font-size: 5.5rem;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.089);
-  text-shadow: 2px 2px black;
-  padding: 2rem 2rem 0;
-  border-radius: 25px 25px 0 0;
+  background-color: rgba(0, 0, 0, 0.671);
+  font-weight: 900;
+  padding: 0 1rem 1rem;
+  border-radius: 0 0 25px 25px;
+  width: 100%;
   margin: 0;
 }
 
-.brewing,
-.pnwx {
-  font-family: "League Spartan";
-  font-size: 3rem;
+.heading .brewing {
   color: #e74748;
-  text-shadow: 2px 2px black;
-  background-color: rgba(0, 0, 0, 0.089);
-  font-weight: 900;
-  padding: 0 2rem 2rem;
-  border-radius: 0 0 25px 25px;
 }
 
 .pnwx {
@@ -575,6 +564,17 @@ figcaption {
   text-align: left;
 }
 
+.middle-container a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+}
+
+.middle-container a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 255, 0.742);
+}
+
 .icon-container {
   display: flex;
   border: thin solid black;
@@ -767,17 +767,6 @@ figcaption {
   width: 70%;
   text-align: left;
   margin: 0rem auto 1rem;
-}
-
-.middle-left a {
-  text-decoration: none;
-  color: blue;
-  font-weight: 600;
-}
-
-.middle-left a:hover {
-  text-decoration: underline;
-  color: rgba(0, 0, 255, 0.742);
 }
 
 .middle-left>ul {
@@ -1443,16 +1432,22 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 45vh;
+    height: fit-content;
+    margin-top: 20vh;
   }
 
   .heading>h1 {
     font-size: 4rem;
   }
 
-  .brewing,
-  .tavern {
-    font-size: 2rem;
+  .heading .website-h1 {
+    font-size: 4rem;
+    padding: .75rem .75rem 0;
+  }
+  
+  .heading h2 {
+    font-size: 2.5rem;
+    padding: 0 .75rem .75rem;
   }
 
   .intro-p {
@@ -1508,7 +1503,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .skip {
     display: none;
   }
@@ -1589,15 +1584,24 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 30vh;
+    height: fit-content;
+    margin-top: 10vh;
+
   }
 
   .heading>h1 {
     font-size: 2.2rem;
+    margin: 0 auto;
   }
 
-  .heading>h2 {
-    font-size: 1.8rem;
+  .heading .website-h1 {
+    font-size: 2.2rem;
+    padding: .6rem .6rem 0;
+  }
+  
+  .heading h2 {
+    font-size: 1.6rem;
+    padding: 0 .6rem .6rem;
   }
 
   .intro-p {
