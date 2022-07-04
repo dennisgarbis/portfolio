@@ -1267,6 +1267,10 @@ textarea:focus {
   box-shadow: 0 0 10px #e6fb04;
 }
 
+.star-req {
+  margin-right: 20%;
+}
+
 .star {
   color: darkred;
 }
@@ -1488,6 +1492,42 @@ footer {
     font-size: 1.05rem;
     width: 85%;
     margin: 0 auto;
+  }
+
+  .intro-p-contact {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .flex {
+    flex-direction: column-reverse;
+  }
+
+  form>em {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .flex>img {
+    width: 100%;
+    clip-path: none;
+  }
+
+  .form-input {
+    width: 60%;
+  }
+
+  input {
+    padding: .2rem;
+  }
+
+  .names>div, .reach-quest, .text {
+    width: 50%;
+  }
+
+  textarea {
+    font-size: .9rem;
+    vertical-align: bottom;
   }
 
   .foot-wrap {
@@ -1742,38 +1782,51 @@ footer {
     width: 50%;
   }
 
-  footer {
-    font-size: 0.9rem;
+  .intro-p-contact {
+    width: 85%;
   }
 
-  .foot-wrap {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto 1rem;
+  .form-input {
+    width: 85%;
   }
 
-  .foot-wrap p {
-    text-align: left;
+  .names>div, .reach-quest, .text {
+    width: 70%;
   }
+}
 
-  .contact-links {
-    margin-top: 1rem;
-  }
+footer {
+  font-size: 0.9rem;
+}
 
-  .contact-links a {
-    text-align: left;
-  }
+.foot-wrap {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto 1rem;
+}
 
-  .foot-bottom {
-    flex-direction: column;
-    align-content: flex-start;
-    margin-left: 10%;
-  }
+.foot-wrap p {
+  text-align: left;
+}
 
-  .foot-bottom img {
-    width: 40%;
-    margin-bottom: 1rem;
-  }
+.contact-links {
+  margin-top: 1rem;
+}
+
+.contact-links a {
+  text-align: left;
+}
+
+.foot-bottom {
+  flex-direction: column;
+  align-content: flex-start;
+  margin-left: 10%;
+}
+
+.foot-bottom img {
+  width: 40%;
+  margin-bottom: 1rem;
+}
 }
