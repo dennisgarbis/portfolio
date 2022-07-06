@@ -1020,12 +1020,13 @@ figcaption {
   box-shadow: none;
 }
 
-.dionysus-div {
+.dionysus-div, .brewery-div {
   display: flex;
-  margin: 5rem auto;
+  margin: 0rem auto;
   width: 85%;
   align-items: center;
   justify-content: center;
+  padding: 5rem 0;
 }
 
 .dionysus-left {
@@ -1128,12 +1129,7 @@ figcaption {
 }
 
 .brewery-div {
-  display: flex;
   flex-direction: row-reverse;
-  margin: 5rem auto;
-  width: 85%;
-  align-items: center;
-  justify-content: center;
 }
 
 .brewery-right {
@@ -1146,15 +1142,15 @@ figcaption {
   border: thin solid black;
 }
 
+
+
 .top-div,
 .bottom-div {
   background-color: lightblue;
-  padding: 1vh 0;
 }
 
 .middle-div {
   background-color: #fff;
-  padding: 1vh 0;
 }
 
 .coming-soon {
@@ -1182,11 +1178,7 @@ em {
   padding: 2rem 0;
 }
 
-.wireframes>p {
-  width: 50%;
-  text-align: left;
-  margin: 0 auto;
-}
+
 
 .wire-image {
   border-radius: 10px;
@@ -1501,9 +1493,31 @@ footer {
     width: 22rem;
   }
 
-  .dionysus-div,
-  .brewery-div {
-    width: 90%;
+
+  .dionysus-div {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding: 3rem 0;
+    width: 100%;
+  }
+
+  .dionysus-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .dionysus-left>p {
+    width: 85%;
+    text-align: left;
+  }
+
+  .dionysus-right {
+    width: 85%;
+    margin: 2rem auto 1rem;
+  }
+
+  .dionysus-right>img {
+    width: 100%;
   }
 
   .dionysus-div p,
@@ -1511,9 +1525,32 @@ footer {
     width: 85%;
   }
 
-  .btn-portfolio {
-    width: 90%;
+  .brewery-div {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding: 3rem 0;
+    width: 100%;
   }
+
+  .brewery-right {
+    width: 85%;
+    margin: 2rem auto 1rem;
+  }
+
+  .brewery-right>img {
+    width: 100%;
+  }
+
+  .btn-portfolio {
+    width: 50%;
+    margin-top: 1rem;
+    font-size: .9rem;
+  }
+
+  .btn-portfolio>a {
+    margin: 1rem auto;
+}
+
 
   .flex h3 {
     font-size: 1.05rem;
