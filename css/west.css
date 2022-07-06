@@ -1,7 +1,4 @@
-.video-background {
-    margin: 2rem;
-    width: 100%;
-}
+
 
 #myImg {
     height: 15rem;
@@ -25,76 +22,17 @@
     transition: 0.3s;
 }
 
-.video-background>h3 {
-    font-size: 1.65rem;
-    letter-spacing: 5px;
-    font-family: serif;
-    font-weight: 700;
-}
 
-.bottom-bottom-left {
-    width: 70%;
-    align-self: center;
-}
 
-.bottom-bottom-left>p {
-    width: 70%;
-    text-align: left;
-    margin: 1rem auto;
-}
-
-.bottom-bottom-left a {
-    text-decoration: none;
-    color: blue;
-    font-weight: 600;
-}
-
-.bottom-bottom-left a:hover {
-    text-decoration: underline;
-    color: rgba(0, 0, 255, 0.742);
-}
-
-.bottom-bottom-right {
-    width: 100%;
-}
-
-.video-background>video {
-    height: 20rem;
-    margin: 2rem;
-}
 
 
 @media screen and (max-width: 900px) {
-    .video-background {
-        width: 95%;
-        margin: 1rem;
-    }
+
 
     #myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
         margin: 1.5rem;
     }
 
-    .bottom-bottom-flex {
-        flex-direction: column;
-    }
 
-    .bottom-bottom-left {
-        padding: 2rem 0;
-        width: 100%;
-    }
-
-    .bottom-bottom-left p {
-        width: 85%;
-    }
-
-    .bottom-bottom-right img {
-        margin: 0 auto;
-        width: 40%;
-    }
-
-    .video-background>video {
-        height: 12rem;
-        margin: 2rem;
-    }
 
 }
