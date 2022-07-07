@@ -555,7 +555,8 @@ figcaption {
   background-color: lightblue;
 }
 
-.middle-container-padding-home, .middle-container-padding-about {
+.middle-container-padding-home,
+.middle-container-padding-about {
   padding: 2rem;
 }
 
@@ -917,7 +918,6 @@ figcaption {
   width: 90%;
   margin: 0 auto;
   padding: 1rem 0;
-
 }
 
 #backtothetop-fixed {
@@ -1111,9 +1111,8 @@ figcaption {
   padding: 0;
 }
 
-.more h2 {
-  
-}
+.more h2 {}
+
 .more-padding {
   padding: 3rem 0;
 }
@@ -1245,7 +1244,8 @@ figcaption {
   box-shadow: none;
 }
 
-.dionysus-div, .brewery-div {
+.dionysus-div,
+.brewery-div {
   display: flex;
   margin: 0rem auto;
   width: 85%;
@@ -1672,6 +1672,7 @@ footer {
 }
 
 @media screen and (max-width: 1100px) {
+  
   #hero {
     background-size: 100%;
     background-position: center;
@@ -1775,7 +1776,8 @@ footer {
   .btn-portfolio>a {
     margin: 1rem auto;
   }
-/* 
+
+  /* 
   .bottom-bottom-flex {
     flex-direction: column;
   }
@@ -1799,8 +1801,13 @@ footer {
     margin: 2rem;
   }
 
+  .blue-container {
+    padding: 0;
+  }
+
   .blue-container-flex {
     flex-direction: column;
+    width: 100%;
   }
 
   .white-container-flex {
@@ -1809,6 +1816,10 @@ footer {
 
   .blue-container-flex h2 {
     margin-top: 1rem;
+  }
+
+  .blue-left-box {
+    width: 100%;
   }
 
   .blue-right>h3 {
@@ -1854,7 +1865,9 @@ footer {
     padding: .2rem;
   }
 
-  .names>div, .reach-quest, .text {
+  .names>div,
+  .reach-quest,
+  .text {
     width: 50%;
   }
 
@@ -2107,7 +2120,9 @@ footer {
     width: 85%;
   }
 
-  .names>div, .reach-quest, .text {
+  .names>div,
+  .reach-quest,
+  .text {
     width: 70%;
   }
 
@@ -2116,6 +2131,10 @@ footer {
   }
 
   #about-detail p {
+    width: 85%;
+  }
+
+  .middle-container p {
     width: 85%;
   }
 
