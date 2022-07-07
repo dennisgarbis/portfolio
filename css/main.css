@@ -1825,6 +1825,10 @@ footer {
   .blue-right>h3 {
     margin-bottom: 2rem;
   }
+  .middle-container p {
+    width: 85%;
+  }
+
 
   .video-background {
     width: 95%;
@@ -1976,13 +1980,7 @@ footer {
   }
 
   #hero {
-    background-size: 100%;
-    background-position: center;
-    width: 100%;
     height: 40vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
   }
 
   .heading {
@@ -2056,6 +2054,10 @@ footer {
     letter-spacing: 5px;
     font-family: serif;
     font-weight: 700;
+  }
+
+  .blue-right-box p {
+    text-align: center;
   }
 
   .close {
@@ -2134,9 +2136,7 @@ footer {
     width: 85%;
   }
 
-  .middle-container p {
-    width: 85%;
-  }
+
 
   .middle-container-padding-about {
     padding: 1 0 2rem;
