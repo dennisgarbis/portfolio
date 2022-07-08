@@ -75,11 +75,12 @@ h2 {
   background-color: #1e146b;
   top: 0;
   z-index: 99;
-  padding: 0.4rem 0;
+  padding: 0rem 0;
 }
 
 #logo {
   width: 20%;
+  padding: .4rem 0;
 }
 
 /* #logo a {
@@ -1110,8 +1111,6 @@ figcaption {
 .more {
   padding: 0;
 }
-
-.more h2 {}
 
 .more-padding {
   padding: 3rem 0;
