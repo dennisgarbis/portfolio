@@ -1388,6 +1388,10 @@ figcaption {
   margin: 0 auto;
 }
 
+.coming-soon em {
+  margin-bottom: 1rem;
+}
+
 em {
   font-size: 0.8rem;
   font-weight: bold;
