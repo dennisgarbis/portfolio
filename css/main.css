@@ -17,6 +17,8 @@ body {
 
 h2 {
   text-transform: capitalize;
+  font-family: "Comfortaa", cursive;
+  font-size: 2.5rem;
 }
 
 .contact-body {
@@ -558,7 +560,7 @@ figcaption {
 
 .middle-container-padding-home,
 .middle-container-padding-about {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .middle-container-padding-about p {
@@ -1179,7 +1181,7 @@ figcaption {
 
 .bottom-container-padding-home .web-box {
   background-color: #ADD8E6;
-  border: .5px solid #56abc8;
+  border: .5px solid black;
   box-shadow: none;
   width: 30rem;
 }
@@ -1189,7 +1191,7 @@ figcaption {
 }
 
 .bottom-container-padding-home .web-projects {
-  width: 85%;
+  width: 95%;
 }
 
 .bottom-container-padding-home .web-item {
@@ -1197,7 +1199,7 @@ figcaption {
 }
 
 .bottom-container-padding-home .web-box {
-  width: 20rem;
+  width: 25rem;
 }
 
 .bottom-container-padding-home .web-box:hover {
