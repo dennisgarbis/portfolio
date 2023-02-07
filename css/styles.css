@@ -82,7 +82,7 @@
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 700px) {
     /* .moustache2 {
         width: 50%;
         margin: 0 auto;
@@ -106,7 +106,7 @@
     }
 
     .header-left h1 {
-        font-size: 3.5rem;
+        font-size: 3.rem;
         margin-top: 1rem;
     }
 
@@ -130,11 +130,6 @@
 
     .header-right {
         width: 100%;
-    }
-
-    .my-image {
-        width: auto;
-        height: 50vh;
     }
 
     .top-container-home {
