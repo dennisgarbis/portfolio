@@ -83,7 +83,7 @@
 }
 
 @media screen and (max-width: 576px) {
-    .moustache2 {
+    /* .moustache2 {
         width: 50%;
         margin: 0 auto;
     }
@@ -93,7 +93,7 @@
         width: 100%;
         margin: 3rem auto;
         border-radius: 50%;
-    }
+    } */
 
     .home-hero {
         display: flex;
@@ -132,8 +132,9 @@
         width: 100%;
     }
 
-    .header-right>img {
-        width: 100%;
+    .my-image {
+        width: auto;
+        height: 50vh;
     }
 
     .top-container-home {

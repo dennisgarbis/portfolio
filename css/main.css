@@ -316,26 +316,33 @@ h1 {
 }
 
 .header-right {
-  background-size: 100%;
-  background-position: center;
+  /* background-size: 100%;
+  background-position: center;*/
   width: 100%;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-image: url("../images/round-cartoon.png");
   background-size: contain;
   display: flex;
   justify-content: center;
   transition: 2s ease-in-out;
-  transform: scale(0.8);
+  transform: scale(0.8); */
 }
 
-.header-right:hover {
+.my-image {
+  height: 50vh;
+  width: auto;
+  border-radius: 50%;
+  margin-top: 10vh;
+}
+
+/* .header-right:hover {
   transform: rotateZ(10800deg) scale(0.85);
   background-image: url("../images/round-moustache.png");
 }
 
 .moustache {
   display: none;
-}
+} */
 
 .top-container-home {
   padding: 5rem;
@@ -1996,7 +2003,6 @@ footer {
     text-align: center;
     height: fit-content;
     margin-top: 10vh;
-
   }
 
   .heading>h1 {
@@ -2052,7 +2058,6 @@ footer {
     width: 85%;
     margin: 1rem auto;
   }
-
 
   .blue-right-box>h3 {
     font-size: 1.25rem;
@@ -2144,7 +2149,7 @@ footer {
 
 
   .middle-container-padding-about {
-    padding: 1 0 2rem;
+    padding: 1rem 0 2rem;
   }
 
   .bottom-container-padding-about h2 {
