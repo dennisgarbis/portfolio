@@ -9,6 +9,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding: 7.5vh;
 }
 
 body {
@@ -290,13 +291,14 @@ h1 {
   padding: 0.5rem 3rem;
   border-radius: 10px;
   margin: 10px;
-  transition: all 0.3s ease-in;
+  /* transition: all 0.3s ease-in; */
 }
 
 .header-buttons a:hover {
   background-color: #1e146b;
   box-shadow: none;
   color: #fff;
+  transition: .3s;
 }
 
 .icon-link {
