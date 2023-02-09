@@ -22,6 +22,10 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  
+}
+
 .contact-body {
   background-color: #333939;
 }
@@ -1417,8 +1421,6 @@ em {
   padding: 2rem 0;
 }
 
-
-
 .wire-image {
   border-radius: 10px;
   width: 80%;
@@ -1432,6 +1434,15 @@ em {
 .graphic-arts-projects .web-image {
   width: 70%;
   margin-top: 0.8rem;
+}
+
+.graphic-arts-projects.graphic-design {
+  background-color: lightblue;
+}
+
+.graphic-arts-projects h3 {
+  font-family: cursive;
+  font-size: 2rem;
 }
 
 .soon-image>img {
