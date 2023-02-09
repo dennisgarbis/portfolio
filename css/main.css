@@ -114,6 +114,7 @@ h2 {
   text-decoration: underline red 1.9px;
   text-underline-offset: 3px;
   cursor: default;
+  background-color: transparent;
 }
 
 .navbar-nav {
@@ -536,7 +537,7 @@ figcaption {
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
-  transition: 1s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .close:hover,
@@ -544,7 +545,7 @@ figcaption {
   color: rgb(172, 13, 13);
   text-decoration: none;
   cursor: pointer;
-  transform: rotateZ(36330deg) scale(3.2);
+  transform: rotateZ(180deg) scale(1.25);
 }
 
 .hr {
