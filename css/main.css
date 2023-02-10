@@ -1173,7 +1173,7 @@ figcaption {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 80%;
-  margin: 0 auto;
+  margin: 1.5rem auto;
 }
 
 .web-box p {
