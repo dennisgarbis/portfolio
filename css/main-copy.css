@@ -1173,18 +1173,23 @@ figcaption {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 60%;
-  margin: 4rem auto;
+  margin: 2rem auto;
   padding: 2rem;
 }
 
-.web-item {
-  height: 70%;
-  transition: .3s;
+.web-image {
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  max-height: 20rem;
   margin: 2rem;
+  transition: .3s ease-in;
 }
 
-.web-item:hover {
-  transform: scale(1.2);
+.web-image:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 15px rgb(68, 16, 255), -1px -1px 15px rgb(68, 16, 255);
+
 }
 
 .bottom-container-padding-home .web-box {
@@ -1227,9 +1232,7 @@ figcaption {
 }
 
 .web-image {
-  border-radius: 20px;
-  width: 100%;
-  max-height: 20rem;
+
 }
 
 .dionysus-div,
