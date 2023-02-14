@@ -1617,7 +1617,7 @@ footer {
 
 .foot-wrap {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   width: 90%;
   margin: 0 auto 1rem;
@@ -1641,7 +1641,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 15vw;
+  width: fit-content;
 }
 
 .foot-links .link-head {
@@ -1674,15 +1674,18 @@ footer {
 }
 
 .foot-bottom {
-  width: 30%;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .foot-bottom img {
   width: 20%;
 }
 
-.logo-foot img{
+.logo-foot img {
   width: 10%;
+  border-radius: 25%;
 }
 
 @media screen and (max-width: 1100px) {
@@ -2185,8 +2188,8 @@ footer {
     height: 45vh;
   }
 
-  .foot-links, .foot-bottom, .contact-links {
-    width: 80%;
+  .foot-bottom {
+    width: 55vw;
   }
 
   .foot-wrap p {
