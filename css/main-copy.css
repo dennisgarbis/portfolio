@@ -1172,24 +1172,29 @@ figcaption {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 60%;
+  width: 50%;
   margin: 2rem auto;
   padding: 2rem;
 }
 
 .web-image {
   border-radius: 20px;
-  width: auto;
+  margin: 1.5rem;
+  margin-bottom: 0;
   height: auto;
-  max-height: 20rem;
-  margin: 2rem;
+  max-height: 13rem;
+  width: auto;
   transition: .3s ease-in;
+  overflow: hidden;
 }
 
 .web-image:hover {
   transform: scale(1.1);
   box-shadow: 1px 1px 15px rgb(68, 16, 255), -1px -1px 15px rgb(68, 16, 255);
+}
 
+.graphic-arts-projects figcaption {
+  padding-bottom: 0rem;
 }
 
 .bottom-container-padding-home .web-box {
@@ -1230,8 +1235,6 @@ figcaption {
   width: fit-content;
   margin: 0rem auto 1rem;
 }
-
-.web-image {}
 
 .dionysus-div,
 .brewery-div {
@@ -1404,10 +1407,6 @@ em {
 
 .graphic-arts-projects {
   padding: 2rem 0;
-}
-
-.graphic-arts-projects .web-image {
-  max-width: 80%;
 }
 
 .graphic-arts-projects.graphic-design {
@@ -1726,6 +1725,10 @@ footer {
 
   .intro-p {
     width: 75%;
+  }
+
+  .web-projects {
+    width: 90%;
   }
 
   .web-box:hover {
