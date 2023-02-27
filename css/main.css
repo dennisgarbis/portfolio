@@ -201,7 +201,7 @@ h2 {
 }
 
 .pnwx-hero {
-  background-image: url("../images/screen-pnwx.png");
+  background-image: url("../images/sketch-pad.jpg");
 }
 
 .construction-hero {
@@ -1766,7 +1766,6 @@ footer {
     width: 22rem;
   }
 
-
   .dionysus-div {
     flex-direction: column-reverse;
     margin: 0 auto;
@@ -2181,8 +2180,6 @@ footer {
   #about-detail p {
     width: 85%;
   }
-
-
 
   .middle-container-padding-about {
     padding: 1rem 0 2rem;
