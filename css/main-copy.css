@@ -1189,8 +1189,8 @@ figcaption {
 }
 
 .web-image:hover {
-  transform: scale(1.1);
-  box-shadow: 1px 1px 15px rgb(68, 16, 255), -1px -1px 15px rgb(68, 16, 255);
+  transform: scale(1.4) rotate(3deg);
+  box-shadow: 1px 1px 15px rgb(40, 40, 40), -1px -1px 15px rgb(37, 37, 37);
 }
 
 .graphic-arts-projects figcaption {
@@ -2155,7 +2155,10 @@ footer {
     width: 85%;
   }
 
-
+  .web-image:hover {
+    transform: scale(1.1) rotate(3deg);
+    box-shadow: 1px 1px 15px rgb(40, 40, 40), -1px -1px 15px rgb(37, 37, 37);
+  }
 
   .middle-container-padding-about {
     padding: 1rem 0 2rem;
