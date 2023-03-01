@@ -37,7 +37,6 @@
 @media screen and (max-width: 600px) {
   
     #myImg, #myImg2, #myImg3, #myImg4 {
-        width: 40%;
         margin: .6rem;
     }
 
