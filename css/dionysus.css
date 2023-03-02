@@ -1,12 +1,8 @@
 
 #myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9 {
-    height: 15rem;
-    margin: 1.5rem;
-}
-
-#myImg7, #myImg9 {
     width: 30%;
     height: auto;
+    margin: 1.5rem;
 }
 
 #myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9 {
