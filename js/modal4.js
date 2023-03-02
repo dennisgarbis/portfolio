@@ -56,6 +56,42 @@ img.onclick = function () {
     captionText.innerHTML = this.alt;
 }
 
+var img = document.getElementById("myImg7");
+var modalImg5 = document.getElementById("img07");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg8");
+var modalImg5 = document.getElementById("img08");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg9");
+var modalImg5 = document.getElementById("img09");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg10");
+var modalImg5 = document.getElementById("img10");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 

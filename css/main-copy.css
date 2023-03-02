@@ -1183,7 +1183,7 @@ figcaption {
   margin-bottom: 0;
   height: auto;
   max-height: 13rem;
-  width: auto;
+  width: 80%;
   transition: .3s ease-in;
   overflow: hidden;
 }

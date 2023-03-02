@@ -1,18 +1,20 @@
 
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9 {
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9, #myImg10 {
     width: 30%;
     height: auto;
     margin: 1.5rem;
-}
-
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg5 {
-    border: none;
+#myImg.pnwx-home {
+    width: 50%;
+}
+
+iframe {
+    width: 35rem;
+    height: 19rem;
 }
 
 @media screen and (max-width: 1100px) {
@@ -32,7 +34,7 @@
         margin: .6rem;
     }
 
-    #myImg8 {
+    #myImg8.gordy {
         width: 90%;
     }
 
