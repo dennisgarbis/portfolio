@@ -492,10 +492,8 @@ figcaption {
 /* Modal Content (image) */
 .modal-content {
   margin: auto;
-  height: auto;
-  max-height: 80vh;
-  width: auto;
-  max-width: 30vw;
+  width: 100%;
+  max-width: 800px;
 }
 
 /* Caption of Modal Image */
