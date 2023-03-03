@@ -92,6 +92,96 @@ img.onclick = function () {
     captionText.innerHTML = this.alt;
 }
 
+var img = document.getElementById("myImg11");
+var modalImg5 = document.getElementById("img11");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg12");
+var modalImg5 = document.getElementById("img12");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg13");
+var modalImg5 = document.getElementById("img13");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg14");
+var modalImg5 = document.getElementById("img14");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg15");
+var modalImg5 = document.getElementById("img15");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg16");
+var modalImg5 = document.getElementById("img16");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg17");
+var modalImg5 = document.getElementById("img17");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg18");
+var modalImg5 = document.getElementById("img18");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg19");
+var modalImg5 = document.getElementById("img19");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg20");
+var modalImg5 = document.getElementById("img20");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
