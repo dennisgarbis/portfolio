@@ -1,5 +1,15 @@
 
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9, #myImg10 {
+/* #myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9, #myImg10 {
+    width: 30%;
+    height: auto;
+    margin: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+} */
+
+.blue-right-box > img {
+    border: thin solid red;
     width: 30%;
     height: auto;
     margin: 1.5rem;
@@ -11,6 +21,27 @@
 #myImg.pnwx-home {
     width: 50%;
 }
+
+.sketches-left {
+    width: 80%;
+}
+
+.sketches img {
+    width: 15%;
+}
+
+.prototypes-left {
+    width: 50%;
+}
+
+.prototypes-right > img {
+    width: 25%;
+}
+
+.prototypes-right img:nth-of-type(even) {
+    border: thin solid green;
+    width: 15%;
+  }
 
 iframe {
     width: 35rem;
@@ -36,6 +67,18 @@ iframe {
 
     #myImg8.gordy {
         width: 90%;
+    }
+
+    .prototypes-left {
+        width: 100%;
+    }
+
+    .prototypes-right {
+        width: 100%;
+    }
+
+    .prototypes-right img {
+        width: 40%;
     }
 
     iframe {
