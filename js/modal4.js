@@ -12,7 +12,7 @@ img.onclick = function () {
 }
 
 var img = document.getElementById("myImg2");
-var modalImg2 = document.getElementById("img02");
+// var modalImg2 = document.getElementById("img02");
 var captionText = document.getElementById("caption");
 img.onclick = function () {
     modal.style.display = "block";

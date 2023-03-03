@@ -31,12 +31,20 @@
     width: 80%;
 }
 
+.sketches {
+    width: 100%;
+}
+
 .sketches img {
-    width: 15%;
+    width: 18%;
+}
+
+.wireframe {
+    width: 100%;
 }
 
 .prototypes-left {
-    width: 50%;
+    width: 80%;
 }
 
 .prototypes-right {
@@ -48,8 +56,11 @@
 }
 
 .prototypes-right img:nth-of-type(even) {
-    border: thin solid green;
     width: 15%;
+}
+
+.test-2 {
+    width: 100%;
 }
 
 iframe {
@@ -79,19 +90,31 @@ iframe {
     }
 
     .persona {
-        width: 90%;
+        width: 100%;
     }
 
     .persona img {
-        width: 45%;
+        width: 40%;
     }
 
     .sketches-left {
         width: 100%;
     }
 
+    .sketches {
+        width: 100%;
+    }
+
     .sketches img {
         width: 35%;
+    }
+
+    .wireframe {
+        width: 100%;
+    }
+
+    .wireframe img {
+        width: 40%;
     }
 
     .prototypes-left {
@@ -103,6 +126,10 @@ iframe {
     }
 
     .prototypes-right img {
+        width: 40%;
+    }
+
+    .test-2 img {
         width: 40%;
     }
 
