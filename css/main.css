@@ -102,7 +102,7 @@ h2 {
 
 #navbarSupportedContent a {
   color: rgb(255, 255, 255);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 #navbarSupportedContent>ul>li>a:hover {
@@ -1203,7 +1203,7 @@ figcaption {
   background-color: #ADD8E6;
   border: .5px solid black;
   box-shadow: none;
-  width: 30rem;
+  width: 20rem;
 }
 
 .web-box:hover {
@@ -1211,15 +1211,11 @@ figcaption {
 }
 
 .bottom-container-padding-home .web-projects {
-  width: 100%;
+  width: 60%;
 }
 
 .bottom-container-padding-home .web-item {
   text-decoration: none;
-}
-
-.bottom-container-padding-home .web-box {
-  width: 25rem;
 }
 
 .bottom-container-padding-home .web-box:hover {
