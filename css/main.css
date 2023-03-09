@@ -281,7 +281,6 @@ h1 {
   width: 45%;
   margin: 0 auto 1rem;
   color: #fff;
-  text-align: justify;
 }
 
 .header-buttons {
@@ -1665,6 +1664,12 @@ footer {
   margin-bottom: 0.1rem;
 }
 
+.link-head-right {
+  font-size: 1.4rem;
+  margin-bottom: 0.1rem;
+  text-align: right;
+}
+
 .foot-wrap .link-head:hover {
   text-decoration: none;
 }
@@ -2144,6 +2149,10 @@ footer {
     flex-direction: column;
     margin: 2rem auto 0;
     padding-bottom: 1rem;
+  }
+
+  .link-head-right {
+    text-align: left;
   }
 
   .project-box {
