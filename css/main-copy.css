@@ -896,7 +896,7 @@ figcaption {
 }
 
 .intro-p {
-  width: 50%;
+  width: 40%;
   margin: 0rem auto 1rem;
   text-align: left;
 }
@@ -910,6 +910,7 @@ figcaption {
 .graphic-design .intro-p {
   margin-top: 1rem;
   margin-bottom: -1rem;
+  width: 40%;
 }
 
 .intro-p-contact {

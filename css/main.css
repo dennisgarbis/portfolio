@@ -894,7 +894,7 @@ figcaption {
 }
 
 .intro-p {
-  width: 50%;
+  width: 40%;
   margin: 0rem auto 1rem;
   text-align: left;
 }
@@ -1532,7 +1532,7 @@ label {
 }
 
 #reach-back {
-  width: 50%;
+  width: fit-content;
   margin: 0 auto;
 }
 
