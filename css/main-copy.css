@@ -907,6 +907,11 @@ figcaption {
   text-align: left;
 }
 
+.graphic-design .intro-p {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
 .intro-p-contact {
   width: 30%;
   margin: 0 auto 1rem;
@@ -1631,6 +1636,12 @@ footer {
   margin-bottom: 0.1rem;
 }
 
+.link-head-right {
+  font-size: 1.4rem;
+  margin-bottom: 0.1rem;
+  text-align: right;
+}
+
 .foot-wrap .link-head:hover {
   text-decoration: none;
 }
@@ -2118,6 +2129,10 @@ footer {
     text-align: left;
   }
 
+    .link-head-right {
+    text-align: left;
+  }
+
   .more h2 {
     font-size: 1.8rem;
   }
@@ -2196,6 +2211,14 @@ footer {
 
   .foot-bottom {
     width: 55vw;
+  }
+
+  .footer-icon {
+    width: 70%;
+  }
+
+  .footer-icon img {
+    width: 60%;
   }
 
   .foot-wrap p {
