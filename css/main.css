@@ -827,7 +827,7 @@ figcaption {
 }
 
 .bottom-container-padding-home>p {
-  width: 45%;
+  width: 35%;
   margin: 0 auto 3rem;
   text-align: left;
 }
@@ -1241,9 +1241,9 @@ figcaption {
   overflow: hidden;
 }
 
-.web-image.site {
+/* .web-image.site {
   padding: 1rem;
-}
+} */
 
 .web-button {
   margin: 1rem auto 1.2rem;
@@ -1427,11 +1427,11 @@ em {
   padding: 2rem 0;
 }
 
-.wire-image {
+/* .wire-image {
   border-radius: 10px;
   width: 80%;
   margin-top: 1rem;
-}
+} */
 
 .graphic-arts-projects {
   padding: 2rem 0;

@@ -47,7 +47,7 @@
 }
 
 .prototypes-right>img {
-    width: 25%;
+    width: 20%;
 }
 
 .prototypes-right img:nth-of-type(even) {
@@ -109,7 +109,7 @@ iframe {
     }
 
     .wireframe img {
-        width: 40%;
+        width: 35%;
     }
 
     .prototypes-left {
